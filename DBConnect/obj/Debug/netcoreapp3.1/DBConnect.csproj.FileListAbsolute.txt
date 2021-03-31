@@ -1,0 +1,15 @@
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/bin/Debug/netcoreapp3.1/DBConnect.deps.json
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/bin/Debug/netcoreapp3.1/DBConnect.runtimeconfig.json
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/bin/Debug/netcoreapp3.1/DBConnect.runtimeconfig.dev.json
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/bin/Debug/netcoreapp3.1/DBConnect.dll
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/bin/Debug/netcoreapp3.1/DBConnect.pdb
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/obj/Debug/netcoreapp3.1/DBConnect.csprojAssemblyReference.cache
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/obj/Debug/netcoreapp3.1/DBConnect.AssemblyInfoInputs.cache
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/obj/Debug/netcoreapp3.1/DBConnect.AssemblyInfo.cs
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/obj/Debug/netcoreapp3.1/DBConnect.csproj.CoreCompileInputs.cache
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/obj/Debug/netcoreapp3.1/DBConnect.dll
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/obj/Debug/netcoreapp3.1/DBConnect.pdb
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/obj/Debug/netcoreapp3.1/DBConnect.genruntimeconfig.cache
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/bin/Debug/netcoreapp3.1/Npgsql.dll
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/obj/Debug/netcoreapp3.1/DBConnect.csproj.CopyComplete
+/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll

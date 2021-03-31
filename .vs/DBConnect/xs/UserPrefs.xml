@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{45CB6524-FEE4-4EFC-8959-9FA105652300}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DBConnect/Reader.cs">
+    <Files>
+      <File FileName="DBConnect/CourseCategory.cs" Line="10" Column="30" IsPinned="True" />
+      <File FileName="DBConnect/Description.cs" Line="17" Column="30" IsPinned="True" />
+      <File FileName="DBConnect/Reader.cs" Line="313" Column="26" />
+      <File FileName="DBConnect/Course.cs" Line="34" Column="28" />
+      <File FileName="DBConnect/Question.cs" Line="4" Column="1" />
+      <File FileName="DBConnect/Quiz.cs" Line="17" Column="30" />
+      <File FileName="DBConnect/QuizLevel.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DBConnect" expanded="True">
+            <Node name="DBConnect" expanded="True">
+              <Node name="Reader.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>Environment.GetEnvironmentVariables()</Value>
+          <Value>JsonSerializer.Serialize(courses[48])</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DBConnect PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/Reader.cs" relfile="DBConnect/Reader.cs" line="327" column="1" />
+      <Breakpoint file="/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/Reader.cs" relfile="DBConnect/Reader.cs" line="326" column="1" />
+      <Breakpoint file="/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/Reader.cs" relfile="DBConnect/Reader.cs" line="309" column="1" />
+      <Breakpoint file="/Users/mathiasgammelgaard/Desktop/Chatbot/DBConnect/DBConnect/Reader.cs" relfile="DBConnect/Reader.cs" line="310" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
