@@ -1,15 +1,16 @@
 ﻿using System;
-using Npgsql;
 using System.Data;
 using System.Collections.Generic;
-using System.Text.Json;
+using System.IO;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.Linq;
+using Npgsql;
 
 namespace DBConnect
 {
-    public class Reader
+    public class Reader : Connecter
     {
-        private NpgsqlConnection connection;
         private Dictionary<int, Answer> answers;
         private Dictionary<int, Question> questions;
         private Dictionary<int, QuizLevel> quizLevels;
@@ -34,31 +35,6 @@ namespace DBConnect
             courses = new Dictionary<int, Course>();
         }
 
-        private string GetConnectionString() {
-            string databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
-            Uri databaseUri = new Uri(databaseUrl);
-            string[] userInfo = databaseUri.UserInfo.Split(':');
-
-            var builder = new NpgsqlConnectionStringBuilder {
-                Host = databaseUri.Host,
-                Port = databaseUri.Port,
-                Username = userInfo[0],
-                Password = userInfo[1],
-                Database = databaseUri.LocalPath.TrimStart('/'),
-                Pooling = true,
-                SslMode = SslMode.Require,
-                TrustServerCertificate = true
-            };
-
-            return builder.ToString();
-        }
-
-        private void connect() {
-            string connectionString = GetConnectionString();
-            connection = new NpgsqlConnection(connectionString);
-            connection.Open();
-        }
-
         private DataSet GetData(Dictionary<string, string> QueryData) {
             DataSet ds = new DataSet();
 
@@ -69,10 +45,6 @@ namespace DBConnect
             }
 
             return ds;
-        }
-
-        private void CloseConnection() {
-            connection.Close();
         }
 
         private void GetAnswers(DataTable table) {
@@ -174,7 +146,7 @@ namespace DBConnect
             foreach (KeyValuePair<int, Section> section in sections) {
                 object parentId = temporaryParentMapper[section.Key];
                 if (parentId != DBNull.Value) {
-                    section.Value.AddParent(sections[(int)parentId]);
+                    section.Value.AddParent((int)parentId);
                 }
             }
         }
@@ -306,8 +278,10 @@ namespace DBConnect
         }
 
         public void Serialize() {
-            string jsonString = JsonConvert.SerializeObject(courses[48]);
-            Console.WriteLine(jsonString);
+            List<Course> coursesAsList = courses.Values.ToList();
+            string json = JsonConvert.SerializeObject(coursesAsList);
+            json = JValue.Parse(json).ToString(Formatting.Indented);
+            File.WriteAllText(jsonFile, json);
         }
 
         public void run() {

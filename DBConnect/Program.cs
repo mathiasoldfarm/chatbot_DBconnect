@@ -7,7 +7,10 @@ namespace DBConnect
         static void Main(string[] args)
         {
             Reader reader = new Reader();
-            reader.run();
+            Writer writer = new Writer();
+
+            //reader.run();
+            writer.run();
         }
     }
 }
