@@ -9,7 +9,7 @@ namespace DBConnect
             Reader reader = new Reader();
             Writer writer = new Writer();
 
-            //reader.run();
+            reader.run();
             writer.run();
         }
     }

@@ -27,17 +27,17 @@ namespace DBConnect
         {
             queries = new List<NpgsqlCommand>();
             queries.Add(new NpgsqlCommand("DELETE FROM courses_sections", connection));
-            queries.Add(new NpgsqlCommand("DELETE FROM course_level_questions", connection));
-            queries.Add(new NpgsqlCommand("DELETE FROM course_question_possible_answers", connection));
+            queries.Add(new NpgsqlCommand("DELETE FROM quiz_levels_questions", connection));
+            queries.Add(new NpgsqlCommand("DELETE FROM questions_answers", connection));
 
-            queries.Add(new NpgsqlCommand("DELETE FROM course_sections", connection));
-            queries.Add(new NpgsqlCommand("DELETE FROM course_description_categories", connection));
-            queries.Add(new NpgsqlCommand("DELETE FROM course_description_levels", connection));
-            queries.Add(new NpgsqlCommand("DELETE FROM course_description", connection));
-            queries.Add(new NpgsqlCommand("DELETE FROM course_possible_answers", connection));
-            queries.Add(new NpgsqlCommand("DELETE FROM course_questions", connection));
-            queries.Add(new NpgsqlCommand("DELETE FROM course_quiz_levels", connection));
-            queries.Add(new NpgsqlCommand("DELETE FROM course_quiz", connection));
+            queries.Add(new NpgsqlCommand("DELETE FROM sections", connection));
+            queries.Add(new NpgsqlCommand("DELETE FROM description_categories", connection));
+            queries.Add(new NpgsqlCommand("DELETE FROM description_levels", connection));
+            queries.Add(new NpgsqlCommand("DELETE FROM descriptions", connection));
+            queries.Add(new NpgsqlCommand("DELETE FROM answers", connection));
+            queries.Add(new NpgsqlCommand("DELETE FROM questions", connection));
+            queries.Add(new NpgsqlCommand("DELETE FROM quiz_levels", connection));
+            queries.Add(new NpgsqlCommand("DELETE FROM quizzes", connection));
             queries.Add(new NpgsqlCommand("DELETE FROM courses", connection));
             queries.Add(new NpgsqlCommand("DELETE FROM categories", connection));
             foreach (Course course in courses)

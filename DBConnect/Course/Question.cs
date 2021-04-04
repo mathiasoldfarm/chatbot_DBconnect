@@ -79,7 +79,7 @@ namespace DBConnect
                 answer.GetQuery(queries, connection);
             }
 
-            NpgsqlCommand query = new NpgsqlCommand("INSERT INTO course_questions(id, question, correct) VALUES(@id, @question, @correct)", connection);
+            NpgsqlCommand query = new NpgsqlCommand("INSERT INTO questions(id, question, correct) VALUES(@id, @question, @correct)", connection);
             query.Parameters.AddWithValue("id", id);
             query.Parameters.AddWithValue("question", question);
             query.Parameters.AddWithValue("correct", correct.id);
@@ -87,7 +87,7 @@ namespace DBConnect
 
             for (int i = 0; i < _possibleAnswers.Count; i++)
             {
-                query = new NpgsqlCommand("INSERT INTO course_question_possible_answers(question_id, possible_answer_id, \"order\") VALUES (@question_id, @possible_answer_id, @order)", connection);
+                query = new NpgsqlCommand("INSERT INTO questions_answers(question_id, possible_answer_id, \"order\") VALUES (@question_id, @possible_answer_id, @order)", connection);
                 query.Parameters.AddWithValue("question_id", id);
                 query.Parameters.AddWithValue("possible_answer_id", _possibleAnswers[i].id);
                 query.Parameters.AddWithValue("order", i);

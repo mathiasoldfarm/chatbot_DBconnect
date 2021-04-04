@@ -33,9 +33,9 @@ namespace DBConnect {
 
         public void GetQuery(List<NpgsqlCommand> queries, NpgsqlConnection connection)
         {
-            if (queries.All(q => !q.CommandText.Contains("INSERT INTO course_description_categories(id, category)") || (int)q.Parameters["id"].Value != id))
+            if (queries.All(q => !q.CommandText.Contains("INSERT INTO description_categories(id, category)") || (int)q.Parameters["id"].Value != id))
             {
-                NpgsqlCommand query = new NpgsqlCommand("INSERT INTO course_description_categories(id, category) VALUES(@id, @category)", connection);
+                NpgsqlCommand query = new NpgsqlCommand("INSERT INTO description_categories(id, category) VALUES(@id, @category)", connection);
                 query.Parameters.AddWithValue("id", id);
                 query.Parameters.AddWithValue("category", category);
                 queries.Add(query);

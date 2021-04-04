@@ -242,19 +242,19 @@ namespace DBConnect
 
 
             Dictionary<string, string> QueryData = new Dictionary<string, string>();
-            QueryData.Add("SELECT * FROM course_possible_answers;", possibleAnswersTable);
-            QueryData.Add("SELECT * FROM course_questions", questionsTable);
-            QueryData.Add("SELECT * FROM course_quiz_levels", quizLevelsTable);
-            QueryData.Add("SELECT * FROM course_quiz", quizTable);
-            QueryData.Add("SELECT * FROM course_description_categories", descriptionLevelCategoriesTable);
-            QueryData.Add("SELECT * FROM course_description_levels", descriptionLevelsTable);
-            QueryData.Add("SELECT * FROM course_description", descriptionTable);
-            QueryData.Add("SELECT * FROM course_sections", sectionsTable);
+            QueryData.Add("SELECT * FROM answers;", possibleAnswersTable);
+            QueryData.Add("SELECT * FROM questions", questionsTable);
+            QueryData.Add("SELECT * FROM quiz_levels", quizLevelsTable);
+            QueryData.Add("SELECT * FROM quizzes", quizTable);
+            QueryData.Add("SELECT * FROM description_categories", descriptionLevelCategoriesTable);
+            QueryData.Add("SELECT * FROM description_levels", descriptionLevelsTable);
+            QueryData.Add("SELECT * FROM descriptions", descriptionTable);
+            QueryData.Add("SELECT * FROM sections", sectionsTable);
             QueryData.Add("SELECT * FROM categories", courseCategoriesTable);
             QueryData.Add("SELECT * FROM courses", coursesTable);
 
-            QueryData.Add("SELECT * FROM course_question_possible_answers;", questionAnswerRelationsTable);
-            QueryData.Add("SELECT * FROM course_level_questions;", quizLevelQuestionRelationsTable);
+            QueryData.Add("SELECT * FROM questions_answers;", questionAnswerRelationsTable);
+            QueryData.Add("SELECT * FROM quiz_levels_questions;", quizLevelQuestionRelationsTable);
             QueryData.Add("SELECT * FROM courses_sections", courseSectionRelations);
 
             DataSet DBData = GetData(QueryData);

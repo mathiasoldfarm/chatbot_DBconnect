@@ -49,7 +49,7 @@ namespace DBConnect {
         {
             category?.GetQuery(queries, connection);
 
-            NpgsqlCommand query = new NpgsqlCommand("INSERT INTO course_description_levels(id, description, level, category, description_id) VALUES(@id, @description, @level, @category, @description_id)", connection);
+            NpgsqlCommand query = new NpgsqlCommand("INSERT INTO description_levels(id, description, level, category, description_id) VALUES(@id, @description, @level, @category, @description_id)", connection);
             query.Parameters.AddWithValue("id", id);
             query.Parameters.AddWithValue("description", description);
             query.Parameters.AddWithValue("level", level);

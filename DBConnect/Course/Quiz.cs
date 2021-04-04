@@ -36,7 +36,7 @@ namespace DBConnect {
 
         public void GetQuery(List<NpgsqlCommand> queries, NpgsqlConnection connection)
         {
-            NpgsqlCommand query = new NpgsqlCommand("INSERT INTO course_quiz(id) VALUES(@id)", connection);
+            NpgsqlCommand query = new NpgsqlCommand("INSERT INTO quizzes(id) VALUES(@id)", connection);
             query.Parameters.AddWithValue("id", id);
             queries.Add(query);
             foreach (QuizLevel quizLevel in levels)

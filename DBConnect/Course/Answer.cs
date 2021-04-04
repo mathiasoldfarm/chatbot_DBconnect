@@ -38,7 +38,7 @@ namespace DBConnect
 
         public void GetQuery(List<NpgsqlCommand> queries, NpgsqlConnection connection)
         {
-            NpgsqlCommand query = new NpgsqlCommand("INSERT INTO course_possible_answers(id, answer, explanation) VALUES(@id, @answer, @explanation)", connection);
+            NpgsqlCommand query = new NpgsqlCommand("INSERT INTO answers(id, answer, explanation) VALUES(@id, @answer, @explanation)", connection);
             query.Parameters.AddWithValue("id", id);
             query.Parameters.AddWithValue("answer", answer);
             query.Parameters.AddWithValue("explanation", explanation);

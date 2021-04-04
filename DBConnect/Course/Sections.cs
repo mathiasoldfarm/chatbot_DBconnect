@@ -70,7 +70,7 @@ namespace DBConnect {
             quiz?.GetQuery(queries, connection);
             description?.GetQuery(queries, connection);
 
-            NpgsqlCommand query = new NpgsqlCommand("INSERT INTO course_sections(id, section_name, quiz_id, description_id, parent_id) VALUES(@id, @section_name, @quiz_id, @description_id, @parent_id)", connection);
+            NpgsqlCommand query = new NpgsqlCommand("INSERT INTO sections(id, section_name, quiz_id, description_id, parent_id) VALUES(@id, @section_name, @quiz_id, @description_id, @parent_id)", connection);
             query.Parameters.AddWithValue("id", id);
             query.Parameters.AddWithValue("section_name", name);
             if ( quiz != null )
