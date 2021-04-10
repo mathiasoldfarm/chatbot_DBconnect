@@ -9,700 +9,700 @@
       "colorClass": "blue"
     },
     "sections": [
-      {
-        "id": 121,
-        "name": "Delen af det hele",
-        "quiz": null,
-        "description": {
-          "id": 16,
-          "levels": [
-            {
-              "id": 97,
-              "description": "Level 1\n\nNår man skal finde en brøkdel af en størrelse, så svarer det til at gange brøken med størrelsen.\n\nEn opgave kunne lyde: En flagstang er 16 m høj. Et træ udgør <latex>\\frac{3}{8}</latex> af flagstangens højde. Hvor højt er træet? \n\nVi skal altså finde ud af, hvor meget <latex>\\frac{3}{8}</latex> (tre ottendedele) af 16 m er.\n<latex>\\frac{3}{8}*16</latex> m <latex>=\\frac{3*16}{8}</latex> m <latex>=\\frac{48}{8}</latex> m <latex>=6</latex> m.\n\nEn anden opgave kunne lyde: Hvor mange minutter er <latex>\\frac{5}{8}</latex> af en time?\nDer er som bekendt 60 minutter på en time. Vi skal altså finde <latex>\\frac{5}{8}</latex> af 60 minutter.\n\n<latex>\\frac{5}{8}*60</latex> min. <latex>=\\frac{5*60}{8}</latex> min. <latex>=\\frac{300}{8}</latex> min.\n\nDen sidste brøk kan vi forkorte med 4 (da 4 både går op i 300 og i 8), og så får vi\n<latex>\\frac{5}{8}</latex> af en time svarer altså til 37,5 minutter.",
-              "level": 1,
-              "category": null
-            },
-            {
-              "id": 122,
-              "description": "Level 2\n\nNår man skal finde en brøkdel af en størrelse, så svarer det til at gange brøken med størrelsen.\n\nEn opgave kunne lyde: En flagstang er 16 m høj. Et træ udgør <latex>\\frac{3}{8}</latex> af flagstangens højde. Hvor højt er træet? \n\nVi skal altså finde ud af, hvor meget <latex>\\frac{3}{8}</latex> (tre ottendedele) af 16 m er.\n<latex>\\frac{3}{8}*16</latex> m <latex>=\\frac{3*16}{8}</latex> m <latex>=\\frac{48}{8}</latex> m <latex>=6</latex> m.\n\nEn anden opgave kunne lyde: Hvor mange minutter er <latex>\\frac{5}{8}</latex> af en time?\nDer er som bekendt 60 minutter på en time. Vi skal altså finde <latex>\\frac{5}{8}</latex> af 60 minutter.\n\n<latex>\\frac{5}{8}*60</latex> min. <latex>=\\frac{5*60}{8}</latex> min. <latex>=\\frac{300}{8}</latex> min.\n\nDen sidste brøk kan vi forkorte med 4 (da 4 både går op i 300 og i 8), og så får vi\n<latex>\\frac{5}{8}</latex> af en time svarer altså til 37,5 minutter.",
-              "level": 2,
-              "category": null
-            },
-            {
-              "id": 123,
-              "description": "Level 3\n\nNår man skal finde en brøkdel af en størrelse, så svarer det til at gange brøken med størrelsen.\n\nEn opgave kunne lyde: En flagstang er 16 m høj. Et træ udgør <latex>\\frac{3}{8}</latex> af flagstangens højde. Hvor højt er træet? \n\nVi skal altså finde ud af, hvor meget <latex>\\frac{3}{8}</latex> (tre ottendedele) af 16 m er.\n<latex>\\frac{3}{8}*16</latex> m <latex>=\\frac{3*16}{8}</latex> m <latex>=\\frac{48}{8}</latex> m <latex>=6</latex> m.\n\nEn anden opgave kunne lyde: Hvor mange minutter er <latex>\\frac{5}{8}</latex> af en time?\nDer er som bekendt 60 minutter på en time. Vi skal altså finde <latex>\\frac{5}{8}</latex> af 60 minutter.\n\n<latex>\\frac{5}{8}*60</latex> min. <latex>=\\frac{5*60}{8}</latex> min. <latex>=\\frac{300}{8}</latex> min.\n\nDen sidste brøk kan vi forkorte med 4 (da 4 både går op i 300 og i 8), og så får vi\n<latex>\\frac{5}{8}</latex> af en time svarer altså til 37,5 minutter.",
-              "level": 3,
-              "category": null
-            }
-          ]
-        },
-        "parent": 145
-      },
-      {
-        "id": 137,
-        "name": "Repræsentere helt tal som en brøk",
-        "quiz": null,
-        "description": {
-          "id": 32,
-          "levels": [
-            {
-              "id": 124,
-              "description": "Level 2\n\nSenere vil vi se hvorfor det er nyttigt at kunne omskrive et helt tal, f.eks. 24, 13, 99 etc. som en brøk. \nHvis man har et tal f.eks. 24, og gerne vil repræsentere det som et helt tal så gør man det på følgende måde:\n\nDu vælger et tilfældigt tal som du ønsker at have i nævneren på din brøk. Lad os kalde dette tal <latex>\\textbf{k}</latex>. I tælleren sætter du det tal som du ønsker at repræsentere, ganget med <latex>\\textbf{k}</latex>.\n\nF.eks.\nØnsker vi at repræsentere tallet 24 som en brøk kan vi gøre det på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 7, og brøken ser derfor sådan ud: <latex>\\frac{7*24}{7} = \\frac{168}{7} = 24</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 4, og brøken ser derfor sådan ud: <latex>\\frac{4*24}{4} = \\frac{96}{4} = 24</latex>.\n\nSom et andet eksempel kan vi ønske at repræsentere tallet 5 som en brøk. Det kan gøres på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 2, og brøken ser derfor sådan ud: <latex>\\frac{2*5}{2} = \\frac{10}{2} = 5</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 8, og brøken ser derfor sådan ud: <latex>\\frac{8*5}{8} = \\frac{40}{8} = 5</latex>.\n\nGenerelt kan formlen skrives som:\n<latex>\\frac{a*b}{b} = a</latex>",
-              "level": 2,
-              "category": null
-            },
-            {
-              "id": 114,
-              "description": "Level 1\n\nSenere vil vi se hvorfor det er nyttigt at kunne omskrive et helt tal, f.eks. 24, 13, 99 etc. som en brøk. \nHvis man har et tal f.eks. 24, og gerne vil repræsentere det som et helt tal så gør man det på følgende måde:\n\nDu vælger et tilfældigt tal som du ønsker at have i nævneren på din brøk. Lad os kalde dette tal <latex>\\textbf{k}</latex>. I tælleren sætter du det tal som du ønsker at repræsentere, ganget med <latex>\\textbf{k}</latex>.\n\nF.eks.\nØnsker vi at repræsentere tallet 24 som en brøk kan vi gøre det på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 7, og brøken ser derfor sådan ud: <latex>\\frac{7*24}{7} = \\frac{168}{7} = 24</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 4, og brøken ser derfor sådan ud: <latex>\\frac{4*24}{4} = \\frac{96}{4} = 24</latex>.\n\nSom et andet eksempel kan vi ønske at repræsentere tallet 5 som en brøk. Det kan gøres på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 2, og brøken ser derfor sådan ud: <latex>\\frac{2*5}{2} = \\frac{10}{2} = 5</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 8, og brøken ser derfor sådan ud: <latex>\\frac{8*5}{8} = \\frac{40}{8} = 5</latex>.\n\nGenerelt kan formlen skrives som:\n<latex>\\frac{a*b}{b} = a</latex>",
-              "level": 1,
-              "category": null
-            },
-            {
-              "id": 125,
-              "description": "Level 3\n\nSenere vil vi se hvorfor det er nyttigt at kunne omskrive et helt tal, f.eks. 24, 13, 99 etc. som en brøk. \nHvis man har et tal f.eks. 24, og gerne vil repræsentere det som et helt tal så gør man det på følgende måde:\n\nDu vælger et tilfældigt tal som du ønsker at have i nævneren på din brøk. Lad os kalde dette tal <latex>\\textbf{k}</latex>. I tælleren sætter du det tal som du ønsker at repræsentere, ganget med <latex>\\textbf{k}</latex>.\n\nF.eks.\nØnsker vi at repræsentere tallet 24 som en brøk kan vi gøre det på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 7, og brøken ser derfor sådan ud: <latex>\\frac{7*24}{7} = \\frac{168}{7} = 24</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 4, og brøken ser derfor sådan ud: <latex>\\frac{4*24}{4} = \\frac{96}{4} = 24</latex>.\n\nSom et andet eksempel kan vi ønske at repræsentere tallet 5 som en brøk. Det kan gøres på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 2, og brøken ser derfor sådan ud: <latex>\\frac{2*5}{2} = \\frac{10}{2} = 5</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 8, og brøken ser derfor sådan ud: <latex>\\frac{8*5}{8} = \\frac{40}{8} = 5</latex>.\n\nGenerelt kan formlen skrives som:\n<latex>\\frac{a*b}{b} = a</latex>",
-              "level": 3,
-              "category": null
-            }
-          ]
-        },
-        "parent": 145
-      },
-      {
-        "id": 135,
-        "name": "Dividere brøk med helt tal",
-        "quiz": null,
-        "description": {
-          "id": 30,
-          "levels": [
-            {
-              "id": 111,
-              "description": "Level 1\n\nNår man skal dividere en brøk med et tal, så ganger man tallet på i nævneren. F.eks er\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6*2} = \\frac{5}{12}</latex>\n\nEn måde at huske denne regel på er ved at omskrive tallet til en brøk. (Ethvert tal svarer nemlig til en brøk med 1 i nævneren).  Nu er den hen regel egentlig bare den samme som division af brøk med brøk. Eksemplet ovenfor ville blive\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6} : \\frac{2}{1} = \\frac{5}{6} * \\frac{1}{2} = \\frac{5*1}{6*2} = \\frac{5}{12}</latex>\n",
-              "level": 1,
-              "category": null
-            },
-            {
-              "id": 141,
-              "description": "Level 3\n\nNår man skal dividere en brøk med et tal, så ganger man tallet på i nævneren. F.eks er\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6*2} = \\frac{5}{12}</latex>\n\nEn måde at huske denne regel på er ved at omskrive tallet til en brøk. (Ethvert tal svarer nemlig til en brøk med 1 i nævneren).  Nu er den hen regel egentlig bare den samme som division af brøk med brøk. Eksemplet ovenfor ville blive\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6} : \\frac{2}{1} = \\frac{5}{6} * \\frac{1}{2} = \\frac{5*1}{6*2} = \\frac{5}{12}</latex>\n",
-              "level": 3,
-              "category": null
-            },
-            {
-              "id": 140,
-              "description": "Level 2\n\nNår man skal dividere en brøk med et tal, så ganger man tallet på i nævneren. F.eks er\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6*2} = \\frac{5}{12}</latex>\n\nEn måde at huske denne regel på er ved at omskrive tallet til en brøk. (Ethvert tal svarer nemlig til en brøk med 1 i nævneren).  Nu er den hen regel egentlig bare den samme som division af brøk med brøk. Eksemplet ovenfor ville blive\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6} : \\frac{2}{1} = \\frac{5}{6} * \\frac{1}{2} = \\frac{5*1}{6*2} = \\frac{5}{12}</latex>\n",
-              "level": 2,
-              "category": null
-            }
-          ]
-        },
-        "parent": 127
-      },
-      {
-        "id": 128,
-        "name": "Forlænge brøker",
-        "quiz": null,
-        "description": {
-          "id": 23,
-          "levels": [
-            {
-              "id": 104,
-              "description": "Når man regner med brøker, kan det ofte være praktisk at omforme dem.\nHvis man vil have et større tal i tæller eller nævner, kan man forlænge brøken. Det gør man ved at gange det samme tal på i tæller og nævner.\n\n<image>course_fraction_4.png</image>\n\nBrøkens værdi er altså uændret, når vi forlænger den. Et eksempel fra virkelighedens verden er, at om man er 8 mennesker om at dele 1 pizza eller 80 mennesker om at dele 10, så får man lige meget pizza\n\n<latex>\\frac{1}{8} = \\frac{1*10}{8*10} = \\frac{10}{80}</latex>\n\nGenerelt har vi reglen\n\n<latex>\\frac{a}{b} = \\frac{a*k}{b*k}</latex>, gældende for et k der ikke er 0.",
-              "level": 1,
-              "category": null
-            }
-          ]
-        },
-        "parent": 127
-      },
-      {
-        "id": 140,
-        "name": "Omregning: Fra brøk til decimaltal",
-        "quiz": null,
-        "description": {
-          "id": 35,
-          "levels": [
-            {
-              "id": 117,
-              "description": "Hvis man har en brøk, man gerne vil omskrive til et decimaltal, så må man dividere brøken ud. Der findes flere metoder til at dividere. Vi gennemgår en her ved hjælp af et eksempel.\n\n<image>course_fraction_6.png</image>\n\nVil man omskrive <latex>\\frac{5}{8}</latex> til et decimaltal, så spørger man først hvor mange gange 8 går op i 5. Det er 0 gange. Man skriver dette nul ude til højre. Under femtallet skriver man også 0. Nu trækker man 0 fra 5. Det giver 5. Man hiver et 0 ned (det grønne).\n\nSå spørger man, hvor mange gange 8 går op i 50. Det er 6 gange. Man skriver 6-tallet ude til højre, og man skriver resultatet af 6⋅8 under 50. Ved at trække 48 fra 50 får vi 2. Vi trækker endnu et nul ned.\n\nSå spørger vi, hvor mange gange 8 går op i 20. Det er 2 gange. Vi skriver 2-tallet ude til højre of resultatet af 8⋅2 under 20. Vi trækker 16 fra 20 og får 4. Vi trækker et nul ned.\n\nTil sidst spørger vi, hvor mange gange 8 går op i 40. Det er 5 gange. Vi skriver 5 ude til højre, og skriver 5⋅8 under 40. Nu står der 40-40, og det giver 0. Når der står 0 forneden er vi færdige.\n\n<latex>\\frac{5}{8}</latex> svarer altså til 0,625.",
-              "level": 1,
-              "category": null
-            }
-          ]
-        },
-        "parent": 139
-      },
-      {
-        "id": 145,
-        "name": "Quiz om hvad en brøk er",
-        "quiz": {
-          "id": 20,
-          "levels": [
-            {
-              "id": 101,
-              "level": 3,
-              "questions": [
-                {
-                  "id": 73,
-                  "question": "Hvis en kage deles op i 5 lige store dele, og der spises 2 stykker, hvor meget er så tilbage?",
-                  "correct": {
-                    "id": 112,
-                    "answer": "3/5",
-                    "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, så er der 3 lige store dele tilbage, altså 3/5."
-                  },
-                  "possibleAnswers": [
+        {
+            "id": 156,
+            "name": "Welcome",
+            "quiz": null,
+            "description": {
+                "id": 48,
+                "levels": [
                     {
-                      "id": 110,
-                      "answer": "2/5",
-                      "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, så er der mere end 2/5 dele tilbage. Du mangel nemlig 1/5 så, fordi 1/5 + 2/5 + 2/5 (dem der spises) = 5/5 = hele."
+                        "id": 155,
+                        "description": "Hi <name>, today I will teach you about fractions!",
+                        "level": 2,
+                        "category": null
                     },
                     {
-                      "id": 111,
-                      "answer": "1 femtedel",
-                      "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, så er der mere end 1 femtedel tilbage. Du mangel nemlig 2 femtedele så, fordi 1 femtedel + 2 femtedele + 2 femtedele (dem der spises) = 1 hel = hele kagen"
+                        "id": 156,
+                        "description": "Hi <name>, today I will teach you about fractions!",
+                        "level": 3,
+                        "category": null
                     },
                     {
-                      "id": 112,
-                      "answer": "3/5",
-                      "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, så er der 3 lige store dele tilbage, altså 3/5."
-                    },
-                    {
-                      "id": 113,
-                      "answer": "4 halve",
-                      "explanation": "4 halve er det samme som 2 hele. Der var kun tale om 1 hel kage, så hvis der spises 2 stykker af kagen, kan der ikke komme yderligere stykker. "
+                        "id": 153,
+                        "description": "Hi <name>, today I will teach you about fractions!",
+                        "level": 1,
+                        "category": null
                     }
-                  ]
-                },
-                {
-                  "id": 74,
-                  "question": "Hvor stor en brøkdel repræsenterer \"mandag\" af alle ugens dage?",
-                  "correct": {
-                    "id": 115,
-                    "answer": "1/7",
-                    "explanation": "Korrekt. Fordi der er 7 dage i ugen, så repræsenterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
-                  },
-                  "possibleAnswers": [
+                ]
+            },
+            "parent": 0
+        },
+        {
+            "id": 145,
+            "name": "Quiz om hvad en brøk er",
+            "quiz": {
+                "id": 20,
+                "levels": [
                     {
-                      "id": 114,
-                      "answer": "1/4",
-                      "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/4. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag og torsdag, så ville svaret være korrekt."
+                        "id": 101,
+                        "level": 1,
+                        "questions": [
+                            {
+                                "id": 73,
+                                "question": "Hvis en kage deles op i 5 lige store dele, og der spises 2 stykker, hvor meget er så tilbage?",
+                                "correct": {
+                                    "id": 112,
+                                    "answer": "3/5",
+                                    "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, så er der 3 lige store dele tilbage, altså 3/5."
+                                },
+                                "possibleAnswers": [
+                                    {
+                                        "id": 110,
+                                        "answer": "2/5",
+                                        "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, så er der mere end 2/5 dele tilbage. Du mangel nemlig 1/5 så, fordi 1/5 + 2/5 + 2/5 (dem der spises) = 5/5 = hele."
+                                    },
+                                    {
+                                        "id": 111,
+                                        "answer": "1 femtedel",
+                                        "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, så er der mere end 1 femtedel tilbage. Du mangel nemlig 2 femtedele så, fordi 1 femtedel + 2 femtedele + 2 femtedele (dem der spises) = 1 hel = hele kagen"
+                                    },
+                                    {
+                                        "id": 112,
+                                        "answer": "3/5",
+                                        "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, så er der 3 lige store dele tilbage, altså 3/5."
+                                    },
+                                    {
+                                        "id": 113,
+                                        "answer": "4 halve",
+                                        "explanation": "4 halve er det samme som 2 hele. Der var kun tale om 1 hel kage, så hvis der spises 2 stykker af kagen, kan der ikke komme yderligere stykker. "
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 74,
+                                "question": "Hvor stor en brøkdel repræsenterer \"mandag\" af alle ugens dage?",
+                                "correct": {
+                                    "id": 115,
+                                    "answer": "1/7",
+                                    "explanation": "Korrekt. Fordi der er 7 dage i ugen, så repræsenterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
+                                },
+                                "possibleAnswers": [
+                                    {
+                                        "id": 114,
+                                        "answer": "1/4",
+                                        "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/4. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag og torsdag, så ville svaret være korrekt."
+                                    },
+                                    {
+                                        "id": 115,
+                                        "answer": "1/7",
+                                        "explanation": "Korrekt. Fordi der er 7 dage i ugen, så repræsenterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
+                                    },
+                                    {
+                                        "id": 116,
+                                        "answer": "1/2",
+                                        "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/2. Hvis alle ugens dage kun bestod af mandag og tirsdag, så ville svaret være korrekt."
+                                    },
+                                    {
+                                        "id": 117,
+                                        "answer": "1/5",
+                                        "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/5. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag, torsdag og fredag, så ville svaret være korrekt."
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
-                      "id": 115,
-                      "answer": "1/7",
-                      "explanation": "Korrekt. Fordi der er 7 dage i ugen, så repræsenterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
-                    },
-                    {
-                      "id": 116,
-                      "answer": "1/2",
-                      "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/2. Hvis alle ugens dage kun bestod af mandag og tirsdag, så ville svaret være korrekt."
-                    },
-                    {
-                      "id": 117,
-                      "answer": "1/5",
-                      "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/5. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag, torsdag og fredag, så ville svaret være korrekt."
+                        "id": 92,
+                        "level": 2,
+                        "questions": [
+                            {
+                                "id": 55,
+                                "question": "Hvis en kage deles op i 5 lige store dele, og der spises 2 stykker, hvor meget er så tilbage?",
+                                "correct": {
+                                    "id": 62,
+                                    "answer": "3/5",
+                                    "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, så er der 3 lige store dele tilbage, altså 3/5."
+                                },
+                                "possibleAnswers": [
+                                    {
+                                        "id": 60,
+                                        "answer": "2/5",
+                                        "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, så er der mere end 2/5 dele tilbage. Du mangel nemlig 1/5 så, fordi 1/5 + 2/5 + 2/5 (dem der spises) = 5/5 = hele."
+                                    },
+                                    {
+                                        "id": 59,
+                                        "answer": "1 femtedel",
+                                        "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, så er der mere end 1 femtedel tilbage. Du mangel nemlig 2 femtedele så, fordi 1 femtedel + 2 femtedele + 2 femtedele (dem der spises) = 1 hel = hele kagen"
+                                    },
+                                    {
+                                        "id": 62,
+                                        "answer": "3/5",
+                                        "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, så er der 3 lige store dele tilbage, altså 3/5."
+                                    },
+                                    {
+                                        "id": 61,
+                                        "answer": "4 halve",
+                                        "explanation": "4 halve er det samme som 2 hele. Der var kun tale om 1 hel kage, så hvis der spises 2 stykker af kagen, kan der ikke komme yderligere stykker. "
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 68,
+                                "question": "Hvor stor en brøkdel repræsenterer \"mandag\" af alle ugens dage?",
+                                "correct": {
+                                    "id": 91,
+                                    "answer": "1/7",
+                                    "explanation": "Korrekt. Fordi der er 7 dage i ugen, så repræsenterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
+                                },
+                                "possibleAnswers": [
+                                    {
+                                        "id": 90,
+                                        "answer": "1/4",
+                                        "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/4. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag og torsdag, så ville svaret være korrekt."
+                                    },
+                                    {
+                                        "id": 91,
+                                        "answer": "1/7",
+                                        "explanation": "Korrekt. Fordi der er 7 dage i ugen, så repræsenterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
+                                    },
+                                    {
+                                        "id": 92,
+                                        "answer": "1/2",
+                                        "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/2. Hvis alle ugens dage kun bestod af mandag og tirsdag, så ville svaret være korrekt."
+                                    },
+                                    {
+                                        "id": 93,
+                                        "answer": "1/5",
+                                        "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/5. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag, torsdag og fredag, så ville svaret være korrekt."
+                                    }
+                                ]
+                            }
+                        ]
                     }
-                  ]
-                }
-              ]
+                ]
             },
-            {
-              "id": 92,
-              "level": 2,
-              "questions": [
-                {
-                  "id": 55,
-                  "question": "Hvis en kage deles op i 5 lige store dele, og der spises 2 stykker, hvor meget er så tilbage?",
-                  "correct": {
-                    "id": 62,
-                    "answer": "3/5",
-                    "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, så er der 3 lige store dele tilbage, altså 3/5."
-                  },
-                  "possibleAnswers": [
+            "description": null,
+            "parent": 156
+        },
+        {
+            "id": 119,
+            "name": "Brøkers størrelse",
+            "quiz": null,
+            "description": {
+                "id": 14,
+                "levels": [
                     {
-                      "id": 60,
-                      "answer": "2/5",
-                      "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, så er der mere end 2/5 dele tilbage. Du mangel nemlig 1/5 så, fordi 1/5 + 2/5 + 2/5 (dem der spises) = 5/5 = hele."
+                        "id": 94,
+                        "description": "Level 2\n\nNogle gange kan det være svært at sammenligne brøkers størrelse. Er <latex>\\frac{3}{10}</latex> f.eks. større end eller mindre end <latex>\\frac{2}{7}</latex>?\n\nGenerelt kan man sige, at jo større nævneren (tallet under brøkstregen) bliver, des mindre bliver brøken. F.eks. er <latex>\\frac{1}{100}</latex> (en hundrededel) mindre end <latex>\\frac{1}{10}</latex> (en tiendedel).\n\nDet kan virke mærkeligt, da 100 jo er større end 10. Man kan tænke på det som en stor bradepandekage. Hvis der er 100, der gerne vil smage kagen, så bliver stykkerne meget små (hver af dem bliver <latex>\\frac{1}{100}</latex> af kagen), mens hvis der kun er 10, der vil have kage, så bliver hvert stykke større (hvert stykke bliver <latex>\\frac{1}{10}</latex> af kagen).\n\n<image>course_fraction_2.png</image>",
+                        "level": 2,
+                        "category": null
                     },
                     {
-                      "id": 59,
-                      "answer": "1 femtedel",
-                      "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, så er der mere end 1 femtedel tilbage. Du mangel nemlig 2 femtedele så, fordi 1 femtedel + 2 femtedele + 2 femtedele (dem der spises) = 1 hel = hele kagen"
+                        "id": 93,
+                        "description": "Level 1\n\nNogle gange kan det være svært at sammenligne brøkers størrelse. Er <latex>\\frac{3}{10}</latex> f.eks. større end eller mindre end <latex>\\frac{2}{7}</latex>?\n\nGenerelt kan man sige, at jo større nævneren (tallet under brøkstregen) bliver, des mindre bliver brøken. F.eks. er <latex>\\frac{1}{100}</latex> (en hundrededel) mindre end <latex>\\frac{1}{10}</latex> (en tiendedel).\n\nDet kan virke mærkeligt, da 100 jo er større end 10. Man kan tænke på det som en stor bradepandekage. Hvis der er 100, der gerne vil smage kagen, så bliver stykkerne meget små (hver af dem bliver <latex>\\frac{1}{100}</latex> af kagen), mens hvis der kun er 10, der vil have kage, så bliver hvert stykke større (hvert stykke bliver <latex>\\frac{1}{10}</latex> af kagen).\n\n<image>course_fraction_2.png</image>",
+                        "level": 1,
+                        "category": null
                     },
                     {
-                      "id": 62,
-                      "answer": "3/5",
-                      "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, så er der 3 lige store dele tilbage, altså 3/5."
-                    },
-                    {
-                      "id": 61,
-                      "answer": "4 halve",
-                      "explanation": "4 halve er det samme som 2 hele. Der var kun tale om 1 hel kage, så hvis der spises 2 stykker af kagen, kan der ikke komme yderligere stykker. "
+                        "id": 95,
+                        "description": "Level 3\n\nNogle gange kan det være svært at sammenligne brøkers størrelse. Er <latex>\\frac{3}{10}</latex> f.eks. større end eller mindre end <latex>\\frac{2}{7}</latex>?\n\nGenerelt kan man sige, at jo større nævneren (tallet under brøkstregen) bliver, des mindre bliver brøken. F.eks. er <latex>\\frac{1}{100}</latex> (en hundrededel) mindre end <latex>\\frac{1}{10}</latex> (en tiendedel).\n\nDet kan virke mærkeligt, da 100 jo er større end 10. Man kan tænke på det som en stor bradepandekage. Hvis der er 100, der gerne vil smage kagen, så bliver stykkerne meget små (hver af dem bliver <latex>\\frac{1}{100}</latex> af kagen), mens hvis der kun er 10, der vil have kage, så bliver hvert stykke større (hvert stykke bliver <latex>\\frac{1}{10}</latex> af kagen).\n\n<image>course_fraction_2.png</image>",
+                        "level": 3,
+                        "category": null
                     }
-                  ]
-                },
-                {
-                  "id": 68,
-                  "question": "Hvor stor en brøkdel repræsenterer \"mandag\" af alle ugens dage?",
-                  "correct": {
-                    "id": 91,
-                    "answer": "1/7",
-                    "explanation": "Korrekt. Fordi der er 7 dage i ugen, så repræsenterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
-                  },
-                  "possibleAnswers": [
+                ]
+            },
+            "parent": 0
+        },
+        {
+            "id": 133,
+            "name": "Trække brøk fra helt tal",
+            "quiz": null,
+            "description": {
+                "id": 28,
+                "levels": [
                     {
-                      "id": 90,
-                      "answer": "1/4",
-                      "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/4. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag og torsdag, så ville svaret være korrekt."
+                        "id": 109,
+                        "description": "Level 1\n\nHvis vi ønsker at trække en brøk fra et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at trække fra det hele tal. Derefter trækker vi de to brøker fra hinanden.\n\nF.eks:\n<latex>4 - \\frac{2}{3} = \\frac{4*3}{3} - \\frac{2}{3} = \\frac{12}{3} - \\frac{2}{3} = \\frac{12-2}{3} = \\frac{10}{3}  </latex>\n\nAndet eksempel:\n<latex>13 - \\frac{6}{5} = \\frac{13*5}{5} - \\frac{6}{5} = \\frac{65}{5} - \\frac{6}{5} = \\frac{65-6}{5} = \\frac{59}{5}  </latex>\n",
+                        "level": 1,
+                        "category": null
                     },
                     {
-                      "id": 91,
-                      "answer": "1/7",
-                      "explanation": "Korrekt. Fordi der er 7 dage i ugen, så repræsenterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
+                        "id": 132,
+                        "description": "Level 2\n\nHvis vi ønsker at trække en brøk fra et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at trække fra det hele tal. Derefter trækker vi de to brøker fra hinanden.\n\nF.eks:\n<latex>4 - \\frac{2}{3} = \\frac{4*3}{3} - \\frac{2}{3} = \\frac{12}{3} - \\frac{2}{3} = \\frac{12-2}{3} = \\frac{10}{3}  </latex>\n\nAndet eksempel:\n<latex>13 - \\frac{6}{5} = \\frac{13*5}{5} - \\frac{6}{5} = \\frac{65}{5} - \\frac{6}{5} = \\frac{65-6}{5} = \\frac{59}{5}  </latex>\n",
+                        "level": 2,
+                        "category": null
                     },
                     {
-                      "id": 92,
-                      "answer": "1/2",
-                      "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/2. Hvis alle ugens dage kun bestod af mandag og tirsdag, så ville svaret være korrekt."
-                    },
-                    {
-                      "id": 93,
-                      "answer": "1/5",
-                      "explanation": "Der er 7 dage på ugen. Mandag repræsenterer altså ikke 1/5. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag, torsdag og fredag, så ville svaret være korrekt."
+                        "id": 133,
+                        "description": "Level 3\n\nHvis vi ønsker at trække en brøk fra et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at trække fra det hele tal. Derefter trækker vi de to brøker fra hinanden.\n\nF.eks:\n<latex>4 - \\frac{2}{3} = \\frac{4*3}{3} - \\frac{2}{3} = \\frac{12}{3} - \\frac{2}{3} = \\frac{12-2}{3} = \\frac{10}{3}  </latex>\n\nAndet eksempel:\n<latex>13 - \\frac{6}{5} = \\frac{13*5}{5} - \\frac{6}{5} = \\frac{65}{5} - \\frac{6}{5} = \\frac{65-6}{5} = \\frac{59}{5}  </latex>\n",
+                        "level": 3,
+                        "category": null
                     }
-                  ]
-                }
-              ]
-            }
-          ]
+                ]
+            },
+            "parent": 0
         },
-        "description": null,
-        "parent": 156
-      },
-      {
-        "id": 124,
-        "name": "Lægge brøker sammen",
-        "quiz": null,
-        "description": {
-          "id": 19,
-          "levels": [
-            {
-              "id": 126,
-              "description": "Level 2\n\nNår man skal lægge brøker sammen eller trække dem fra hinanden, så er det vigtigt, at de har den samme nævner. Man siger, at de skal have fællesnævner.\nDet er klart, fordi ét stykke af en kage, der er skåret i 10 stykker ikke repræsenterer lige så meget kage som ét stykke af en kage, der er skåret i 6 stykker. Man er nødt til at sørge for at stykkerne er lige store, før man begynder at lægge dem sammen eller trække dem fra hinanden (se evt. forrige afsnit om brøkers størrelse).\n\nVi ønsker at udregne\n<latex>\\frac{2}{3}+\\frac{1}{4}= ?</latex>\n\nFørst finder en fællesnævner for brøken. I dette tilfælde vælger vi fællesnævneren til 12 da både 3 og 4 går op i 12. Vi forlænger <latex>\\frac{2}{3}</latex> med 4 og <latex>\\frac{1}{4}</latex> med 3\n\n<latex>\\frac{2}{3}=\\frac{4*2}{4*3}=\\frac{8}{12}</latex>\n\n<latex>\\frac{1}{4}=\\frac{3*1}{3*4}=\\frac{3}{12}</latex>\n\nNu har brøkerne samme nævner, og vi kan derfor lægge dem sammen. Det gør man ved at lægge tællerne (tallene over brøkstregerne) sammen.\n<latex>\\frac{2}{3}+\\frac{1}{4}=\\frac{8}{12}+\\frac{3}{12}=\\frac{3+8}{12}=\\frac{11}{12}</latex>\n\nMan kan illustrere udregningen med et billede.\n<image>course_fraction_3.png</image>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}+\\frac{c}{b}=\\frac{a+c}{b}</latex>",
-              "level": 2,
-              "category": null
+        {
+            "id": 136,
+            "name": "Dividere helt tal med brøk",
+            "quiz": null,
+            "description": {
+                "id": 31,
+                "levels": [
+                    {
+                        "id": 113,
+                        "description": "Level 1\n\nNår man skal dividere et tal med en brøk, så vender man brøken om og ganger tallet på i (den nye) tæller. F.eks. er\n\n<latex>8 : \\frac{19}{2} = 8 * \\frac{2}{19} = \\frac{8*2}{19} = \\frac{16}{19}</latex>\n\nIgen kan vi omskrive tallet til en brøk med 1 i nævneren, og så er også denne regel den samme som division af brøk med brøk.\n\n<latex>8 : \\frac{19}{2} = \\frac{8}{1} : \\frac{19}{2} = \\frac{8}{1} * \\frac{2}{19} = \\frac{8*2}{1*19} = \\frac{16}{19}</latex>",
+                        "level": 1,
+                        "category": null
+                    },
+                    {
+                        "id": 142,
+                        "description": "Level 2\n\nNår man skal dividere et tal med en brøk, så vender man brøken om og ganger tallet på i (den nye) tæller. F.eks. er\n\n<latex>8 : \\frac{19}{2} = 8 * \\frac{2}{19} = \\frac{8*2}{19} = \\frac{16}{19}</latex>\n\nIgen kan vi omskrive tallet til en brøk med 1 i nævneren, og så er også denne regel den samme som division af brøk med brøk.\n\n<latex>8 : \\frac{19}{2} = \\frac{8}{1} : \\frac{19}{2} = \\frac{8}{1} * \\frac{2}{19} = \\frac{8*2}{1*19} = \\frac{16}{19}</latex>",
+                        "level": 2,
+                        "category": null
+                    },
+                    {
+                        "id": 143,
+                        "description": "Level 3\n\nNår man skal dividere et tal med en brøk, så vender man brøken om og ganger tallet på i (den nye) tæller. F.eks. er\n\n<latex>8 : \\frac{19}{2} = 8 * \\frac{2}{19} = \\frac{8*2}{19} = \\frac{16}{19}</latex>\n\nIgen kan vi omskrive tallet til en brøk med 1 i nævneren, og så er også denne regel den samme som division af brøk med brøk.\n\n<latex>8 : \\frac{19}{2} = \\frac{8}{1} : \\frac{19}{2} = \\frac{8}{1} * \\frac{2}{19} = \\frac{8*2}{1*19} = \\frac{16}{19}</latex>",
+                        "level": 3,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 100,
-              "description": "Level 1\n\nNår man skal lægge brøker sammen eller trække dem fra hinanden, så er det vigtigt, at de har den samme nævner. Man siger, at de skal have fællesnævner.\nDet er klart, fordi ét stykke af en kage, der er skåret i 10 stykker ikke repræsenterer lige så meget kage som ét stykke af en kage, der er skåret i 6 stykker. Man er nødt til at sørge for at stykkerne er lige store, før man begynder at lægge dem sammen eller trække dem fra hinanden (se evt. forrige afsnit om brøkers størrelse).\n\nVi ønsker at udregne\n<latex>\\frac{2}{3}+\\frac{1}{4}= ?</latex>\n\nFørst finder en fællesnævner for brøken. I dette tilfælde vælger vi fællesnævneren til 12 da både 3 og 4 går op i 12. Vi forlænger <latex>\\frac{2}{3}</latex> med 4 og <latex>\\frac{1}{4}</latex> med 3\n\n<latex>\\frac{2}{3}=\\frac{4*2}{4*3}=\\frac{8}{12}</latex>\n\n<latex>\\frac{1}{4}=\\frac{3*1}{3*4}=\\frac{3}{12}</latex>\n\nNu har brøkerne samme nævner, og vi kan derfor lægge dem sammen. Det gør man ved at lægge tællerne (tallene over brøkstregerne) sammen.\n<latex>\\frac{2}{3}+\\frac{1}{4}=\\frac{8}{12}+\\frac{3}{12}=\\frac{3+8}{12}=\\frac{11}{12}</latex>\n\nMan kan illustrere udregningen med et billede.\n<image>course_fraction_3.png</image>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}+\\frac{c}{b}=\\frac{a+c}{b}</latex>",
-              "level": 1,
-              "category": null
-            },
-            {
-              "id": 127,
-              "description": "Level 3\n\nNår man skal lægge brøker sammen eller trække dem fra hinanden, så er det vigtigt, at de har den samme nævner. Man siger, at de skal have fællesnævner.\nDet er klart, fordi ét stykke af en kage, der er skåret i 10 stykker ikke repræsenterer lige så meget kage som ét stykke af en kage, der er skåret i 6 stykker. Man er nødt til at sørge for at stykkerne er lige store, før man begynder at lægge dem sammen eller trække dem fra hinanden (se evt. forrige afsnit om brøkers størrelse).\n\nVi ønsker at udregne\n<latex>\\frac{2}{3}+\\frac{1}{4}= ?</latex>\n\nFørst finder en fællesnævner for brøken. I dette tilfælde vælger vi fællesnævneren til 12 da både 3 og 4 går op i 12. Vi forlænger <latex>\\frac{2}{3}</latex> med 4 og <latex>\\frac{1}{4}</latex> med 3\n\n<latex>\\frac{2}{3}=\\frac{4*2}{4*3}=\\frac{8}{12}</latex>\n\n<latex>\\frac{1}{4}=\\frac{3*1}{3*4}=\\frac{3}{12}</latex>\n\nNu har brøkerne samme nævner, og vi kan derfor lægge dem sammen. Det gør man ved at lægge tællerne (tallene over brøkstregerne) sammen.\n<latex>\\frac{2}{3}+\\frac{1}{4}=\\frac{8}{12}+\\frac{3}{12}=\\frac{3+8}{12}=\\frac{11}{12}</latex>\n\nMan kan illustrere udregningen med et billede.\n<image>course_fraction_3.png</image>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}+\\frac{c}{b}=\\frac{a+c}{b}</latex>",
-              "level": 3,
-              "category": null
-            }
-          ]
+            "parent": 0
         },
-        "parent": 156
-      },
-      {
-        "id": 132,
-        "name": "Lægge brøk til helt tal",
-        "quiz": null,
-        "description": {
-          "id": 27,
-          "levels": [
-            {
-              "id": 108,
-              "description": "Level 1\n\nHvis vi ønsker at ligge en brøk til et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at lægge til. Derefter lægger vi de to brøker sammen. \n\nF.eks:\n<latex>4 + \\frac{2}{3} = \\frac{4*3}{3} + \\frac{2}{3} = \\frac{12}{3} + \\frac{2}{3} = \\frac{12+2}{3} = \\frac{14}{3}  </latex>\n\nAndet eksempel:\n<latex>13 + \\frac{6}{5} = \\frac{13*5}{5} + \\frac{6}{5} = \\frac{65}{5} + \\frac{6}{5} = \\frac{65+6}{5} = \\frac{71}{5}  </latex>\n",
-              "level": 1,
-              "category": null
+        {
+            "id": 122,
+            "name": "Blandede tal",
+            "quiz": null,
+            "description": {
+                "id": 17,
+                "levels": [
+                    {
+                        "id": 98,
+                        "description": "Det sker, at tælleren er større end nævneren i en brøk. I så fald kan man omskrive brøken til et blandet tal. Dvs. et tal, der både indeholder heltal og brøker.\n\nF.eks er\n\n<latex>\\frac{4}{3} = 1\\frac{1}{3}</latex>\n\n<image>course_fraction_7.png</image>\n\nMan finder det hele tal ved at se, hvor mange gange nævneren går op i tælleren.\n\nDen rest, der er tilbage, bliver stående i tælleren.\n\nBemærk, at der IKKE er et skjult gangetegn mellem det hele tal og brøken i et blandet tal. Der er snarere et skjult plustegn.\n\nLad os for eksempel omskrive <latex>\\frac{13}{4}</latex> til et blandet tal.\n\nFørst skal vi finde ud af, hvor mange gange 4 går op i 13. 4 går op i 13 3 gange (4*3=12) og der er en rest på 1. Dermed er\n\n<latex>\\frac{13}{4} = 3\\frac{1}{4}</latex>\n\n<image>course_fraction_8.png</image>",
+                        "level": 1,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 128,
-              "description": "Level 2\n\nHvis vi ønsker at ligge en brøk til et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at lægge til. Derefter lægger vi de to brøker sammen. \n\nF.eks:\n<latex>4 + \\frac{2}{3} = \\frac{4*3}{3} + \\frac{2}{3} = \\frac{12}{3} + \\frac{2}{3} = \\frac{12+2}{3} = \\frac{14}{3}  </latex>\n\nAndet eksempel:\n<latex>13 + \\frac{6}{5} = \\frac{13*5}{5} + \\frac{6}{5} = \\frac{65}{5} + \\frac{6}{5} = \\frac{65+6}{5} = \\frac{71}{5}  </latex>\n",
-              "level": 2,
-              "category": null
-            },
-            {
-              "id": 129,
-              "description": "Level 3\n\nHvis vi ønsker at ligge en brøk til et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at lægge til. Derefter lægger vi de to brøker sammen. \n\nF.eks:\n<latex>4 + \\frac{2}{3} = \\frac{4*3}{3} + \\frac{2}{3} = \\frac{12}{3} + \\frac{2}{3} = \\frac{12+2}{3} = \\frac{14}{3}  </latex>\n\nAndet eksempel:\n<latex>13 + \\frac{6}{5} = \\frac{13*5}{5} + \\frac{6}{5} = \\frac{65}{5} + \\frac{6}{5} = \\frac{65+6}{5} = \\frac{71}{5}  </latex>\n",
-              "level": 3,
-              "category": null
-            }
-          ]
+            "parent": 0
         },
-        "parent": 156
-      },
-      {
-        "id": 126,
-        "name": "Trækker brøker fra hinanden",
-        "quiz": null,
-        "description": {
-          "id": 21,
-          "levels": [
-            {
-              "id": 102,
-              "description": "Level 1\n\nNår man skal trække en brøk fra en anden brøk, så skal man også sikre sig, at de har samme nævner. Derefter trækker man den ene tæller fra den anden. Lad os se på et eksempel.\n\nVi vil udregne\n<latex>\\frac{4}{7}-\\frac{3}{14}=?</latex>\n\nEt tal som både 7 og 14 går op i er 14. Brøken <latex>\\frac{3}{14}</latex> står allerede i fjortendedele, så den lader vi være. Brøken <latex>\\frac{4}{7}</latex> skal vi forlænge med 2 for at få den omskrevet til fjortendedele.\n<latex>\\frac{4}{7}=\\frac{2*4}{2*7}=\\frac{8}{14}</latex>\n\nNu er begge brøker i fjortendedele, og vi kan trække den ene fra den anden.\n<latex>\\frac{4}{7}-\\frac{3}{14}=\\frac{8}{14}-\\frac{3}{14}=\\frac{8-3}{14}=\\frac{5}{14}</latex>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}-\\frac{c}{b}=\\frac{a-c}{b}</latex>",
-              "level": 1,
-              "category": null
+        {
+            "id": 144,
+            "name": "Fra blandet til til brøk",
+            "quiz": null,
+            "description": {
+                "id": 39,
+                "levels": [
+                    {
+                        "id": 121,
+                        "description": "Hvis man vil omskrive et blandet tal til en brøk, så kan man ”forlænge” det hele tal med nævneren. Dvs. man laver en ny brøk, hvor man skriver nævneren fra den gamle brøk i nævneren og det hele tal ganget med den gamle nævner i tælleren. Derefter lægger man den nye brøk sammen med den gamle.\n\nEksempler:\n<latex>7\\frac{2}{3} = \\frac{7*3}{3} + \\frac{2}{3} = \\frac{21}{3} + \\frac{2}{3} = \\frac{23}{3}</latex>\n\n<latex>2\\frac{7}{8} = \\frac{2*8}{8} + \\frac{7}{8} = \\frac{16}{8} + \\frac{7}{8} = \\frac{23}{8}</latex>",
+                        "level": 1,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 130,
-              "description": "Level 2\n\nNår man skal trække en brøk fra en anden brøk, så skal man også sikre sig, at de har samme nævner. Derefter trækker man den ene tæller fra den anden. Lad os se på et eksempel.\n\nVi vil udregne\n<latex>\\frac{4}{7}-\\frac{3}{14}=?</latex>\n\nEt tal som både 7 og 14 går op i er 14. Brøken <latex>\\frac{3}{14}</latex> står allerede i fjortendedele, så den lader vi være. Brøken <latex>\\frac{4}{7}</latex> skal vi forlænge med 2 for at få den omskrevet til fjortendedele.\n<latex>\\frac{4}{7}=\\frac{2*4}{2*7}=\\frac{8}{14}</latex>\n\nNu er begge brøker i fjortendedele, og vi kan trække den ene fra den anden.\n<latex>\\frac{4}{7}-\\frac{3}{14}=\\frac{8}{14}-\\frac{3}{14}=\\frac{8-3}{14}=\\frac{5}{14}</latex>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}-\\frac{c}{b}=\\frac{a-c}{b}</latex>",
-              "level": 2,
-              "category": null
+            "parent": 0
+        },
+        {
+            "id": 141,
+            "name": "Omregning: Fra decimaltal til brøk",
+            "quiz": null,
+            "description": {
+                "id": 36,
+                "levels": [
+                    {
+                        "id": 118,
+                        "description": "Hvis man vil omskrive et decimaltal til en brøk, så er der to tilfælde, man kan se på. Det første tilfælde hvor der er endeligt mange cifre (f.eks. 0,125 eller 4,3), og det andet tilfælde, hvor der er et tal, der går igen og igen uendeligt mange gange (f.eks. 0,3333333333…).\n\nI det første tilfælde omskriver man decimaltallet ved i tælleren at skrive tallet, hvor man blot har fjernet kommaet. I nævneren skriver man et 1-tal efterfulgt af så mange 0’er som der er pladser efter kommaet. Herefter kan man forkorte brøken.\n\n<latex>0.125 = \\frac{125}{1000} = \\frac{125 : 125}{1000 : 125} = \\frac{1}{8}</latex>\n\nI eksemplet ovenfor skrev vi 1000 i nævneren, fordi der er 3 cifre efter kommaet i 0,125.\n\nHvis man er i det andet tilfælde, hvor der er et tal, der gentages uendeligt mange gange, så skal man forlænge med 9, 99, 999,… alt efter hvor mange cifre, der er i det tal, der gentages i det uendelige. Tælleren bliver så de cifre, der gentages, mens nævneren bliver det, man har forlænget med.\n\nEksempelvis bliver\n<latex>0.444 = \\frac{0.444*9}{9} = \\frac{4}{9}</latex>\n\n<latex>0.432743274327 = \\frac{0.432743274327 * 9999}{9999} = \\frac{4327}{9999}</latex>\n\nHer bruger vi, at\n<latex>0.333 * 9 = 3</latex>\n<latex>0.888 * 9 = 8</latex>\n<latex>0.171717 * 99 = 17</latex>\n<latex>0,123123123 * 999 = 123</latex>",
+                        "level": 1,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 131,
-              "description": "Level 3\n\nNår man skal trække en brøk fra en anden brøk, så skal man også sikre sig, at de har samme nævner. Derefter trækker man den ene tæller fra den anden. Lad os se på et eksempel.\n\nVi vil udregne\n<latex>\\frac{4}{7}-\\frac{3}{14}=?</latex>\n\nEt tal som både 7 og 14 går op i er 14. Brøken <latex>\\frac{3}{14}</latex> står allerede i fjortendedele, så den lader vi være. Brøken <latex>\\frac{4}{7}</latex> skal vi forlænge med 2 for at få den omskrevet til fjortendedele.\n<latex>\\frac{4}{7}=\\frac{2*4}{2*7}=\\frac{8}{14}</latex>\n\nNu er begge brøker i fjortendedele, og vi kan trække den ene fra den anden.\n<latex>\\frac{4}{7}-\\frac{3}{14}=\\frac{8}{14}-\\frac{3}{14}=\\frac{8-3}{14}=\\frac{5}{14}</latex>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}-\\frac{c}{b}=\\frac{a-c}{b}</latex>",
-              "level": 3,
-              "category": null
-            }
-          ]
+            "parent": 0
         },
-        "parent": 156
-      },
-      {
-        "id": 125,
-        "name": "Gange med brøker",
-        "quiz": null,
-        "description": {
-          "id": 20,
-          "levels": [
-            {
-              "id": 101,
-              "description": "Level 1\n\nNår man skal gange to brøker med hinanden, skal man bare gange tæller med tæller og nævner med nævner.\n\nMan behøver altså ikke at finde fællesnævnere og al den slags, som vi gjorde da vi skulle lægge dem sammen eller trække dem fra hinanden.\n\nF.eks. er\n<latex>\\frac{4}{5}*\\frac{2}{7}=\\frac{4*2}{5*7}=\\frac{8}{35}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*\\frac{c}{d}=\\frac{a*c}{b*d}</latex>",
-              "level": 1,
-              "category": null
+        {
+            "id": 142,
+            "name": "Omregning: Fra procent til decimaltal",
+            "quiz": null,
+            "description": {
+                "id": 37,
+                "levels": [
+                    {
+                        "id": 119,
+                        "description": "Hvis man vil omskrive en procentsats til et decimaltal, skal man huske, at ”procent” betyder ”hundrededele”. At finde en hundrededel svarer til at dividere med 100, og det svarer igen til at rykke kommaet to pladser til venstre.\n\n<latex>98\\% = 0.98</latex>\n<latex>120\\% = 1.20</latex>\n<latex>34.87\\% = 0.3487</latex>",
+                        "level": 1,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 134,
-              "description": "Level 2\n\nNår man skal gange to brøker med hinanden, skal man bare gange tæller med tæller og nævner med nævner.\n\nMan behøver altså ikke at finde fællesnævnere og al den slags, som vi gjorde da vi skulle lægge dem sammen eller trække dem fra hinanden.\n\nF.eks. er\n<latex>\\frac{4}{5}*\\frac{2}{7}=\\frac{4*2}{5*7}=\\frac{8}{35}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*\\frac{c}{d}=\\frac{a*c}{b*d}</latex>",
-              "level": 2,
-              "category": null
+            "parent": 0
+        },
+        {
+            "id": 124,
+            "name": "Lægge brøker sammen",
+            "quiz": null,
+            "description": {
+                "id": 19,
+                "levels": [
+                    {
+                        "id": 126,
+                        "description": "Level 2\n\nNår man skal lægge brøker sammen eller trække dem fra hinanden, så er det vigtigt, at de har den samme nævner. Man siger, at de skal have fællesnævner.\nDet er klart, fordi ét stykke af en kage, der er skåret i 10 stykker ikke repræsenterer lige så meget kage som ét stykke af en kage, der er skåret i 6 stykker. Man er nødt til at sørge for at stykkerne er lige store, før man begynder at lægge dem sammen eller trække dem fra hinanden (se evt. forrige afsnit om brøkers størrelse).\n\nVi ønsker at udregne\n<latex>\\frac{2}{3}+\\frac{1}{4}= ?</latex>\n\nFørst finder en fællesnævner for brøken. I dette tilfælde vælger vi fællesnævneren til 12 da både 3 og 4 går op i 12. Vi forlænger <latex>\\frac{2}{3}</latex> med 4 og <latex>\\frac{1}{4}</latex> med 3\n\n<latex>\\frac{2}{3}=\\frac{4*2}{4*3}=\\frac{8}{12}</latex>\n\n<latex>\\frac{1}{4}=\\frac{3*1}{3*4}=\\frac{3}{12}</latex>\n\nNu har brøkerne samme nævner, og vi kan derfor lægge dem sammen. Det gør man ved at lægge tællerne (tallene over brøkstregerne) sammen.\n<latex>\\frac{2}{3}+\\frac{1}{4}=\\frac{8}{12}+\\frac{3}{12}=\\frac{3+8}{12}=\\frac{11}{12}</latex>\n\nMan kan illustrere udregningen med et billede.\n<image>course_fraction_3.png</image>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}+\\frac{c}{b}=\\frac{a+c}{b}</latex>",
+                        "level": 2,
+                        "category": null
+                    },
+                    {
+                        "id": 100,
+                        "description": "Level 1\n\nNår man skal lægge brøker sammen eller trække dem fra hinanden, så er det vigtigt, at de har den samme nævner. Man siger, at de skal have fællesnævner.\nDet er klart, fordi ét stykke af en kage, der er skåret i 10 stykker ikke repræsenterer lige så meget kage som ét stykke af en kage, der er skåret i 6 stykker. Man er nødt til at sørge for at stykkerne er lige store, før man begynder at lægge dem sammen eller trække dem fra hinanden (se evt. forrige afsnit om brøkers størrelse).\n\nVi ønsker at udregne\n<latex>\\frac{2}{3}+\\frac{1}{4}= ?</latex>\n\nFørst finder en fællesnævner for brøken. I dette tilfælde vælger vi fællesnævneren til 12 da både 3 og 4 går op i 12. Vi forlænger <latex>\\frac{2}{3}</latex> med 4 og <latex>\\frac{1}{4}</latex> med 3\n\n<latex>\\frac{2}{3}=\\frac{4*2}{4*3}=\\frac{8}{12}</latex>\n\n<latex>\\frac{1}{4}=\\frac{3*1}{3*4}=\\frac{3}{12}</latex>\n\nNu har brøkerne samme nævner, og vi kan derfor lægge dem sammen. Det gør man ved at lægge tællerne (tallene over brøkstregerne) sammen.\n<latex>\\frac{2}{3}+\\frac{1}{4}=\\frac{8}{12}+\\frac{3}{12}=\\frac{3+8}{12}=\\frac{11}{12}</latex>\n\nMan kan illustrere udregningen med et billede.\n<image>course_fraction_3.png</image>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}+\\frac{c}{b}=\\frac{a+c}{b}</latex>",
+                        "level": 1,
+                        "category": null
+                    },
+                    {
+                        "id": 127,
+                        "description": "Level 3\n\nNår man skal lægge brøker sammen eller trække dem fra hinanden, så er det vigtigt, at de har den samme nævner. Man siger, at de skal have fællesnævner.\nDet er klart, fordi ét stykke af en kage, der er skåret i 10 stykker ikke repræsenterer lige så meget kage som ét stykke af en kage, der er skåret i 6 stykker. Man er nødt til at sørge for at stykkerne er lige store, før man begynder at lægge dem sammen eller trække dem fra hinanden (se evt. forrige afsnit om brøkers størrelse).\n\nVi ønsker at udregne\n<latex>\\frac{2}{3}+\\frac{1}{4}= ?</latex>\n\nFørst finder en fællesnævner for brøken. I dette tilfælde vælger vi fællesnævneren til 12 da både 3 og 4 går op i 12. Vi forlænger <latex>\\frac{2}{3}</latex> med 4 og <latex>\\frac{1}{4}</latex> med 3\n\n<latex>\\frac{2}{3}=\\frac{4*2}{4*3}=\\frac{8}{12}</latex>\n\n<latex>\\frac{1}{4}=\\frac{3*1}{3*4}=\\frac{3}{12}</latex>\n\nNu har brøkerne samme nævner, og vi kan derfor lægge dem sammen. Det gør man ved at lægge tællerne (tallene over brøkstregerne) sammen.\n<latex>\\frac{2}{3}+\\frac{1}{4}=\\frac{8}{12}+\\frac{3}{12}=\\frac{3+8}{12}=\\frac{11}{12}</latex>\n\nMan kan illustrere udregningen med et billede.\n<image>course_fraction_3.png</image>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}+\\frac{c}{b}=\\frac{a+c}{b}</latex>",
+                        "level": 3,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 135,
-              "description": "Level 3\n\nNår man skal gange to brøker med hinanden, skal man bare gange tæller med tæller og nævner med nævner.\n\nMan behøver altså ikke at finde fællesnævnere og al den slags, som vi gjorde da vi skulle lægge dem sammen eller trække dem fra hinanden.\n\nF.eks. er\n<latex>\\frac{4}{5}*\\frac{2}{7}=\\frac{4*2}{5*7}=\\frac{8}{35}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*\\frac{c}{d}=\\frac{a*c}{b*d}</latex>",
-              "level": 3,
-              "category": null
-            }
-          ]
+            "parent": 156
         },
-        "parent": 133
-      },
-      {
-        "id": 134,
-        "name": "Gange brøk med helt tal",
-        "quiz": null,
-        "description": {
-          "id": 29,
-          "levels": [
-            {
-              "id": 110,
-              "description": "Level 1\n\nHvis man skal gange et helt tal med en brøk, så ganger man det på i tælleren.\n\nF.eks:\n<latex>3*\\frac{2}{7}=\\frac{3*2}{7}=\\frac{6}{7}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*c=\\frac{a*c}{b}</latex>\n\n<latex>c*\\frac{a}{b}=\\frac{a*c}{b}</latex>\n",
-              "level": 1,
-              "category": null
+        {
+            "id": 132,
+            "name": "Lægge brøk til helt tal",
+            "quiz": null,
+            "description": {
+                "id": 27,
+                "levels": [
+                    {
+                        "id": 108,
+                        "description": "Level 1\n\nHvis vi ønsker at ligge en brøk til et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at lægge til. Derefter lægger vi de to brøker sammen. \n\nF.eks:\n<latex>4 + \\frac{2}{3} = \\frac{4*3}{3} + \\frac{2}{3} = \\frac{12}{3} + \\frac{2}{3} = \\frac{12+2}{3} = \\frac{14}{3}  </latex>\n\nAndet eksempel:\n<latex>13 + \\frac{6}{5} = \\frac{13*5}{5} + \\frac{6}{5} = \\frac{65}{5} + \\frac{6}{5} = \\frac{65+6}{5} = \\frac{71}{5}  </latex>\n",
+                        "level": 1,
+                        "category": null
+                    },
+                    {
+                        "id": 128,
+                        "description": "Level 2\n\nHvis vi ønsker at ligge en brøk til et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at lægge til. Derefter lægger vi de to brøker sammen. \n\nF.eks:\n<latex>4 + \\frac{2}{3} = \\frac{4*3}{3} + \\frac{2}{3} = \\frac{12}{3} + \\frac{2}{3} = \\frac{12+2}{3} = \\frac{14}{3}  </latex>\n\nAndet eksempel:\n<latex>13 + \\frac{6}{5} = \\frac{13*5}{5} + \\frac{6}{5} = \\frac{65}{5} + \\frac{6}{5} = \\frac{65+6}{5} = \\frac{71}{5}  </latex>\n",
+                        "level": 2,
+                        "category": null
+                    },
+                    {
+                        "id": 129,
+                        "description": "Level 3\n\nHvis vi ønsker at ligge en brøk til et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at lægge til. Derefter lægger vi de to brøker sammen. \n\nF.eks:\n<latex>4 + \\frac{2}{3} = \\frac{4*3}{3} + \\frac{2}{3} = \\frac{12}{3} + \\frac{2}{3} = \\frac{12+2}{3} = \\frac{14}{3}  </latex>\n\nAndet eksempel:\n<latex>13 + \\frac{6}{5} = \\frac{13*5}{5} + \\frac{6}{5} = \\frac{65}{5} + \\frac{6}{5} = \\frac{65+6}{5} = \\frac{71}{5}  </latex>\n",
+                        "level": 3,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 136,
-              "description": "Level 2\n\nHvis man skal gange et helt tal med en brøk, så ganger man det på i tælleren.\n\nF.eks:\n<latex>3*\\frac{2}{7}=\\frac{3*2}{7}=\\frac{6}{7}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*c=\\frac{a*c}{b}</latex>\n\n<latex>c*\\frac{a}{b}=\\frac{a*c}{b}</latex>\n",
-              "level": 2,
-              "category": null
+            "parent": 156
+        },
+        {
+            "id": 126,
+            "name": "Trækker brøker fra hinanden",
+            "quiz": null,
+            "description": {
+                "id": 21,
+                "levels": [
+                    {
+                        "id": 102,
+                        "description": "Level 1\n\nNår man skal trække en brøk fra en anden brøk, så skal man også sikre sig, at de har samme nævner. Derefter trækker man den ene tæller fra den anden. Lad os se på et eksempel.\n\nVi vil udregne\n<latex>\\frac{4}{7}-\\frac{3}{14}=?</latex>\n\nEt tal som både 7 og 14 går op i er 14. Brøken <latex>\\frac{3}{14}</latex> står allerede i fjortendedele, så den lader vi være. Brøken <latex>\\frac{4}{7}</latex> skal vi forlænge med 2 for at få den omskrevet til fjortendedele.\n<latex>\\frac{4}{7}=\\frac{2*4}{2*7}=\\frac{8}{14}</latex>\n\nNu er begge brøker i fjortendedele, og vi kan trække den ene fra den anden.\n<latex>\\frac{4}{7}-\\frac{3}{14}=\\frac{8}{14}-\\frac{3}{14}=\\frac{8-3}{14}=\\frac{5}{14}</latex>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}-\\frac{c}{b}=\\frac{a-c}{b}</latex>",
+                        "level": 1,
+                        "category": null
+                    },
+                    {
+                        "id": 130,
+                        "description": "Level 2\n\nNår man skal trække en brøk fra en anden brøk, så skal man også sikre sig, at de har samme nævner. Derefter trækker man den ene tæller fra den anden. Lad os se på et eksempel.\n\nVi vil udregne\n<latex>\\frac{4}{7}-\\frac{3}{14}=?</latex>\n\nEt tal som både 7 og 14 går op i er 14. Brøken <latex>\\frac{3}{14}</latex> står allerede i fjortendedele, så den lader vi være. Brøken <latex>\\frac{4}{7}</latex> skal vi forlænge med 2 for at få den omskrevet til fjortendedele.\n<latex>\\frac{4}{7}=\\frac{2*4}{2*7}=\\frac{8}{14}</latex>\n\nNu er begge brøker i fjortendedele, og vi kan trække den ene fra den anden.\n<latex>\\frac{4}{7}-\\frac{3}{14}=\\frac{8}{14}-\\frac{3}{14}=\\frac{8-3}{14}=\\frac{5}{14}</latex>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}-\\frac{c}{b}=\\frac{a-c}{b}</latex>",
+                        "level": 2,
+                        "category": null
+                    },
+                    {
+                        "id": 131,
+                        "description": "Level 3\n\nNår man skal trække en brøk fra en anden brøk, så skal man også sikre sig, at de har samme nævner. Derefter trækker man den ene tæller fra den anden. Lad os se på et eksempel.\n\nVi vil udregne\n<latex>\\frac{4}{7}-\\frac{3}{14}=?</latex>\n\nEt tal som både 7 og 14 går op i er 14. Brøken <latex>\\frac{3}{14}</latex> står allerede i fjortendedele, så den lader vi være. Brøken <latex>\\frac{4}{7}</latex> skal vi forlænge med 2 for at få den omskrevet til fjortendedele.\n<latex>\\frac{4}{7}=\\frac{2*4}{2*7}=\\frac{8}{14}</latex>\n\nNu er begge brøker i fjortendedele, og vi kan trække den ene fra den anden.\n<latex>\\frac{4}{7}-\\frac{3}{14}=\\frac{8}{14}-\\frac{3}{14}=\\frac{8-3}{14}=\\frac{5}{14}</latex>\n\nGenerelt kan reglen skrives op sådan her\n<latex>\\frac{a}{b}-\\frac{c}{b}=\\frac{a-c}{b}</latex>",
+                        "level": 3,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 137,
-              "description": "Level 3\n\nHvis man skal gange et helt tal med en brøk, så ganger man det på i tælleren.\n\nF.eks:\n<latex>3*\\frac{2}{7}=\\frac{3*2}{7}=\\frac{6}{7}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*c=\\frac{a*c}{b}</latex>\n\n<latex>c*\\frac{a}{b}=\\frac{a*c}{b}</latex>\n",
-              "level": 3,
-              "category": null
-            }
-          ]
+            "parent": 156
         },
-        "parent": 133
-      },
-      {
-        "id": 127,
-        "name": "Dividere brøk med brøk",
-        "quiz": null,
-        "description": {
-          "id": 22,
-          "levels": [
-            {
-              "id": 103,
-              "description": "Level 1\n\nNår man skal dividere en brøk med en anden brøk, så svarer det til at ”vende den bagerste brøk på hovedet” og derefter gange de to brøker med hinanden. F.eks. er\n\n<latex>\\frac{1}{5} : \\frac{3}{4} = \\frac{1}{5} * \\frac{4}{3} = \\frac{4}{15}</latex>\n\nDet er vigtigt, at det er den brøk, man dividerer med, som man vender om!\n\nGenerelt er reglen\n\n<latex>\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} * \\frac{d}{c}</latex>",
-              "level": 1,
-              "category": null
+        {
+            "id": 125,
+            "name": "Gange med brøker",
+            "quiz": null,
+            "description": {
+                "id": 20,
+                "levels": [
+                    {
+                        "id": 101,
+                        "description": "Level 1\n\nNår man skal gange to brøker med hinanden, skal man bare gange tæller med tæller og nævner med nævner.\n\nMan behøver altså ikke at finde fællesnævnere og al den slags, som vi gjorde da vi skulle lægge dem sammen eller trække dem fra hinanden.\n\nF.eks. er\n<latex>\\frac{4}{5}*\\frac{2}{7}=\\frac{4*2}{5*7}=\\frac{8}{35}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*\\frac{c}{d}=\\frac{a*c}{b*d}</latex>",
+                        "level": 1,
+                        "category": null
+                    },
+                    {
+                        "id": 134,
+                        "description": "Level 2\n\nNår man skal gange to brøker med hinanden, skal man bare gange tæller med tæller og nævner med nævner.\n\nMan behøver altså ikke at finde fællesnævnere og al den slags, som vi gjorde da vi skulle lægge dem sammen eller trække dem fra hinanden.\n\nF.eks. er\n<latex>\\frac{4}{5}*\\frac{2}{7}=\\frac{4*2}{5*7}=\\frac{8}{35}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*\\frac{c}{d}=\\frac{a*c}{b*d}</latex>",
+                        "level": 2,
+                        "category": null
+                    },
+                    {
+                        "id": 135,
+                        "description": "Level 3\n\nNår man skal gange to brøker med hinanden, skal man bare gange tæller med tæller og nævner med nævner.\n\nMan behøver altså ikke at finde fællesnævnere og al den slags, som vi gjorde da vi skulle lægge dem sammen eller trække dem fra hinanden.\n\nF.eks. er\n<latex>\\frac{4}{5}*\\frac{2}{7}=\\frac{4*2}{5*7}=\\frac{8}{35}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*\\frac{c}{d}=\\frac{a*c}{b*d}</latex>",
+                        "level": 3,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 138,
-              "description": "Level 2\n\nNår man skal dividere en brøk med en anden brøk, så svarer det til at ”vende den bagerste brøk på hovedet” og derefter gange de to brøker med hinanden. F.eks. er\n\n<latex>\\frac{1}{5} : \\frac{3}{4} = \\frac{1}{5} * \\frac{4}{3} = \\frac{4}{15}</latex>\n\nDet er vigtigt, at det er den brøk, man dividerer med, som man vender om!\n\nGenerelt er reglen\n\n<latex>\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} * \\frac{d}{c}</latex>",
-              "level": 2,
-              "category": null
+            "parent": 133
+        },
+        {
+            "id": 134,
+            "name": "Gange brøk med helt tal",
+            "quiz": null,
+            "description": {
+                "id": 29,
+                "levels": [
+                    {
+                        "id": 110,
+                        "description": "Level 1\n\nHvis man skal gange et helt tal med en brøk, så ganger man det på i tælleren.\n\nF.eks:\n<latex>3*\\frac{2}{7}=\\frac{3*2}{7}=\\frac{6}{7}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*c=\\frac{a*c}{b}</latex>\n\n<latex>c*\\frac{a}{b}=\\frac{a*c}{b}</latex>\n",
+                        "level": 1,
+                        "category": null
+                    },
+                    {
+                        "id": 136,
+                        "description": "Level 2\n\nHvis man skal gange et helt tal med en brøk, så ganger man det på i tælleren.\n\nF.eks:\n<latex>3*\\frac{2}{7}=\\frac{3*2}{7}=\\frac{6}{7}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*c=\\frac{a*c}{b}</latex>\n\n<latex>c*\\frac{a}{b}=\\frac{a*c}{b}</latex>\n",
+                        "level": 2,
+                        "category": null
+                    },
+                    {
+                        "id": 137,
+                        "description": "Level 3\n\nHvis man skal gange et helt tal med en brøk, så ganger man det på i tælleren.\n\nF.eks:\n<latex>3*\\frac{2}{7}=\\frac{3*2}{7}=\\frac{6}{7}</latex>\n\nGenerelt kan reglen skrives op med symboler sådan her:\n<latex>\\frac{a}{b}*c=\\frac{a*c}{b}</latex>\n\n<latex>c*\\frac{a}{b}=\\frac{a*c}{b}</latex>\n",
+                        "level": 3,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 139,
-              "description": "Level 3\n\nNår man skal dividere en brøk med en anden brøk, så svarer det til at ”vende den bagerste brøk på hovedet” og derefter gange de to brøker med hinanden. F.eks. er\n\n<latex>\\frac{1}{5} : \\frac{3}{4} = \\frac{1}{5} * \\frac{4}{3} = \\frac{4}{15}</latex>\n\nDet er vigtigt, at det er den brøk, man dividerer med, som man vender om!\n\nGenerelt er reglen\n\n<latex>\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} * \\frac{d}{c}</latex>",
-              "level": 3,
-              "category": null
-            }
-          ]
+            "parent": 133
         },
-        "parent": 133
-      },
-      {
-        "id": 129,
-        "name": "Forkorte brøker",
-        "quiz": null,
-        "description": {
-          "id": 24,
-          "levels": [
-            {
-              "id": 105,
-              "description": "Hvis vi derimod ønsker at gøre tælleren eller nævneren mindre, kan vi forkorte brøken. Dette gøres ved at dividere med det samme tal i både tæller og nævner. F.eks.\n\n<latex>\\frac{16}{24} = \\frac{16 : 8}{24 : 8} = \\frac{2}{3}</latex>\n\nVi kan også se på en tegning. Hvis pizzaen er delt i 8 stykker, og du spiser 6, så har du spist lige så meget, som hvis den var delt i 4 stykker, og du havde spist de 3.\n\n<image>course_fraction_5.png</image>\n\nGenerelt kan vi skrive reglen som\n\n<latex>\\frac{a}{b} = \\frac{a:k}{b:k}</latex>, gældende for et k der ikke er 0.",
-              "level": 1,
-              "category": null
-            }
-          ]
-        },
-        "parent": 133
-      },
-      {
-        "id": 138,
-        "name": "Omregning: Fra brøk til procent",
-        "quiz": null,
-        "description": {
-          "id": 33,
-          "levels": [
-            {
-              "id": 115,
-              "description": "Når man skal omregne en brøk til en procentsats, så skal man forlænge eller forkorte brøken således, at der står 100 i nævneren. Dette skyldes, at én procent netop svarer til én hundrededel.\n\n<latex>\\frac{1}{4} = \\frac{1*25}{4*25} = \\frac{25}{100} = 100\\%</latex>\n\nI eksemplet ovenfor har vi forlænget brøken med 25, fordi <latex>4*25=100</latex>.\n\nDet handler altså om at finde ud af, hvilket tal, man skal forlænge med for at få 100 i nævneren.\n\nHvis man er i tvivl om, hvad man skal forlænge med, så kan man finde det ved at dividere 100 med nævneren. F.eks. er <latex>\\frac{100}6{}=16,666...</latex>\nDerfor er\n<latex>\\frac{5}{6} = \\frac{5*16.666}{6*16.666} = \\frac{83.333}{100} = 83.333\\%</latex>",
-              "level": 1,
-              "category": null
-            }
-          ]
-        },
-        "parent": 144
-      },
-      {
-        "id": 139,
-        "name": "Omregning: Fra procent til brøk",
-        "quiz": null,
-        "description": {
-          "id": 34,
-          "levels": [
-            {
-              "id": 116,
-              "description": "Hvis man har fået en procentsats, og man gerne vil skrive den som en brøk, så er det vigtigt at huske, at ”procent” betyder ”hundrededele”. Man kan altså skrive x% om til <latex>\\frac{x}{100}</latex>. Herefter gælder det om at finde ud af, om der er nogen tal, der går op i både tæller og nævner. Hvis der er det, kan man forkorte brøken.\n\n<latex>38\\% = \\frac{38}{100} = \\frac{38 : 2}{100 : 2} = \\frac{19}{50}</latex>\n\nI eksemplet ovenfor har vi forkortet med 2, fordi 2 går op i både 38 og 100. Da 19 er et primtal, kan vi ikke forkorte brøken yderligere.\n\n<latex>64\\% = \\frac{64}{100} = \\frac{64 : 4}{100 : 4} = \\frac{16}{25}</latex>\n\nHvis der er tale om, at procentsatsen er et kommatal, så må man rykke kommaet i både tæller og nævner, før man finder tal, der går op i begge dele.\n\n<latex>37.5\\% = \\frac{37.5}{100} = \\frac{375}{1000}</latex>\n\nVi ser at 125 går op i både tæller og nævner. Dermed bliver\n\n<latex>\\frac{375}{1000} = \\frac{375 : 125}{1000 : 125} = \\frac{3}{8}</latex>\n\n37,5% svarer altså til <latex>\\frac{3}{8}</latex>.",
-              "level": 1,
-              "category": null
-            }
-          ]
-        },
-        "parent": 144
-      },
-      {
-        "id": 143,
-        "name": "Omregning: Fra decimaltal til procent",
-        "quiz": null,
-        "description": {
-          "id": 38,
-          "levels": [
-            {
-              "id": 120,
-              "description": "Her gør man det omvendte af ovenfor. Man rykker kommaet to pladser til højre\n\n<latex>0.17 = 17\\%</latex>\n<latex>1.456 = 145.6\\%</latex>\n<latex>0.1112 = 11.12\\%</latex>",
-              "level": 1,
-              "category": null
-            }
-          ]
-        },
-        "parent": 142
-      },
-      {
-        "id": 156,
-        "name": "Welcome",
-        "quiz": null,
-        "description": {
-          "id": 48,
-          "levels": [
-            {
-              "id": 155,
-              "description": "Hi <name>, today I will teach you about fractions!",
-              "level": 2,
-              "category": null
+        {
+            "id": 127,
+            "name": "Dividere brøk med brøk",
+            "quiz": null,
+            "description": {
+                "id": 22,
+                "levels": [
+                    {
+                        "id": 103,
+                        "description": "Level 1\n\nNår man skal dividere en brøk med en anden brøk, så svarer det til at ”vende den bagerste brøk på hovedet” og derefter gange de to brøker med hinanden. F.eks. er\n\n<latex>\\frac{1}{5} : \\frac{3}{4} = \\frac{1}{5} * \\frac{4}{3} = \\frac{4}{15}</latex>\n\nDet er vigtigt, at det er den brøk, man dividerer med, som man vender om!\n\nGenerelt er reglen\n\n<latex>\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} * \\frac{d}{c}</latex>",
+                        "level": 1,
+                        "category": null
+                    },
+                    {
+                        "id": 138,
+                        "description": "Level 2\n\nNår man skal dividere en brøk med en anden brøk, så svarer det til at ”vende den bagerste brøk på hovedet” og derefter gange de to brøker med hinanden. F.eks. er\n\n<latex>\\frac{1}{5} : \\frac{3}{4} = \\frac{1}{5} * \\frac{4}{3} = \\frac{4}{15}</latex>\n\nDet er vigtigt, at det er den brøk, man dividerer med, som man vender om!\n\nGenerelt er reglen\n\n<latex>\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} * \\frac{d}{c}</latex>",
+                        "level": 2,
+                        "category": null
+                    },
+                    {
+                        "id": 139,
+                        "description": "Level 3\n\nNår man skal dividere en brøk med en anden brøk, så svarer det til at ”vende den bagerste brøk på hovedet” og derefter gange de to brøker med hinanden. F.eks. er\n\n<latex>\\frac{1}{5} : \\frac{3}{4} = \\frac{1}{5} * \\frac{4}{3} = \\frac{4}{15}</latex>\n\nDet er vigtigt, at det er den brøk, man dividerer med, som man vender om!\n\nGenerelt er reglen\n\n<latex>\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} * \\frac{d}{c}</latex>",
+                        "level": 3,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 156,
-              "description": "Hi <name>, today I will teach you about fractions!",
-              "level": 3,
-              "category": null
+            "parent": 133
+        },
+        {
+            "id": 129,
+            "name": "Forkorte brøker",
+            "quiz": null,
+            "description": {
+                "id": 24,
+                "levels": [
+                    {
+                        "id": 105,
+                        "description": "Hvis vi derimod ønsker at gøre tælleren eller nævneren mindre, kan vi forkorte brøken. Dette gøres ved at dividere med det samme tal i både tæller og nævner. F.eks.\n\n<latex>\\frac{16}{24} = \\frac{16 : 8}{24 : 8} = \\frac{2}{3}</latex>\n\nVi kan også se på en tegning. Hvis pizzaen er delt i 8 stykker, og du spiser 6, så har du spist lige så meget, som hvis den var delt i 4 stykker, og du havde spist de 3.\n\n<image>course_fraction_5.png</image>\n\nGenerelt kan vi skrive reglen som\n\n<latex>\\frac{a}{b} = \\frac{a:k}{b:k}</latex>, gældende for et k der ikke er 0.",
+                        "level": 1,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 153,
-              "description": "Hi <name>, today I will teach you about fractions!",
-              "level": 1,
-              "category": null
-            }
-          ]
+            "parent": 133
         },
-        "parent": 0
-      },
-      {
-        "id": 119,
-        "name": "Brøkers størrelse",
-        "quiz": null,
-        "description": {
-          "id": 14,
-          "levels": [
-            {
-              "id": 94,
-              "description": "Level 2\n\nNogle gange kan det være svært at sammenligne brøkers størrelse. Er <latex>\\frac{3}{10}</latex> f.eks. større end eller mindre end <latex>\\frac{2}{7}</latex>?\n\nGenerelt kan man sige, at jo større nævneren (tallet under brøkstregen) bliver, des mindre bliver brøken. F.eks. er <latex>\\frac{1}{100}</latex> (en hundrededel) mindre end <latex>\\frac{1}{10}</latex> (en tiendedel).\n\nDet kan virke mærkeligt, da 100 jo er større end 10. Man kan tænke på det som en stor bradepandekage. Hvis der er 100, der gerne vil smage kagen, så bliver stykkerne meget små (hver af dem bliver <latex>\\frac{1}{100}</latex> af kagen), mens hvis der kun er 10, der vil have kage, så bliver hvert stykke større (hvert stykke bliver <latex>\\frac{1}{10}</latex> af kagen).\n\n<image>course_fraction_2.png</image>",
-              "level": 2,
-              "category": null
+        {
+            "id": 138,
+            "name": "Omregning: Fra brøk til procent",
+            "quiz": null,
+            "description": {
+                "id": 33,
+                "levels": [
+                    {
+                        "id": 115,
+                        "description": "Når man skal omregne en brøk til en procentsats, så skal man forlænge eller forkorte brøken således, at der står 100 i nævneren. Dette skyldes, at én procent netop svarer til én hundrededel.\n\n<latex>\\frac{1}{4} = \\frac{1*25}{4*25} = \\frac{25}{100} = 100\\%</latex>\n\nI eksemplet ovenfor har vi forlænget brøken med 25, fordi <latex>4*25=100</latex>.\n\nDet handler altså om at finde ud af, hvilket tal, man skal forlænge med for at få 100 i nævneren.\n\nHvis man er i tvivl om, hvad man skal forlænge med, så kan man finde det ved at dividere 100 med nævneren. F.eks. er <latex>\\frac{100}6{}=16,666...</latex>\nDerfor er\n<latex>\\frac{5}{6} = \\frac{5*16.666}{6*16.666} = \\frac{83.333}{100} = 83.333\\%</latex>",
+                        "level": 1,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 93,
-              "description": "Level 1\n\nNogle gange kan det være svært at sammenligne brøkers størrelse. Er <latex>\\frac{3}{10}</latex> f.eks. større end eller mindre end <latex>\\frac{2}{7}</latex>?\n\nGenerelt kan man sige, at jo større nævneren (tallet under brøkstregen) bliver, des mindre bliver brøken. F.eks. er <latex>\\frac{1}{100}</latex> (en hundrededel) mindre end <latex>\\frac{1}{10}</latex> (en tiendedel).\n\nDet kan virke mærkeligt, da 100 jo er større end 10. Man kan tænke på det som en stor bradepandekage. Hvis der er 100, der gerne vil smage kagen, så bliver stykkerne meget små (hver af dem bliver <latex>\\frac{1}{100}</latex> af kagen), mens hvis der kun er 10, der vil have kage, så bliver hvert stykke større (hvert stykke bliver <latex>\\frac{1}{10}</latex> af kagen).\n\n<image>course_fraction_2.png</image>",
-              "level": 1,
-              "category": null
+            "parent": 144
+        },
+        {
+            "id": 139,
+            "name": "Omregning: Fra procent til brøk",
+            "quiz": null,
+            "description": {
+                "id": 34,
+                "levels": [
+                    {
+                        "id": 116,
+                        "description": "Hvis man har fået en procentsats, og man gerne vil skrive den som en brøk, så er det vigtigt at huske, at ”procent” betyder ”hundrededele”. Man kan altså skrive x% om til <latex>\\frac{x}{100}</latex>. Herefter gælder det om at finde ud af, om der er nogen tal, der går op i både tæller og nævner. Hvis der er det, kan man forkorte brøken.\n\n<latex>38\\% = \\frac{38}{100} = \\frac{38 : 2}{100 : 2} = \\frac{19}{50}</latex>\n\nI eksemplet ovenfor har vi forkortet med 2, fordi 2 går op i både 38 og 100. Da 19 er et primtal, kan vi ikke forkorte brøken yderligere.\n\n<latex>64\\% = \\frac{64}{100} = \\frac{64 : 4}{100 : 4} = \\frac{16}{25}</latex>\n\nHvis der er tale om, at procentsatsen er et kommatal, så må man rykke kommaet i både tæller og nævner, før man finder tal, der går op i begge dele.\n\n<latex>37.5\\% = \\frac{37.5}{100} = \\frac{375}{1000}</latex>\n\nVi ser at 125 går op i både tæller og nævner. Dermed bliver\n\n<latex>\\frac{375}{1000} = \\frac{375 : 125}{1000 : 125} = \\frac{3}{8}</latex>\n\n37,5% svarer altså til <latex>\\frac{3}{8}</latex>.",
+                        "level": 1,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 95,
-              "description": "Level 3\n\nNogle gange kan det være svært at sammenligne brøkers størrelse. Er <latex>\\frac{3}{10}</latex> f.eks. større end eller mindre end <latex>\\frac{2}{7}</latex>?\n\nGenerelt kan man sige, at jo større nævneren (tallet under brøkstregen) bliver, des mindre bliver brøken. F.eks. er <latex>\\frac{1}{100}</latex> (en hundrededel) mindre end <latex>\\frac{1}{10}</latex> (en tiendedel).\n\nDet kan virke mærkeligt, da 100 jo er større end 10. Man kan tænke på det som en stor bradepandekage. Hvis der er 100, der gerne vil smage kagen, så bliver stykkerne meget små (hver af dem bliver <latex>\\frac{1}{100}</latex> af kagen), mens hvis der kun er 10, der vil have kage, så bliver hvert stykke større (hvert stykke bliver <latex>\\frac{1}{10}</latex> af kagen).\n\n<image>course_fraction_2.png</image>",
-              "level": 3,
-              "category": null
-            }
-          ]
+            "parent": 144
         },
-        "parent": 0
-      },
-      {
-        "id": 133,
-        "name": "Trække brøk fra helt tal",
-        "quiz": null,
-        "description": {
-          "id": 28,
-          "levels": [
-            {
-              "id": 109,
-              "description": "Level 1\n\nHvis vi ønsker at trække en brøk fra et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at trække fra det hele tal. Derefter trækker vi de to brøker fra hinanden.\n\nF.eks:\n<latex>4 - \\frac{2}{3} = \\frac{4*3}{3} - \\frac{2}{3} = \\frac{12}{3} - \\frac{2}{3} = \\frac{12-2}{3} = \\frac{10}{3}  </latex>\n\nAndet eksempel:\n<latex>13 - \\frac{6}{5} = \\frac{13*5}{5} - \\frac{6}{5} = \\frac{65}{5} - \\frac{6}{5} = \\frac{65-6}{5} = \\frac{59}{5}  </latex>\n",
-              "level": 1,
-              "category": null
+        {
+            "id": 143,
+            "name": "Omregning: Fra decimaltal til procent",
+            "quiz": null,
+            "description": {
+                "id": 38,
+                "levels": [
+                    {
+                        "id": 120,
+                        "description": "Her gør man det omvendte af ovenfor. Man rykker kommaet to pladser til højre\n\n<latex>0.17 = 17\\%</latex>\n<latex>1.456 = 145.6\\%</latex>\n<latex>0.1112 = 11.12\\%</latex>",
+                        "level": 1,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 132,
-              "description": "Level 2\n\nHvis vi ønsker at trække en brøk fra et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at trække fra det hele tal. Derefter trækker vi de to brøker fra hinanden.\n\nF.eks:\n<latex>4 - \\frac{2}{3} = \\frac{4*3}{3} - \\frac{2}{3} = \\frac{12}{3} - \\frac{2}{3} = \\frac{12-2}{3} = \\frac{10}{3}  </latex>\n\nAndet eksempel:\n<latex>13 - \\frac{6}{5} = \\frac{13*5}{5} - \\frac{6}{5} = \\frac{65}{5} - \\frac{6}{5} = \\frac{65-6}{5} = \\frac{59}{5}  </latex>\n",
-              "level": 2,
-              "category": null
+            "parent": 142
+        },
+        {
+            "id": 121,
+            "name": "Delen af det hele",
+            "quiz": null,
+            "description": {
+                "id": 16,
+                "levels": [
+                    {
+                        "id": 97,
+                        "description": "Level 1\n\nNår man skal finde en brøkdel af en størrelse, så svarer det til at gange brøken med størrelsen.\n\nEn opgave kunne lyde: En flagstang er 16 m høj. Et træ udgør <latex>\\frac{3}{8}</latex> af flagstangens højde. Hvor højt er træet? \n\nVi skal altså finde ud af, hvor meget <latex>\\frac{3}{8}</latex> (tre ottendedele) af 16 m er.\n<latex>\\frac{3}{8}*16</latex> m <latex>=\\frac{3*16}{8}</latex> m <latex>=\\frac{48}{8}</latex> m <latex>=6</latex> m.\n\nEn anden opgave kunne lyde: Hvor mange minutter er <latex>\\frac{5}{8}</latex> af en time?\nDer er som bekendt 60 minutter på en time. Vi skal altså finde <latex>\\frac{5}{8}</latex> af 60 minutter.\n\n<latex>\\frac{5}{8}*60</latex> min. <latex>=\\frac{5*60}{8}</latex> min. <latex>=\\frac{300}{8}</latex> min.\n\nDen sidste brøk kan vi forkorte med 4 (da 4 både går op i 300 og i 8), og så får vi\n<latex>\\frac{5}{8}</latex> af en time svarer altså til 37,5 minutter.",
+                        "level": 1,
+                        "category": null
+                    },
+                    {
+                        "id": 122,
+                        "description": "Level 2\n\nNår man skal finde en brøkdel af en størrelse, så svarer det til at gange brøken med størrelsen.\n\nEn opgave kunne lyde: En flagstang er 16 m høj. Et træ udgør <latex>\\frac{3}{8}</latex> af flagstangens højde. Hvor højt er træet? \n\nVi skal altså finde ud af, hvor meget <latex>\\frac{3}{8}</latex> (tre ottendedele) af 16 m er.\n<latex>\\frac{3}{8}*16</latex> m <latex>=\\frac{3*16}{8}</latex> m <latex>=\\frac{48}{8}</latex> m <latex>=6</latex> m.\n\nEn anden opgave kunne lyde: Hvor mange minutter er <latex>\\frac{5}{8}</latex> af en time?\nDer er som bekendt 60 minutter på en time. Vi skal altså finde <latex>\\frac{5}{8}</latex> af 60 minutter.\n\n<latex>\\frac{5}{8}*60</latex> min. <latex>=\\frac{5*60}{8}</latex> min. <latex>=\\frac{300}{8}</latex> min.\n\nDen sidste brøk kan vi forkorte med 4 (da 4 både går op i 300 og i 8), og så får vi\n<latex>\\frac{5}{8}</latex> af en time svarer altså til 37,5 minutter.",
+                        "level": 2,
+                        "category": null
+                    },
+                    {
+                        "id": 123,
+                        "description": "Level 3\n\nNår man skal finde en brøkdel af en størrelse, så svarer det til at gange brøken med størrelsen.\n\nEn opgave kunne lyde: En flagstang er 16 m høj. Et træ udgør <latex>\\frac{3}{8}</latex> af flagstangens højde. Hvor højt er træet? \n\nVi skal altså finde ud af, hvor meget <latex>\\frac{3}{8}</latex> (tre ottendedele) af 16 m er.\n<latex>\\frac{3}{8}*16</latex> m <latex>=\\frac{3*16}{8}</latex> m <latex>=\\frac{48}{8}</latex> m <latex>=6</latex> m.\n\nEn anden opgave kunne lyde: Hvor mange minutter er <latex>\\frac{5}{8}</latex> af en time?\nDer er som bekendt 60 minutter på en time. Vi skal altså finde <latex>\\frac{5}{8}</latex> af 60 minutter.\n\n<latex>\\frac{5}{8}*60</latex> min. <latex>=\\frac{5*60}{8}</latex> min. <latex>=\\frac{300}{8}</latex> min.\n\nDen sidste brøk kan vi forkorte med 4 (da 4 både går op i 300 og i 8), og så får vi\n<latex>\\frac{5}{8}</latex> af en time svarer altså til 37,5 minutter.",
+                        "level": 3,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 133,
-              "description": "Level 3\n\nHvis vi ønsker at trække en brøk fra et helt tal, kan vi gøre det ved at omskrive det hele tal til en brøk, der har samme nævner som brøkken vi ønsker at trække fra det hele tal. Derefter trækker vi de to brøker fra hinanden.\n\nF.eks:\n<latex>4 - \\frac{2}{3} = \\frac{4*3}{3} - \\frac{2}{3} = \\frac{12}{3} - \\frac{2}{3} = \\frac{12-2}{3} = \\frac{10}{3}  </latex>\n\nAndet eksempel:\n<latex>13 - \\frac{6}{5} = \\frac{13*5}{5} - \\frac{6}{5} = \\frac{65}{5} - \\frac{6}{5} = \\frac{65-6}{5} = \\frac{59}{5}  </latex>\n",
-              "level": 3,
-              "category": null
-            }
-          ]
+            "parent": 145
         },
-        "parent": 0
-      },
-      {
-        "id": 136,
-        "name": "Dividere helt tal med brøk",
-        "quiz": null,
-        "description": {
-          "id": 31,
-          "levels": [
-            {
-              "id": 113,
-              "description": "Level 1\n\nNår man skal dividere et tal med en brøk, så vender man brøken om og ganger tallet på i (den nye) tæller. F.eks. er\n\n<latex>8 : \\frac{19}{2} = 8 * \\frac{2}{19} = \\frac{8*2}{19} = \\frac{16}{19}</latex>\n\nIgen kan vi omskrive tallet til en brøk med 1 i nævneren, og så er også denne regel den samme som division af brøk med brøk.\n\n<latex>8 : \\frac{19}{2} = \\frac{8}{1} : \\frac{19}{2} = \\frac{8}{1} * \\frac{2}{19} = \\frac{8*2}{1*19} = \\frac{16}{19}</latex>",
-              "level": 1,
-              "category": null
+        {
+            "id": 137,
+            "name": "Repræsentere helt tal som en brøk",
+            "quiz": null,
+            "description": {
+                "id": 32,
+                "levels": [
+                    {
+                        "id": 124,
+                        "description": "Level 2\n\nSenere vil vi se hvorfor det er nyttigt at kunne omskrive et helt tal, f.eks. 24, 13, 99 etc. som en brøk. \nHvis man har et tal f.eks. 24, og gerne vil repræsentere det som et helt tal så gør man det på følgende måde:\n\nDu vælger et tilfældigt tal som du ønsker at have i nævneren på din brøk. Lad os kalde dette tal <latex>\\textbf{k}</latex>. I tælleren sætter du det tal som du ønsker at repræsentere, ganget med <latex>\\textbf{k}</latex>.\n\nF.eks.\nØnsker vi at repræsentere tallet 24 som en brøk kan vi gøre det på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 7, og brøken ser derfor sådan ud: <latex>\\frac{7*24}{7} = \\frac{168}{7} = 24</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 4, og brøken ser derfor sådan ud: <latex>\\frac{4*24}{4} = \\frac{96}{4} = 24</latex>.\n\nSom et andet eksempel kan vi ønske at repræsentere tallet 5 som en brøk. Det kan gøres på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 2, og brøken ser derfor sådan ud: <latex>\\frac{2*5}{2} = \\frac{10}{2} = 5</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 8, og brøken ser derfor sådan ud: <latex>\\frac{8*5}{8} = \\frac{40}{8} = 5</latex>.\n\nGenerelt kan formlen skrives som:\n<latex>\\frac{a*b}{b} = a</latex>",
+                        "level": 2,
+                        "category": null
+                    },
+                    {
+                        "id": 114,
+                        "description": "Level 1\n\nSenere vil vi se hvorfor det er nyttigt at kunne omskrive et helt tal, f.eks. 24, 13, 99 etc. som en brøk. \nHvis man har et tal f.eks. 24, og gerne vil repræsentere det som et helt tal så gør man det på følgende måde:\n\nDu vælger et tilfældigt tal som du ønsker at have i nævneren på din brøk. Lad os kalde dette tal <latex>\\textbf{k}</latex>. I tælleren sætter du det tal som du ønsker at repræsentere, ganget med <latex>\\textbf{k}</latex>.\n\nF.eks.\nØnsker vi at repræsentere tallet 24 som en brøk kan vi gøre det på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 7, og brøken ser derfor sådan ud: <latex>\\frac{7*24}{7} = \\frac{168}{7} = 24</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 4, og brøken ser derfor sådan ud: <latex>\\frac{4*24}{4} = \\frac{96}{4} = 24</latex>.\n\nSom et andet eksempel kan vi ønske at repræsentere tallet 5 som en brøk. Det kan gøres på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 2, og brøken ser derfor sådan ud: <latex>\\frac{2*5}{2} = \\frac{10}{2} = 5</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 8, og brøken ser derfor sådan ud: <latex>\\frac{8*5}{8} = \\frac{40}{8} = 5</latex>.\n\nGenerelt kan formlen skrives som:\n<latex>\\frac{a*b}{b} = a</latex>",
+                        "level": 1,
+                        "category": null
+                    },
+                    {
+                        "id": 125,
+                        "description": "Level 3\n\nSenere vil vi se hvorfor det er nyttigt at kunne omskrive et helt tal, f.eks. 24, 13, 99 etc. som en brøk. \nHvis man har et tal f.eks. 24, og gerne vil repræsentere det som et helt tal så gør man det på følgende måde:\n\nDu vælger et tilfældigt tal som du ønsker at have i nævneren på din brøk. Lad os kalde dette tal <latex>\\textbf{k}</latex>. I tælleren sætter du det tal som du ønsker at repræsentere, ganget med <latex>\\textbf{k}</latex>.\n\nF.eks.\nØnsker vi at repræsentere tallet 24 som en brøk kan vi gøre det på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 7, og brøken ser derfor sådan ud: <latex>\\frac{7*24}{7} = \\frac{168}{7} = 24</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 4, og brøken ser derfor sådan ud: <latex>\\frac{4*24}{4} = \\frac{96}{4} = 24</latex>.\n\nSom et andet eksempel kan vi ønske at repræsentere tallet 5 som en brøk. Det kan gøres på følgende måde:\nVi vælger <latex>\\textbf{k}</latex> som tallet 2, og brøken ser derfor sådan ud: <latex>\\frac{2*5}{2} = \\frac{10}{2} = 5</latex>.\n\nVi vælger <latex>\\textbf{k}</latex> som tallet 8, og brøken ser derfor sådan ud: <latex>\\frac{8*5}{8} = \\frac{40}{8} = 5</latex>.\n\nGenerelt kan formlen skrives som:\n<latex>\\frac{a*b}{b} = a</latex>",
+                        "level": 3,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 142,
-              "description": "Level 2\n\nNår man skal dividere et tal med en brøk, så vender man brøken om og ganger tallet på i (den nye) tæller. F.eks. er\n\n<latex>8 : \\frac{19}{2} = 8 * \\frac{2}{19} = \\frac{8*2}{19} = \\frac{16}{19}</latex>\n\nIgen kan vi omskrive tallet til en brøk med 1 i nævneren, og så er også denne regel den samme som division af brøk med brøk.\n\n<latex>8 : \\frac{19}{2} = \\frac{8}{1} : \\frac{19}{2} = \\frac{8}{1} * \\frac{2}{19} = \\frac{8*2}{1*19} = \\frac{16}{19}</latex>",
-              "level": 2,
-              "category": null
+            "parent": 145
+        },
+        {
+            "id": 135,
+            "name": "Dividere brøk med helt tal",
+            "quiz": null,
+            "description": {
+                "id": 30,
+                "levels": [
+                    {
+                        "id": 111,
+                        "description": "Level 1\n\nNår man skal dividere en brøk med et tal, så ganger man tallet på i nævneren. F.eks er\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6*2} = \\frac{5}{12}</latex>\n\nEn måde at huske denne regel på er ved at omskrive tallet til en brøk. (Ethvert tal svarer nemlig til en brøk med 1 i nævneren).  Nu er den hen regel egentlig bare den samme som division af brøk med brøk. Eksemplet ovenfor ville blive\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6} : \\frac{2}{1} = \\frac{5}{6} * \\frac{1}{2} = \\frac{5*1}{6*2} = \\frac{5}{12}</latex>\n",
+                        "level": 1,
+                        "category": null
+                    },
+                    {
+                        "id": 141,
+                        "description": "Level 3\n\nNår man skal dividere en brøk med et tal, så ganger man tallet på i nævneren. F.eks er\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6*2} = \\frac{5}{12}</latex>\n\nEn måde at huske denne regel på er ved at omskrive tallet til en brøk. (Ethvert tal svarer nemlig til en brøk med 1 i nævneren).  Nu er den hen regel egentlig bare den samme som division af brøk med brøk. Eksemplet ovenfor ville blive\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6} : \\frac{2}{1} = \\frac{5}{6} * \\frac{1}{2} = \\frac{5*1}{6*2} = \\frac{5}{12}</latex>\n",
+                        "level": 3,
+                        "category": null
+                    },
+                    {
+                        "id": 140,
+                        "description": "Level 2\n\nNår man skal dividere en brøk med et tal, så ganger man tallet på i nævneren. F.eks er\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6*2} = \\frac{5}{12}</latex>\n\nEn måde at huske denne regel på er ved at omskrive tallet til en brøk. (Ethvert tal svarer nemlig til en brøk med 1 i nævneren).  Nu er den hen regel egentlig bare den samme som division af brøk med brøk. Eksemplet ovenfor ville blive\n\n<latex>\\frac{5}{6} : 2 = \\frac{5}{6} : \\frac{2}{1} = \\frac{5}{6} * \\frac{1}{2} = \\frac{5*1}{6*2} = \\frac{5}{12}</latex>\n",
+                        "level": 2,
+                        "category": null
+                    }
+                ]
             },
-            {
-              "id": 143,
-              "description": "Level 3\n\nNår man skal dividere et tal med en brøk, så vender man brøken om og ganger tallet på i (den nye) tæller. F.eks. er\n\n<latex>8 : \\frac{19}{2} = 8 * \\frac{2}{19} = \\frac{8*2}{19} = \\frac{16}{19}</latex>\n\nIgen kan vi omskrive tallet til en brøk med 1 i nævneren, og så er også denne regel den samme som division af brøk med brøk.\n\n<latex>8 : \\frac{19}{2} = \\frac{8}{1} : \\frac{19}{2} = \\frac{8}{1} * \\frac{2}{19} = \\frac{8*2}{1*19} = \\frac{16}{19}</latex>",
-              "level": 3,
-              "category": null
-            }
-          ]
+            "parent": 127
         },
-        "parent": 0
-      },
-      {
-        "id": 122,
-        "name": "Blandede tal",
-        "quiz": null,
-        "description": {
-          "id": 17,
-          "levels": [
-            {
-              "id": 98,
-              "description": "Det sker, at tælleren er større end nævneren i en brøk. I så fald kan man omskrive brøken til et blandet tal. Dvs. et tal, der både indeholder heltal og brøker.\n\nF.eks er\n\n<latex>\\frac{4}{3} = 1\\frac{1}{3}</latex>\n\n<image>course_fraction_7.png</image>\n\nMan finder det hele tal ved at se, hvor mange gange nævneren går op i tælleren.\n\nDen rest, der er tilbage, bliver stående i tælleren.\n\nBemærk, at der IKKE er et skjult gangetegn mellem det hele tal og brøken i et blandet tal. Der er snarere et skjult plustegn.\n\nLad os for eksempel omskrive <latex>\\frac{13}{4}</latex> til et blandet tal.\n\nFørst skal vi finde ud af, hvor mange gange 4 går op i 13. 4 går op i 13 3 gange (4*3=12) og der er en rest på 1. Dermed er\n\n<latex>\\frac{13}{4} = 3\\frac{1}{4}</latex>\n\n<image>course_fraction_8.png</image>",
-              "level": 1,
-              "category": null
-            }
-          ]
+        {
+            "id": 128,
+            "name": "Forlænge brøker",
+            "quiz": null,
+            "description": {
+                "id": 23,
+                "levels": [
+                    {
+                        "id": 104,
+                        "description": "Når man regner med brøker, kan det ofte være praktisk at omforme dem.\nHvis man vil have et større tal i tæller eller nævner, kan man forlænge brøken. Det gør man ved at gange det samme tal på i tæller og nævner.\n\n<image>course_fraction_4.png</image>\n\nBrøkens værdi er altså uændret, når vi forlænger den. Et eksempel fra virkelighedens verden er, at om man er 8 mennesker om at dele 1 pizza eller 80 mennesker om at dele 10, så får man lige meget pizza\n\n<latex>\\frac{1}{8} = \\frac{1*10}{8*10} = \\frac{10}{80}</latex>\n\nGenerelt har vi reglen\n\n<latex>\\frac{a}{b} = \\frac{a*k}{b*k}</latex>, gældende for et k der ikke er 0.",
+                        "level": 1,
+                        "category": null
+                    }
+                ]
+            },
+            "parent": 127
         },
-        "parent": 0
-      },
-      {
-        "id": 144,
-        "name": "Fra blandet til til brøk",
-        "quiz": null,
-        "description": {
-          "id": 39,
-          "levels": [
-            {
-              "id": 121,
-              "description": "Hvis man vil omskrive et blandet tal til en brøk, så kan man ”forlænge” det hele tal med nævneren. Dvs. man laver en ny brøk, hvor man skriver nævneren fra den gamle brøk i nævneren og det hele tal ganget med den gamle nævner i tælleren. Derefter lægger man den nye brøk sammen med den gamle.\n\nEksempler:\n<latex>7\\frac{2}{3} = \\frac{7*3}{3} + \\frac{2}{3} = \\frac{21}{3} + \\frac{2}{3} = \\frac{23}{3}</latex>\n\n<latex>2\\frac{7}{8} = \\frac{2*8}{8} + \\frac{7}{8} = \\frac{16}{8} + \\frac{7}{8} = \\frac{23}{8}</latex>",
-              "level": 1,
-              "category": null
-            }
-          ]
-        },
-        "parent": 0
-      },
-      {
-        "id": 141,
-        "name": "Omregning: Fra decimaltal til brøk",
-        "quiz": null,
-        "description": {
-          "id": 36,
-          "levels": [
-            {
-              "id": 118,
-              "description": "Hvis man vil omskrive et decimaltal til en brøk, så er der to tilfælde, man kan se på. Det første tilfælde hvor der er endeligt mange cifre (f.eks. 0,125 eller 4,3), og det andet tilfælde, hvor der er et tal, der går igen og igen uendeligt mange gange (f.eks. 0,3333333333…).\n\nI det første tilfælde omskriver man decimaltallet ved i tælleren at skrive tallet, hvor man blot har fjernet kommaet. I nævneren skriver man et 1-tal efterfulgt af så mange 0’er som der er pladser efter kommaet. Herefter kan man forkorte brøken.\n\n<latex>0.125 = \\frac{125}{1000} = \\frac{125 : 125}{1000 : 125} = \\frac{1}{8}</latex>\n\nI eksemplet ovenfor skrev vi 1000 i nævneren, fordi der er 3 cifre efter kommaet i 0,125.\n\nHvis man er i det andet tilfælde, hvor der er et tal, der gentages uendeligt mange gange, så skal man forlænge med 9, 99, 999,… alt efter hvor mange cifre, der er i det tal, der gentages i det uendelige. Tælleren bliver så de cifre, der gentages, mens nævneren bliver det, man har forlænget med.\n\nEksempelvis bliver\n<latex>0.444 = \\frac{0.444*9}{9} = \\frac{4}{9}</latex>\n\n<latex>0.432743274327 = \\frac{0.432743274327 * 9999}{9999} = \\frac{4327}{9999}</latex>\n\nHer bruger vi, at\n<latex>0.333 * 9 = 3</latex>\n<latex>0.888 * 9 = 8</latex>\n<latex>0.171717 * 99 = 17</latex>\n<latex>0,123123123 * 999 = 123</latex>",
-              "level": 1,
-              "category": null
-            }
-          ]
-        },
-        "parent": 0
-      },
-      {
-        "id": 142,
-        "name": "Omregning: Fra procent til decimaltal",
-        "quiz": null,
-        "description": {
-          "id": 37,
-          "levels": [
-            {
-              "id": 119,
-              "description": "Hvis man vil omskrive en procentsats til et decimaltal, skal man huske, at ”procent” betyder ”hundrededele”. At finde en hundrededel svarer til at dividere med 100, og det svarer igen til at rykke kommaet to pladser til venstre.\n\n<latex>98\\% = 0.98</latex>\n<latex>120\\% = 1.20</latex>\n<latex>34.87\\% = 0.3487</latex>",
-              "level": 1,
-              "category": null
-            }
-          ]
-        },
-        "parent": 0
-      }
+        {
+            "id": 140,
+            "name": "Omregning: Fra brøk til decimaltal",
+            "quiz": null,
+            "description": {
+                "id": 35,
+                "levels": [
+                    {
+                        "id": 117,
+                        "description": "Hvis man har en brøk, man gerne vil omskrive til et decimaltal, så må man dividere brøken ud. Der findes flere metoder til at dividere. Vi gennemgår en her ved hjælp af et eksempel.\n\n<image>course_fraction_6.png</image>\n\nVil man omskrive <latex>\\frac{5}{8}</latex> til et decimaltal, så spørger man først hvor mange gange 8 går op i 5. Det er 0 gange. Man skriver dette nul ude til højre. Under femtallet skriver man også 0. Nu trækker man 0 fra 5. Det giver 5. Man hiver et 0 ned (det grønne).\n\nSå spørger man, hvor mange gange 8 går op i 50. Det er 6 gange. Man skriver 6-tallet ude til højre, og man skriver resultatet af 6⋅8 under 50. Ved at trække 48 fra 50 får vi 2. Vi trækker endnu et nul ned.\n\nSå spørger vi, hvor mange gange 8 går op i 20. Det er 2 gange. Vi skriver 2-tallet ude til højre of resultatet af 8⋅2 under 20. Vi trækker 16 fra 20 og får 4. Vi trækker et nul ned.\n\nTil sidst spørger vi, hvor mange gange 8 går op i 40. Det er 5 gange. Vi skriver 5 ude til højre, og skriver 5⋅8 under 40. Nu står der 40-40, og det giver 0. Når der står 0 forneden er vi færdige.\n\n<latex>\\frac{5}{8}</latex> svarer altså til 0,625.",
+                        "level": 1,
+                        "category": null
+                    }
+                ]
+            },
+            "parent": 139
+        }
     ]
   },
   {

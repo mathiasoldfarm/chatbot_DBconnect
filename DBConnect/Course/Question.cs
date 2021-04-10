@@ -31,9 +31,9 @@ namespace DBConnect
                 if (value != null)
                 {
                     possibleAnswersData = new List<(int, Answer)>();
-                    for (int i = 1; i <= value.Count; i++)
+                    for (int i = 0; i < value.Count; i++)
                     {
-                        possibleAnswersData.Add((i, value[i-1]));
+                        possibleAnswersData.Add((i, value[i]));
                     }
                 }
             }
@@ -68,7 +68,7 @@ namespace DBConnect
         }
 
         public void SortAnswers() {
-            possibleAnswersData.Sort((x, y) => y.Item1.CompareTo(x.Item1));
+            possibleAnswersData.Sort((x, y) => x.Item1.CompareTo(y.Item1));
         }
 
         public void GetQuery(List<NpgsqlCommand> queries, NpgsqlConnection connection)

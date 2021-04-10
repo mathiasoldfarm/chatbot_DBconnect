@@ -6,10 +6,10 @@ namespace DBConnect
     {
         static void Main(string[] args)
         {
-            Reader reader = new Reader();
+            //Reader reader = new Reader();
             Writer writer = new Writer();
 
-            reader.run();
+            //reader.run();
             writer.run();
         }
     }
