@@ -7,6 +7,7 @@ using System.Linq;
 
 namespace DBConnect {
     public class CourseCategory {
+        [JsonIgnore]
         public int id {
             get; set;
         }
@@ -34,6 +35,11 @@ namespace DBConnect {
         public CourseCategory(int _id, string _category, string _colorClass)
         {
             id = _id;
+            category = _category;
+            colorClass = _colorClass;
+        }
+
+        public CourseCategory(string _category, string _colorClass) {
             category = _category;
             colorClass = _colorClass;
         }

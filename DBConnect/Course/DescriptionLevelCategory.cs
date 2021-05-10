@@ -7,6 +7,7 @@ using System.Linq;
 
 namespace DBConnect {
     public class DescriptionLevelCategory {
+        [JsonIgnore]
         public int id {
             get; set;
         }

@@ -6,6 +6,7 @@ using Npgsql;
 
 namespace DBConnect {
     public class Quiz {
+        [JsonIgnore]
         public int id {
             get; set;
         }
@@ -27,6 +28,10 @@ namespace DBConnect {
         public Quiz(int _id, List<QuizLevel> _levels)
         {
             id = _id;
+            levels = _levels;
+        }
+
+        public Quiz(List<QuizLevel> _levels) {
             levels = _levels;
         }
 

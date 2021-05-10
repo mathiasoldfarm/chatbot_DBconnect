@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Data;
 using System.Collections.Generic;
 using System.IO;
@@ -20,7 +20,7 @@ namespace DBConnect
         private Dictionary<int, Description> descriptions;
         private Dictionary<int, Section> sections;
         private Dictionary<int, CourseCategory> courseCategories;
-        private Dictionary<int, Course> courses;
+        protected Dictionary<int, Course> courses;
 
         public Reader() {
             answers = new Dictionary<int, Answer>();
@@ -224,7 +224,7 @@ namespace DBConnect
             }
         }
 
-        private void ReadCourses() {
+        protected virtual void ReadCourses() {
             string possibleAnswersTable = "possibleAnswers";
             string questionsTable = "questions";
             string quizLevelsTable = "quizLevels";
@@ -277,9 +277,28 @@ namespace DBConnect
             AddCourseSectionRelations(DBData.Tables[courseSectionRelations]);
         }
 
+        private List<Course> CreateStructure() {
+            foreach (Course course in courses.Values) {
+                foreach(Section section in course.sections) {
+                    if ( section.parent != 0 ) {
+                        sections[section.parent].children.Add(section);
+                    }
+                }
+
+                course.sections = course.sections.Where(s => s.parent == 0).ToList();
+            }
+
+            return courses.Values.ToList();
+
+        }
+
         public void Serialize() {
-            List<Course> coursesAsList = courses.Values.ToList();
-            string json = JsonConvert.SerializeObject(coursesAsList);
+            string json = JsonConvert.SerializeObject(
+                CreateStructure(),
+                new JsonSerializerSettings {
+                    NullValueHandling = NullValueHandling.Ignore
+                }
+            );
             json = JValue.Parse(json).ToString(Formatting.Indented);
             File.WriteAllText(jsonFile, json);
         }

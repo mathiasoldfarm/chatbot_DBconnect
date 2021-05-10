@@ -6,6 +6,7 @@ using Npgsql;
 
 namespace DBConnect {
     public class Description {
+        [JsonIgnore]
         public int id {
             get; set;
         }
@@ -28,6 +29,10 @@ namespace DBConnect {
         {
             _id = id;
             _levels = levels;
+        }
+
+        public Description(List<DescriptionLevel> _levels) {
+            levels = _levels;
         }
 
         public void AddDescriptionLevel(DescriptionLevel descriptionLevel) {

@@ -6,9 +6,16 @@ using Npgsql;
 
 namespace DBConnect {
     public class Section {
+        [JsonIgnore]
         public int id {
             get; set;
         }
+
+        [JsonIgnore]
+        public int depth {
+            get; set;
+        }
+
         public string name {
             get; set;
         }
@@ -18,7 +25,13 @@ namespace DBConnect {
         public Description description {
             get; set;
         }
+
+        [JsonIgnore]
         public int parent {
+            get; set;
+        }
+
+        public List<Section> children {
             get; set;
         }
 
@@ -26,6 +39,7 @@ namespace DBConnect {
             try {
                 id = (int)row[0];
                 name = (string)row[1];
+                children = new List<Section>();
             }
             catch {
                 throw new Exception("Constructor argument DataRow was expected to have two arguments of type int string");
@@ -35,12 +49,16 @@ namespace DBConnect {
         [JsonConstructor]
         public Section(int _id, string _name, Quiz _quiz, Description _description, int _parent)
         {
+            parent = _parent;
             id = _id;
             name = _name;
             quiz = _quiz;
             description = _description;
-            parent = _parent;
+        }
 
+        public Section(string _name, int _depth) {
+            name = _name;
+            depth = _depth;
         }
 
 

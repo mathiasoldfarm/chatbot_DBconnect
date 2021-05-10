@@ -9,6 +9,7 @@ namespace DBConnect
 {
     public class Question
     {
+        [JsonIgnore]
         public int id {
             get; set;
         }
@@ -55,6 +56,11 @@ namespace DBConnect
         public Question(int _id, string _question, List<Answer> _possibleAnswers)
         {
             id = _id;
+            question = _question;
+            possibleAnswers = _possibleAnswers;
+        }
+
+        public Question(string _question, List<Answer> _possibleAnswers) {
             question = _question;
             possibleAnswers = _possibleAnswers;
         }

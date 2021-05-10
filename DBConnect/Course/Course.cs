@@ -7,6 +7,7 @@ using Npgsql;
 
 namespace DBConnect {
     public class Course {
+        [JsonIgnore]
         public int id {
             get; set;
         }
@@ -36,7 +37,12 @@ namespace DBConnect {
                     }
                 }
             }
-        }   
+        }
+
+        [JsonIgnore]
+        public List<Section> SectionsInWrittenOrder {
+            get; set;
+        }
 
         public Course(DataRow row) {
             try {
@@ -59,6 +65,12 @@ namespace DBConnect {
             sections = _sections;
         }
 
+        public Course(string _title, string _description, List<Section> _sections) {
+            title = _title;
+            description = _description;
+            sections = _sections;
+        }
+
         public void AddCategory(CourseCategory _category) {
             category = _category;
         }
@@ -69,6 +81,23 @@ namespace DBConnect {
 
         public void SortSections() {
             sectionsData.Sort((x, y) => x.Item1.CompareTo(y.Item1));
+        }
+
+        private int GetOrder(Section section) {
+            int order = -1;
+            int n = sections.Count;
+            for(int i = 0; i < n; i++) {
+                if ( section.id == sections[i].id ) {
+                    order = i;
+                    break;
+                }
+            }
+
+            if ( order == -1 ) {
+                throw new Exception("Invalid order");
+            }
+
+            return order;
         }
 
         public void GetQuery(List<NpgsqlCommand> queries, NpgsqlConnection connection)
@@ -92,7 +121,6 @@ namespace DBConnect {
             }
             _sections = parent_sorted_sections;
 
-
             foreach (Section section in _sections)
             {
                 section.GetQuery(queries, connection);
@@ -105,12 +133,12 @@ namespace DBConnect {
             query.Parameters.AddWithValue("description", description);
             query.Parameters.AddWithValue("category", category?.id);
             queries.Add(query);
-            for (int i = 0; i < _sections.Count; i++)
-            {
+
+            foreach(Section section in _sections) {
                 query = new NpgsqlCommand("INSERT INTO courses_sections(course_id, section_id, \"order\") VALUES (@course_id, @section_id, @order)", connection);
                 query.Parameters.AddWithValue("course_id", id);
-                query.Parameters.AddWithValue("section_id", _sections[i].id);
-                query.Parameters.AddWithValue("order", i);
+                query.Parameters.AddWithValue("section_id", section.id);
+                query.Parameters.AddWithValue("order", GetOrder(section));
                 queries.Add(query);
             }
         }

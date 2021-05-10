@@ -9,6 +9,7 @@ namespace DBConnect
 {
     public class QuizLevel
     {
+        [JsonIgnore]
         public int id { get; set; }
         public int level {
             get; set;
@@ -49,6 +50,11 @@ namespace DBConnect
         public QuizLevel(int _id, int _level, List<Question> _questions)
         {
             id = _id;
+            level = _level;
+            questions = _questions;
+        }
+
+        public QuizLevel(List<Question> _questions, int _level) {
             level = _level;
             questions = _questions;
         }
