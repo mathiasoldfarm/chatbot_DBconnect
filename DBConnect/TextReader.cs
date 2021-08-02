@@ -31,7 +31,7 @@ namespace DBConnect {
         }
 
         protected override void ReadCourses() {
-            string[] files = Directory.GetFiles("./../../../../../courses/", "" , SearchOption.AllDirectories);
+            string[] files = Directory.GetFiles("./../../../../../chatbot_frontend/courses/", "" , SearchOption.AllDirectories);
             List<Course> coursesTemp = new List<Course>();
             foreach( string filename in files ) {
                 if ( !filename.Contains(".DS_Store") ) {
