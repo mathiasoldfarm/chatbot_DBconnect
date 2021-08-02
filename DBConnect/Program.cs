@@ -12,10 +12,17 @@ namespace DBConnect
             TextReader textReader = new TextReader();
             //DocsWriter docsWriter = new DocsWriter();
 
-            //reader.run();
-            writer.run();
-            //textWriter.run();
             //textReader.run();
+            
+            //DB TO TEXT
+            //textWriter.run();
+
+            //TEXT TO JSON
+            textReader.run();
+
+            //JSON TO DB
+            writer.run();
+
             //docsWriter.run();
         }
     }

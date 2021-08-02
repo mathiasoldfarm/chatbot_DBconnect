@@ -26,6 +26,13 @@ namespace DBConnect {
             get; set;
         }
 
+        public bool usingQuiz {
+            get; set;
+        }
+        public bool usingDescription {
+            get; set;
+        }
+
         [JsonIgnore]
         public int parent {
             get; set;
@@ -39,6 +46,12 @@ namespace DBConnect {
             try {
                 id = (int)row[0];
                 name = (string)row[1];
+                if (row[5] != DBNull.Value) {
+                    usingQuiz = (bool)row[5];
+                }
+                if (row[6] != DBNull.Value) {
+                    usingDescription = (bool)row[6];
+                }
                 children = new List<Section>();
             }
             catch {
@@ -63,20 +76,11 @@ namespace DBConnect {
 
 
         public void AddDescription(Description _description) {
-            if ( quiz != null ) {
-                throw new Exception("Description cannot be set if quiz is not null");
-            } else {
-                description = _description;
-            }
+            description = _description;
         }
 
         public void AddQuiz(Quiz _quiz) {
-            if (description != null) {
-                throw new Exception("Quiz cannot be set if description is not null");
-            }
-            else {
-                quiz = _quiz;
-            }
+            quiz = _quiz;
         }
 
         public void AddParent(int id) {
