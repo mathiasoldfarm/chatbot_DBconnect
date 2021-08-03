@@ -54,163 +54,165 @@
           ]
         },
         "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Hvordan anvendes differentialregning?",
-        "description": {
-          "levels": [
-            {
-              "description": "Differentialregning har mange anvendelsesmuligheder i økonomiske sammenhænge. Her taler vi om profilfagene på hhx, dvs. afsætning, virksomhedsøkonomi og international økonomi. I dette afsnit ser vi på nogle eksempler, der viser anvendelsen af differentialregning iøkonomiske sammenhænge, ligesom vi også ser på teorien, der er knyttet hertil.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Definition på differentialkvotienten",
-        "description": {
-          "levels": [
-            {
-              "description": "Vi starter med en definition:<DEFINITION><H2>Differentialkvotient</H2>Differentialkvotienten er defineret som hældningskoefficienten for en tangent i etbestemt punkt på grafen for en funktion.Hvis funktionen hedder f(x), kalder vi differentialkvotienten f '(x), og den læses: differentialkvotienten f mærke af x, eller blot f mærke af x.</DEFINITION>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Forklaring på definition",
-        "description": {
-          "levels": [
-            {
-              "description": "Denne definition kan lyde indviklet; men differentialregning er i høj grad det samme som at beregne en linjes hældning, som vi kender fra tidligere.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Fortolkning på f'(x)",
-        "description": {
-          "levels": [
-            {
-              "description": "Vi kan fortolke f'(x) som et udtryk for, hvor meget y-værdierne ændrer sig, når x vokser mikroskopisk lidt. Værdierne for f '(x) afhænger derfor af, hvor vi befinder os på grafen. I det følgende gives en række eksempler på, hvordan differentialregning kan anvendes.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Betydning af koefficient",
-        "description": {
-          "levels": [
-            {
-              "description": "<TIP>Kvotient og koefficient betyder talværdi. En koefficient er en konstant, mens kvotient er et tal, der angiver forholdet mellem to størrelser.</TIP>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Tangentens hældning",
-        "description": {
-          "levels": [
-            {
-              "description": "<TIP>Differentialregning er som nævnt langt hen ad vejen tæt knyttet til lineære funktioner – og deres hældning, idet f '(x) angiver hældningen for den linje, der er tangent i punktet (x, f(x)) på grafen for en given funktion. f '(2) vil således være den talværdi, der angiver hældningen for tangenten, der tangerer grafen for f i punktet (2, f(2)).</TIP>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Anden notation for differentialkvotienten",
-        "description": {
-          "levels": [
-            {
-              "description": "<TIP>Kært barn har mange navne! Det betyder derfor også, at f '(x) angives på flere måder. Man kan se f ' præsenteret som: I mange IT-programmer er det ofte en helt anden notation, der anvendes, så det er vigtigt også at kende de notationer. Hvordan er notationen i det program, som du evt. anvender?</TIP>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Introduktion til eksempler om modellering",
-        "description": {
-          "levels": [
-            {
-              "description": "Differentialregning er relevant i forbindelse med matematisk modellering og de økonomiske fag. Nedenstående tre eksempler introducerer sammenhængen – som der vendes tilbage til. Her og nu forstår I nok ikke helt, hvad der menes; men tanken er også blot, at I allerede nu skal få en idé herom.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Eksempel 3.1.1. Differentialkvotient og afsætning",
-        "description": {
-          "levels": [
-            {
-              "description": "<EKSEMPEL><H2>Eksempel 3.1.1. Differentialkvotient og afsætning</h2>Følgende spørgsmål er relevant for mange virksomheder: \"Hvad sker der med afsætningen af et produkt, hvis vi ændrer prisen?\" Her kan vi se, at vi har fat i en sammenhæng mellem pris og afsætning. Vi kunne derfor formulere en matematisk funktion, der beskriver denne sammenhæng. Hvis f(x) beskriver afsætningen i stk. som funktion af prisen x i kr., vil differentialkvotienten f '(x) angive, hvor meget afsætningen ændres, hvis der ændres på prisen. For virksomheden vil svaret på spørgsmålet være vigtigt i bestemmelsen af den \"rigtige\" pris – altså fx den pris, der giver virksomheden størst overskud.</EKSEMPEL>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Eksempel 3.1.2. Differentialkvotient, samfundsfag og international økonomi",
-        "description": {
-          "levels": [
-            {
-              "description": "<EKSEMPEL><H2>Eksempel 3.1.2. Differentialkvotient, samfundsfag og international økonomi</h2>Der er sammenhæng imellem indkomstskatteniveauet og arbejdsløsheden i Danmark, hvilket skyldes, at hvis vi ændrer på indkomstskatteprocenterne, vil det få en effekt på arbejdsløsheden. Følgende spørgsmål kunne nu være relevant. \"Hvilken betydning vil det have for arbejdsløsheden i Danmark, hvis vi sætter indkomstskatten ned?\" Dette er et ofte debatteret spørgsmål og slet ikke så let at svare på. Men hvis vi kan få beskrevet sammenhængen mellem skat og arbejdsløshed grundigt, fx ved at beskrive sammenhængen med matematiske funktioner, vil differentialregningen til dels kunne give et svar på spørgsmålet.</EKSEMPEL>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Eksempel 3.1.3. Differentialkvotient og virksomhedsøkonomi",
-        "description": {
-          "levels": [
-            {
-              "description": "<EKSEMPEL><H2>Eksempel 3.1.3. Differentialkvotient og virksomhedsøkonomi</h2>For en produktionsvirksomhed vil der være en sammenhæng mellem produktionens størrelse og omkostningsniveauet i virksomheden, for jo flere stk., der produceres, jo større bliver de samlede omkostninger. Sammenhængen mellem produktionen i stk. og de samlede omkostninger i kr. kan beskrives ved hjælp af en matematisk funktion. I dette tilfælde vil differentialregning give os svar på spørgsmålet: \"Hvad sker der præcist med de samlede omkostninger, hvis vi øger produktionen med 1 stk.?\" Svaret på dette spørgsmål kan virksomheden bruge til at vurdere, om produktionen skal øges. Hvis fx den salgspris, virksomheden kan få for sit produkt, er større end omkostningsstigningen ved at øge produktionen, så skal virksomheden øge produktionen</EKSEMPEL>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Forklaring på eksempler",
-        "description": {
-          "levels": [
-            {
-              "description": "I alle tre eksempler vil svaret på det stillede spørgsmål være et tal. I eksempel 3.1.1 er svaret, hvor meget salget ændres, hvis prisen ændres. I eksempel 3.1.2 angiver vort svar, hvor meget arbejdsløsheden ændres, hvis skatteprocenten ændres. I eksempel 3.1.3 er svaret, hvor meget omkostningerne stiger, hvis produktionen øges. Vi kalder dette tal differentialkvotienten. Vi vil i det følgende afsnit se på, hvad dette tal – differentialkvotienten – betyder matematisk.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
+        "usingDescription": false,
+        "children": [
+          {
+            "name": "Hvordan anvendes differentialregning?",
+            "description": {
+              "levels": [
+                {
+                  "description": "Differentialregning har mange anvendelsesmuligheder i økonomiske sammenhænge. Her taler vi om profilfagene på hhx, dvs. afsætning, virksomhedsøkonomi og international økonomi. I dette afsnit ser vi på nogle eksempler, der viser anvendelsen af differentialregning iøkonomiske sammenhænge, ligesom vi også ser på teorien, der er knyttet hertil.",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Definition på differentialkvotienten",
+            "description": {
+              "levels": [
+                {
+                  "description": "Vi starter med en definition:<DEFINITION><H2>Differentialkvotient</H2>Differentialkvotienten er defineret som hældningskoefficienten for en tangent i etbestemt punkt på grafen for en funktion.Hvis funktionen hedder f(x), kalder vi differentialkvotienten f '(x), og den læses: differentialkvotienten f mærke af x, eller blot f mærke af x.</DEFINITION>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Forklaring på definition",
+            "description": {
+              "levels": [
+                {
+                  "description": "Denne definition kan lyde indviklet; men differentialregning er i høj grad det samme som at beregne en linjes hældning, som vi kender fra tidligere.",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Fortolkning på f'(x)",
+            "description": {
+              "levels": [
+                {
+                  "description": "Vi kan fortolke f'(x) som et udtryk for, hvor meget y-værdierne ændrer sig, når x vokser mikroskopisk lidt. Værdierne for f '(x) afhænger derfor af, hvor vi befinder os på grafen. I det følgende gives en række eksempler på, hvordan differentialregning kan anvendes.",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Betydning af koefficient",
+            "description": {
+              "levels": [
+                {
+                  "description": "<TIP>Kvotient og koefficient betyder talværdi. En koefficient er en konstant, mens kvotient er et tal, der angiver forholdet mellem to størrelser.</TIP>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Tangentens hældning",
+            "description": {
+              "levels": [
+                {
+                  "description": "<TIP>Differentialregning er som nævnt langt hen ad vejen tæt knyttet til lineære funktioner – og deres hældning, idet f '(x) angiver hældningen for den linje, der er tangent i punktet (x, f(x)) på grafen for en given funktion. f '(2) vil således være den talværdi, der angiver hældningen for tangenten, der tangerer grafen for f i punktet (2, f(2)).</TIP>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Anden notation for differentialkvotienten",
+            "description": {
+              "levels": [
+                {
+                  "description": "<TIP>Kært barn har mange navne! Det betyder derfor også, at f '(x) angives på flere måder. Man kan se f ' præsenteret som: I mange IT-programmer er det ofte en helt anden notation, der anvendes, så det er vigtigt også at kende de notationer. Hvordan er notationen i det program, som du evt. anvender?</TIP>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Introduktion til eksempler om modellering",
+            "description": {
+              "levels": [
+                {
+                  "description": "Differentialregning er relevant i forbindelse med matematisk modellering og de økonomiske fag. Nedenstående tre eksempler introducerer sammenhængen – som der vendes tilbage til. Her og nu forstår I nok ikke helt, hvad der menes; men tanken er også blot, at I allerede nu skal få en idé herom.",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Eksempel 3.1.1. Differentialkvotient og afsætning",
+            "description": {
+              "levels": [
+                {
+                  "description": "<EKSEMPEL><H2>Eksempel 3.1.1. Differentialkvotient og afsætning</h2>Følgende spørgsmål er relevant for mange virksomheder: \"Hvad sker der med afsætningen af et produkt, hvis vi ændrer prisen?\" Her kan vi se, at vi har fat i en sammenhæng mellem pris og afsætning. Vi kunne derfor formulere en matematisk funktion, der beskriver denne sammenhæng. Hvis f(x) beskriver afsætningen i stk. som funktion af prisen x i kr., vil differentialkvotienten f '(x) angive, hvor meget afsætningen ændres, hvis der ændres på prisen. For virksomheden vil svaret på spørgsmålet være vigtigt i bestemmelsen af den \"rigtige\" pris – altså fx den pris, der giver virksomheden størst overskud.</EKSEMPEL>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Eksempel 3.1.2. Differentialkvotient, samfundsfag og international økonomi",
+            "description": {
+              "levels": [
+                {
+                  "description": "<EKSEMPEL><H2>Eksempel 3.1.2. Differentialkvotient, samfundsfag og international økonomi</h2>Der er sammenhæng imellem indkomstskatteniveauet og arbejdsløsheden i Danmark, hvilket skyldes, at hvis vi ændrer på indkomstskatteprocenterne, vil det få en effekt på arbejdsløsheden. Følgende spørgsmål kunne nu være relevant. \"Hvilken betydning vil det have for arbejdsløsheden i Danmark, hvis vi sætter indkomstskatten ned?\" Dette er et ofte debatteret spørgsmål og slet ikke så let at svare på. Men hvis vi kan få beskrevet sammenhængen mellem skat og arbejdsløshed grundigt, fx ved at beskrive sammenhængen med matematiske funktioner, vil differentialregningen til dels kunne give et svar på spørgsmålet.</EKSEMPEL>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Eksempel 3.1.3. Differentialkvotient og virksomhedsøkonomi",
+            "description": {
+              "levels": [
+                {
+                  "description": "<EKSEMPEL><H2>Eksempel 3.1.3. Differentialkvotient og virksomhedsøkonomi</h2>For en produktionsvirksomhed vil der være en sammenhæng mellem produktionens størrelse og omkostningsniveauet i virksomheden, for jo flere stk., der produceres, jo større bliver de samlede omkostninger. Sammenhængen mellem produktionen i stk. og de samlede omkostninger i kr. kan beskrives ved hjælp af en matematisk funktion. I dette tilfælde vil differentialregning give os svar på spørgsmålet: \"Hvad sker der præcist med de samlede omkostninger, hvis vi øger produktionen med 1 stk.?\" Svaret på dette spørgsmål kan virksomheden bruge til at vurdere, om produktionen skal øges. Hvis fx den salgspris, virksomheden kan få for sit produkt, er større end omkostningsstigningen ved at øge produktionen, så skal virksomheden øge produktionen</EKSEMPEL>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Forklaring på eksempler",
+            "description": {
+              "levels": [
+                {
+                  "description": "I alle tre eksempler vil svaret på det stillede spørgsmål være et tal. I eksempel 3.1.1 er svaret, hvor meget salget ændres, hvis prisen ændres. I eksempel 3.1.2 angiver vort svar, hvor meget arbejdsløsheden ændres, hvis skatteprocenten ændres. I eksempel 3.1.3 er svaret, hvor meget omkostningerne stiger, hvis produktionen øges. Vi kalder dette tal differentialkvotienten. Vi vil i det følgende afsnit se på, hvad dette tal – differentialkvotienten – betyder matematisk.",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          }
+        ]
       },
       {
         "name": "Opfriskning af lineær funktioner",
@@ -223,85 +225,87 @@
           ]
         },
         "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Forklaring på a- og b-værdi",
-        "description": {
-          "levels": [
-            {
-              "description": "a-værdien viser grafens hældning svarende til funktionens hældningskoefficient, mens b-værdien angiver, hvor den rette linje skærer y-aksen. Dette illustreres i grafen til herunder.<IMG>step15</IMG>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step16",
-        "description": {
-          "levels": [
-            {
-              "description": "Tangenten er en ret linje, der lige netop rører (tangerer) grafen for en funktion i ét og kun ét bestemt punkt, som kaldes røringspunktet. Den nederste graf viser en parabel, hvor der er angivet to linjer. Linjen l1 skærer grafen i to punkter, og denne form for linje kaldes en sekant. Linjen l2 rører grafen i et enkelt punkt (x0, f(x0)), og denne linje er en tangent. Tangenten er interessant, da den kan fortælle noget om den funktion, den er tangent til.<IMG>step16</IMG>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step17",
-        "description": {
-          "levels": [
-            {
-              "description": "<DEFINITION><H2>Tangent</H2>Tangenten er en ret linje, der netop tangerer grafen for en funktion f(x) i ét punkt, kaldet røringspunktet (x, f(x)).</DEFINITION><IMG>step17</IMG>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step18",
-        "description": {
-          "levels": [
-            {
-              "description": "Tangentens hældning kan opfattes som hældningen i et punkt på en kurve. Normalt taler vi kun om hældningen på rette linjer, men når vi ser på en kurve, har vi umiddelbart en idé om, hvordan kurven ændrer sigi forskellige områder af grafen, hvilket fremgår af grafen ovenfor.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step19",
-        "description": {
-          "levels": [
-            {
-              "description": "Det er tydeligt, at den mørkerøde kurve vokser og aftager til højre. Samtidig bemærker vi, at hældningen på kurven ikke er konstant, som den er ved rette linjer. Hældningen forandrer sig, når vi bevæger os rundt på kurven. Vi ser, at til venstre for ekstremaet vil alle tangenter på parablen have en positiv hældning, og til højre for ekstremaet vil alle tangenter på parablen have en negativ hældning. Endelig bemærkes, at i grafens toppunkt (ekstremaet), er tangenten vandret, dvs. tangenten i toppunktet har en hældningskoefficient på 0. Tilsyneladende kan tangenternes fortegn fortælle os noget om funktionens monotoniforhold og eventuelle ekstrema.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step20",
-        "description": {
-          "levels": [
-            {
-              "description": "<TIP>Husk, at en funktions monotoniforhold fortæller, hvor funktionen er voksende, og hvor den er aftagende målt i forhold til x-aksen. Det er vigtigt at anvende de korrekte betegnelser (vokse og aftage), når der redegøres for monotoniforhold. </TIP>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
+        "usingDescription": false,
+        "children": [
+          {
+            "name": "Forklaring på a- og b-værdi",
+            "description": {
+              "levels": [
+                {
+                  "description": "a-værdien viser grafens hældning svarende til funktionens hældningskoefficient, mens b-værdien angiver, hvor den rette linje skærer y-aksen. Dette illustreres i grafen til herunder.<IMG>step15</IMG>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step16",
+            "description": {
+              "levels": [
+                {
+                  "description": "Tangenten er en ret linje, der lige netop rører (tangerer) grafen for en funktion i ét og kun ét bestemt punkt, som kaldes røringspunktet. Den nederste graf viser en parabel, hvor der er angivet to linjer. Linjen l1 skærer grafen i to punkter, og denne form for linje kaldes en sekant. Linjen l2 rører grafen i et enkelt punkt (x0, f(x0)), og denne linje er en tangent. Tangenten er interessant, da den kan fortælle noget om den funktion, den er tangent til.<IMG>step16</IMG>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step17",
+            "description": {
+              "levels": [
+                {
+                  "description": "<DEFINITION><H2>Tangent</H2>Tangenten er en ret linje, der netop tangerer grafen for en funktion f(x) i ét punkt, kaldet røringspunktet (x, f(x)).</DEFINITION><IMG>step17</IMG>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step18",
+            "description": {
+              "levels": [
+                {
+                  "description": "Tangentens hældning kan opfattes som hældningen i et punkt på en kurve. Normalt taler vi kun om hældningen på rette linjer, men når vi ser på en kurve, har vi umiddelbart en idé om, hvordan kurven ændrer sigi forskellige områder af grafen, hvilket fremgår af grafen ovenfor.",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step19",
+            "description": {
+              "levels": [
+                {
+                  "description": "Det er tydeligt, at den mørkerøde kurve vokser og aftager til højre. Samtidig bemærker vi, at hældningen på kurven ikke er konstant, som den er ved rette linjer. Hældningen forandrer sig, når vi bevæger os rundt på kurven. Vi ser, at til venstre for ekstremaet vil alle tangenter på parablen have en positiv hældning, og til højre for ekstremaet vil alle tangenter på parablen have en negativ hældning. Endelig bemærkes, at i grafens toppunkt (ekstremaet), er tangenten vandret, dvs. tangenten i toppunktet har en hældningskoefficient på 0. Tilsyneladende kan tangenternes fortegn fortælle os noget om funktionens monotoniforhold og eventuelle ekstrema.",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step20",
+            "description": {
+              "levels": [
+                {
+                  "description": "<TIP>Husk, at en funktions monotoniforhold fortæller, hvor funktionen er voksende, og hvor den er aftagende målt i forhold til x-aksen. Det er vigtigt at anvende de korrekte betegnelser (vokse og aftage), når der redegøres for monotoniforhold. </TIP>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          }
+        ]
       },
       {
         "name": "Step21",
@@ -314,72 +318,74 @@
           ]
         },
         "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step22",
-        "description": {
-          "levels": [
-            {
-              "description": "Med udgangspunkt i denne 'grafiske' definition af en tangent, kan vi definere den såkaldte afledte funktion.<DEFINITION><H2>Afledt funktion</H2>For en funktion f definerer vi en afledt funktion f ' (læses: f mærke ) således: f '(x) = hældningskoefficienten for tangenten i røringspunktet (x, f(x)). Funktionsværdien f '(x) for denne afledte funktion læses: differentialkvotienten f mærke af x, eller blot: f mærke af x.</DEFINITION>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step23",
-        "description": {
-          "levels": [
-            {
-              "description": "Differentialkvotienten kan tolkes som kurvehældningen i et givet punkt, mens den afledte funktion angiver kurvehældninger som funktion af x. Definitionen af f' giver os mulighed for at bestemme differentialkvotienterne tilnærmelsesvist ved grafisk aflæsning. Vi skal blot tegne tangenter i røringspunkter på grafen og derefter aflæse tangenternes hældninger",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step24",
-        "description": {
-          "levels": [
-            {
-              "description": "<EKSEMPEL><H2>Eksempel 3.3.1. Grafisk aflæsning af differentialkvotienten</H2>Her er tegnet grafen for funktionen Samtidig er der indtegnet tre tangenter. En der rører grafen i (1, –5), en der rører i (2, –6) og endelig en der rører i (3, –5). Vi kan aflæse de tre tangenters hældninger og derved finde f ' i de pågældende punkter. Den blå tangents hældning kan aflæses til –2, dvs., f '(1) = –2. Den grønne tangents hældning kan aflæses til 0, dvs. f '(2) = 0. Endelig kan den gule tangents hældning aflæses til 2, hvilket betyder at f '(3) = 2.<IMG>step24</IMG></EKSEMPEL>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step25",
-        "description": {
-          "levels": [
-            {
-              "description": "Metoden er ikke nøjagtig, men giver dog et fingerpeg om værdien af f '(x). Vi husker også, at aflæsninger i matematik ikke er helt så stærkt et argument som beregninger. Vi udviklerderfor i det følgende en metode til at beregne f '. Først tager vi et par øvelser, hvor der aflæses.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step26",
-        "description": {
-          "levels": [
-            {
-              "description": "For ikke at skulle tegne selve grafen for en funktion samt dens tangent når vi vil fastlægge differentialkvotienten, vil vi nu finde en metode til at bestemme forskriften for den afledte funktion.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
+        "usingDescription": false,
+        "children": [
+          {
+            "name": "Step22",
+            "description": {
+              "levels": [
+                {
+                  "description": "Med udgangspunkt i denne 'grafiske' definition af en tangent, kan vi definere den såkaldte afledte funktion.<DEFINITION><H2>Afledt funktion</H2>For en funktion f definerer vi en afledt funktion f ' (læses: f mærke ) således: f '(x) = hældningskoefficienten for tangenten i røringspunktet (x, f(x)). Funktionsværdien f '(x) for denne afledte funktion læses: differentialkvotienten f mærke af x, eller blot: f mærke af x.</DEFINITION>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step23",
+            "description": {
+              "levels": [
+                {
+                  "description": "Differentialkvotienten kan tolkes som kurvehældningen i et givet punkt, mens den afledte funktion angiver kurvehældninger som funktion af x. Definitionen af f' giver os mulighed for at bestemme differentialkvotienterne tilnærmelsesvist ved grafisk aflæsning. Vi skal blot tegne tangenter i røringspunkter på grafen og derefter aflæse tangenternes hældninger",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step24",
+            "description": {
+              "levels": [
+                {
+                  "description": "<EKSEMPEL><H2>Eksempel 3.3.1. Grafisk aflæsning af differentialkvotienten</H2>Her er tegnet grafen for funktionen Samtidig er der indtegnet tre tangenter. En der rører grafen i (1, –5), en der rører i (2, –6) og endelig en der rører i (3, –5). Vi kan aflæse de tre tangenters hældninger og derved finde f ' i de pågældende punkter. Den blå tangents hældning kan aflæses til –2, dvs., f '(1) = –2. Den grønne tangents hældning kan aflæses til 0, dvs. f '(2) = 0. Endelig kan den gule tangents hældning aflæses til 2, hvilket betyder at f '(3) = 2.<IMG>step24</IMG></EKSEMPEL>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step25",
+            "description": {
+              "levels": [
+                {
+                  "description": "Metoden er ikke nøjagtig, men giver dog et fingerpeg om værdien af f '(x). Vi husker også, at aflæsninger i matematik ikke er helt så stærkt et argument som beregninger. Vi udviklerderfor i det følgende en metode til at beregne f '. Først tager vi et par øvelser, hvor der aflæses.",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step26",
+            "description": {
+              "levels": [
+                {
+                  "description": "For ikke at skulle tegne selve grafen for en funktion samt dens tangent når vi vil fastlægge differentialkvotienten, vil vi nu finde en metode til at bestemme forskriften for den afledte funktion.",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          }
+        ]
       },
       {
         "name": "Step27",
@@ -392,59 +398,61 @@
           ]
         },
         "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step28",
-        "description": {
-          "levels": [
-            {
-              "description": "<TIP>En sekant er en linje, der skærer en kurve i to punkter<IMG>step28</IMG></TIP>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step29",
-        "description": {
-          "levels": [
-            {
-              "description": "Problemet med tangenten her er, at vi kun kender ét punkt på tangenten, nemlig (0, 4). Vi tegner en sekant gennem punktet (0, 4) i stedet for. En sekant er som nævnt karakteriseret ved, at den går igennem to punkter på grafen.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step30",
-        "description": {
-          "levels": [
-            {
-              "description": "Lad os antage, at det andet punkt på denne sekant er (2, 6). Dette resulterer i, at vi kan tegne en grøn linje, der også er en sekant. Hældningen for sekanten kan let udregnes via formlen for bestemmelse af a, hvor",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Step31",
-        "description": {
-          "levels": [
-            {
-              "description": "Det fremgår af illustrationen, at sekantens hældning tydeligvis ikke er lig med tangentens hældning. Hvad sker der, hvis vi nu tegner en ny sekant, hvor det valgte nye punkt ligger tættere på (0, 4)? Vi kunne jo for eksempel halvere forskellen mellem de to x-værdier. Det betyder, at det andet punkt i stedet for (2, 6) bliver Den nye hældning bliver:",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
+        "usingDescription": false,
+        "children": [
+          {
+            "name": "Step28",
+            "description": {
+              "levels": [
+                {
+                  "description": "<TIP>En sekant er en linje, der skærer en kurve i to punkter<IMG>step28</IMG></TIP>",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step29",
+            "description": {
+              "levels": [
+                {
+                  "description": "Problemet med tangenten her er, at vi kun kender ét punkt på tangenten, nemlig (0, 4). Vi tegner en sekant gennem punktet (0, 4) i stedet for. En sekant er som nævnt karakteriseret ved, at den går igennem to punkter på grafen.",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step30",
+            "description": {
+              "levels": [
+                {
+                  "description": "Lad os antage, at det andet punkt på denne sekant er (2, 6). Dette resulterer i, at vi kan tegne en grøn linje, der også er en sekant. Hældningen for sekanten kan let udregnes via formlen for bestemmelse af a, hvor",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Step31",
+            "description": {
+              "levels": [
+                {
+                  "description": "Det fremgår af illustrationen, at sekantens hældning tydeligvis ikke er lig med tangentens hældning. Hvad sker der, hvis vi nu tegner en ny sekant, hvor det valgte nye punkt ligger tættere på (0, 4)? Vi kunne jo for eksempel halvere forskellen mellem de to x-værdier. Det betyder, at det andet punkt i stedet for (2, 6) bliver Den nye hældning bliver:",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          }
+        ]
       }
     ]
   },
@@ -566,393 +574,6 @@
     "sections": []
   },
   {
-    "title": "brøker",
-    "description": "Course: brøker",
-    "category": {
-      "category": "math",
-      "colorClass": "blue"
-    },
-    "sections": [
-      {
-        "name": "Welcome",
-        "description": {
-          "levels": [
-            {
-              "description": "Hej <name>, nu skal vi l?re lidt om brøker. Er du klar?",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "brøkers st?rrelse",
-        "description": {
-          "levels": [
-            {
-              "description": "Jens, Ida og Pernille skal dele 5 ?bler. Hver af dem f?r 5/3 ?ble (udtales ?fem tredjedele?).  En brøk best?r af forskellige dele. I midten har vi en brøkstreg. Tallet under brøkstregen kaldes n?vneren og tallet over brøkstregen kaldes t?lleren.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false,
-        "children": [
-          {
-            "name": "Quiz om hvad en brøk er",
-            "quiz": {
-              "levels": [
-                {
-                  "level": 1,
-                  "questions": [
-                    {
-                      "question": "Hvis en kage deles op i 5 lige store dele, og der spises 2 stykker, hvor meget er s? tilbage?",
-                      "correct": {
-                        "answer": "3/5",
-                        "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, s? er der 3 lige store dele tilbage, alts? 3/5."
-                      },
-                      "possibleAnswers": [
-                        {
-                          "answer": "2/5",
-                          "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, s? er der mere end 2/5 dele tilbage. Du mangel nemlig 1/5 s?, fordi 1/5 + 2/5 + 2/5 (dem der spises) = 5/5 = hele."
-                        },
-                        {
-                          "answer": "1 femtedel",
-                          "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, s? er der mere end 1 femtedel tilbage. Du mangel nemlig 2 femtedele s?, fordi 1 femtedel + 2 femtedele + 2 femtedele (dem der spises) = 1 hel = hele kagen"
-                        },
-                        {
-                          "answer": "3/5",
-                          "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, s? er der 3 lige store dele tilbage, alts? 3/5."
-                        },
-                        {
-                          "answer": "4 halve",
-                          "explanation": "4 halve er det samme som 2 hele. Der var kun tale om 1 hel kage, s? hvis der spises 2 stykker af kagen, kan der ikke komme yderligere stykker. "
-                        }
-                      ]
-                    },
-                    {
-                      "question": "Hvor stor en brøkdel repr?senterer \"mandag\" af alle ugens dage?",
-                      "correct": {
-                        "answer": "1/7",
-                        "explanation": "Korrekt. Fordi der er 7 dage i ugen, s? repr?senterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
-                      },
-                      "possibleAnswers": [
-                        {
-                          "answer": "1/4",
-                          "explanation": "Der er 7 dage p? ugen. Mandag repr?senterer alts? ikke 1/4. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag og torsdag, s? ville svaret v?re korrekt."
-                        },
-                        {
-                          "answer": "1/7",
-                          "explanation": "Korrekt. Fordi der er 7 dage i ugen, s? repr?senterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
-                        },
-                        {
-                          "answer": "1/2",
-                          "explanation": "Der er 7 dage p? ugen. Mandag repr?senterer alts? ikke 1/2. Hvis alle ugens dage kun bestod af mandag og tirsdag, s? ville svaret v?re korrekt."
-                        },
-                        {
-                          "answer": "1/5",
-                          "explanation": "Der er 7 dage p? ugen. Mandag repr?senterer alts? ikke 1/5. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag, torsdag og fredag, s? ville svaret v?re korrekt."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false,
-            "children": [
-              {
-                "name": "Delen af det hele",
-                "description": {
-                  "levels": [
-                    {
-                      "description": "Level 1N?r man skal finde en brøkdel af en st?rrelse, s? svarer det til at gange brøken med st?rrelsen.En opgave kunne lyde: En flagstang er 16 m h?j. Et tr? udg?r <latex>\\frac{3}{8}</latex> af flagstangens h?jde. Hvor h?jt er tr?et? Vi skal alts? finde ud af, hvor meget <latex>\\frac{3}{8}</latex> (tre ottendedele) af 16 m er.<latex>\\frac{3}{8}*16</latex> m <latex>=\\frac{3*16}{8}</latex> m <latex>=\\frac{48}{8}</latex> m <latex>=6</latex> m.En anden opgave kunne lyde: Hvor mange minutter er <latex>\\frac{5}{8}</latex> af en time?Der er som bekendt 60 minutter p? en time. Vi skal alts? finde <latex>\\frac{5}{8}</latex> af 60 minutter.<latex>\\frac{5}{8}*60</latex> min. <latex>=\\frac{5*60}{8}</latex> min. <latex>=\\frac{300}{8}</latex> min.Den sidste brøk kan vi forkorte med 4 (da 4 b?de g?r op i 300 og i 8), og s? f?r vi<latex>\\frac{5}{8}</latex> af en time svarer alts? til 37,5 minutter.",
-                      "level": 1
-                    }
-                  ]
-                },
-                "usingQuiz": false,
-                "usingDescription": false
-              },
-              {
-                "name": "Repr?sentere helt tal som en brøk",
-                "description": {
-                  "levels": [
-                    {
-                      "description": "Level 2Senere vil vi se hvorfor det er nyttigt at kunne omskrive et helt tal, f.eks. 24, 13, 99 etc. som en brøk. Hvis man har et tal f.eks. 24, og gerne vil repr?sentere det som et helt tal s? g?r man det p? f?lgende m?de:Du v?lger et tilf?ldigt tal som du ?nsker at have i n?vneren p? din brøk. Lad os kalde dette tal <latex>\\textbf{k}</latex>. I t?lleren s?tter du det tal som du ?nsker at repr?sentere, ganget med <latex>\\textbf{k}</latex>.F.eks.?nsker vi at repr?sentere tallet 24 som en brøk kan vi g?re det p? f?lgende m?de:Vi v?lger <latex>\\textbf{k}</latex> som tallet 7, og brøken ser derfor s?dan ud: <latex>\\frac{7*24}{7} = \\frac{168}{7} = 24</latex>.Vi v?lger <latex>\\textbf{k}</latex> som tallet 4, og brøken ser derfor s?dan ud: <latex>\\frac{4*24}{4} = \\frac{96}{4} = 24</latex>.Som et andet eksempel kan vi ?nske at repr?sentere tallet 5 som en brøk. Det kan g?res p? f?lgende m?de:Vi v?lger <latex>\\textbf{k}</latex> som tallet 2, og brøken ser derfor s?dan ud: <latex>\\frac{2*5}{2} = \\frac{10}{2} = 5</latex>.Vi v?lger <latex>\\textbf{k}</latex> som tallet 8, og brøken ser derfor s?dan ud: <latex>\\frac{8*5}{8} = \\frac{40}{8} = 5</latex>.Generelt kan formlen skrives som:<latex>\\frac{a*b}{b} = a</latex>",
-                      "level": 1
-                    }
-                  ]
-                },
-                "usingQuiz": false,
-                "usingDescription": false
-              }
-            ]
-          },
-          {
-            "name": "L?gge brøker sammen",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 3N?r man skal l?gge brøker sammen eller tr?kke dem fra hinanden, s? er det vigtigt, at de har den samme n?vner. Man siger, at de skal have f?llesn?vner.Det er klart, fordi ?t stykke af en kage, der er sk?ret i 10 stykker ikke repr?senterer lige s? meget kage som ?t stykke af en kage, der er sk?ret i 6 stykker. Man er n?dt til at s?rge for at stykkerne er lige store, f?r man begynder at l?gge dem sammen eller tr?kke dem fra hinanden (se evt. forrige afsnit om brøkers st?rrelse).Vi ?nsker at udregne<latex>\\frac{2}{3}+\\frac{1}{4}= ?</latex>F?rst finder en f?llesn?vner for brøken. I dette tilf?lde v?lger vi f?llesn?vneren til 12 da b?de 3 og 4 g?r op i 12. Vi forl?nger <latex>\\frac{2}{3}</latex> med 4 og <latex>\\frac{1}{4}</latex> med 3<latex>\\frac{2}{3}=\\frac{4*2}{4*3}=\\frac{8}{12}</latex><latex>\\frac{1}{4}=\\frac{3*1}{3*4}=\\frac{3}{12}</latex>Nu har brøkerne samme n?vner, og vi kan derfor l?gge dem sammen. Det g?r man ved at l?gge t?llerne (tallene over brøkstregerne) sammen.<latex>\\frac{2}{3}+\\frac{1}{4}=\\frac{8}{12}+\\frac{3}{12}=\\frac{3+8}{12}=\\frac{11}{12}</latex>Man kan illustrere udregningen med et billede.<image>course_fraction_3.png</image>Generelt kan reglen skrives op s?dan her<latex>\\frac{a}{b}+\\frac{c}{b}=\\frac{a+c}{b}</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "L?gge brøk til helt tal",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 1Hvis vi ?nsker at ligge en brøk til et helt tal, kan vi g?re det ved at omskrive det hele tal til en brøk, der har samme n?vner som brøkken vi ?nsker at l?gge til. Derefter l?gger vi de to brøker sammen. F.eks:<latex>4 + \\frac{2}{3} = \\frac{4*3}{3} + \\frac{2}{3} = \\frac{12}{3} + \\frac{2}{3} = \\frac{12+2}{3} = \\frac{14}{3}  </latex>Andet eksempel:<latex>13 + \\frac{6}{5} = \\frac{13*5}{5} + \\frac{6}{5} = \\frac{65}{5} + \\frac{6}{5} = \\frac{65+6}{5} = \\frac{71}{5}  </latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "Tr?kker brøker fra hinanden",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 1N?r man skal tr?kke en brøk fra en anden brøk, s? skal man ogs? sikre sig, at de har samme n?vner. Derefter tr?kker man den ene t?ller fra den anden. Lad os se p? et eksempel.Vi vil udregne<latex>\\frac{4}{7}-\\frac{3}{14}=?</latex>Et tal som b?de 7 og 14 g?r op i er 14. brøken <latex>\\frac{3}{14}</latex> st?r allerede i fjortendedele, s? den lader vi v?re. brøken <latex>\\frac{4}{7}</latex> skal vi forl?nge med 2 for at f? den omskrevet til fjortendedele.<latex>\\frac{4}{7}=\\frac{2*4}{2*7}=\\frac{8}{14}</latex>Nu er begge brøker i fjortendedele, og vi kan tr?kke den ene fra den anden.<latex>\\frac{4}{7}-\\frac{3}{14}=\\frac{8}{14}-\\frac{3}{14}=\\frac{8-3}{14}=\\frac{5}{14}</latex>Generelt kan reglen skrives op s?dan her<latex>\\frac{a}{b}-\\frac{c}{b}=\\frac{a-c}{b}</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          }
-        ]
-      },
-      {
-        "name": "Tr?kke brøk fra helt tal",
-        "description": {
-          "levels": [
-            {
-              "description": "Level 1Hvis vi ?nsker at tr?kke en brøk fra et helt tal, kan vi g?re det ved at omskrive det hele tal til en brøk, der har samme n?vner som brøkken vi ?nsker at tr?kke fra det hele tal. Derefter tr?kker vi de to brøker fra hinanden.F.eks:<latex>4 - \\frac{2}{3} = \\frac{4*3}{3} - \\frac{2}{3} = \\frac{12}{3} - \\frac{2}{3} = \\frac{12-2}{3} = \\frac{10}{3}  </latex>Andet eksempel:<latex>13 - \\frac{6}{5} = \\frac{13*5}{5} - \\frac{6}{5} = \\frac{65}{5} - \\frac{6}{5} = \\frac{65-6}{5} = \\frac{59}{5}  </latex>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false,
-        "children": [
-          {
-            "name": "Gange med brøker",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 1N?r man skal gange to brøker med hinanden, skal man bare gange t?ller med t?ller og n?vner med n?vner.Man beh?ver alts? ikke at finde f?llesn?vnere og al den slags, som vi gjorde da vi skulle l?gge dem sammen eller tr?kke dem fra hinanden.F.eks. er<latex>\\frac{4}{5}*\\frac{2}{7}=\\frac{4*2}{5*7}=\\frac{8}{35}</latex>Generelt kan reglen skrives op med symboler s?dan her:<latex>\\frac{a}{b}*\\frac{c}{d}=\\frac{a*c}{b*d}</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "Gange brøk med helt tal",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 1Hvis man skal gange et helt tal med en brøk, s? ganger man det p? i t?lleren.F.eks:<latex>3*\\frac{2}{7}=\\frac{3*2}{7}=\\frac{6}{7}</latex>Generelt kan reglen skrives op med symboler s?dan her:<latex>\\frac{a}{b}*c=\\frac{a*c}{b}</latex><latex>c*\\frac{a}{b}=\\frac{a*c}{b}</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "Dividere brøk med brøk",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 1N?r man skal dividere en brøk med en anden brøk, s? svarer det til at ?vende den bagerste brøk p? hovedet? og derefter gange de to brøker med hinanden. F.eks. er<latex>\\frac{1}{5} : \\frac{3}{4} = \\frac{1}{5} * \\frac{4}{3} = \\frac{4}{15}</latex>Det er vigtigt, at det er den brøk, man dividerer med, som man vender om!Generelt er reglen<latex>\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} * \\frac{d}{c}</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false,
-            "children": [
-              {
-                "name": "Dividere brøk med helt tal",
-                "description": {
-                  "levels": [
-                    {
-                      "description": "Level 2N?r man skal dividere en brøk med et tal, s? ganger man tallet p? i n?vneren. F.eks er<latex>\\frac{5}{6} : 2 = \\frac{5}{6*2} = \\frac{5}{12}</latex>En m?de at huske denne regel p? er ved at omskrive tallet til en brøk. (Ethvert tal svarer nemlig til en brøk med 1 i n?vneren).  Nu er den hen regel egentlig bare den samme som division af brøk med brøk. Eksemplet ovenfor ville blive<latex>\\frac{5}{6} : 2 = \\frac{5}{6} : \\frac{2}{1} = \\frac{5}{6} * \\frac{1}{2} = \\frac{5*1}{6*2} = \\frac{5}{12}</latex>",
-                      "level": 1
-                    }
-                  ]
-                },
-                "usingQuiz": false,
-                "usingDescription": false
-              },
-              {
-                "name": "Forl?nge brøker",
-                "description": {
-                  "levels": [
-                    {
-                      "description": "N?r man regner med brøker, kan det ofte v?re praktisk at omforme dem.Hvis man vil have et st?rre tal i t?ller eller n?vner, kan man forl?nge brøken. Det g?r man ved at gange det samme tal p? i t?ller og n?vner.<image>course_fraction_4.png</image>brøkens v?rdi er alts? u?ndret, n?r vi forl?nger den. Et eksempel fra virkelighedens verden er, at om man er 8 mennesker om at dele 1 pizza eller 80 mennesker om at dele 10, s? f?r man lige meget pizza<latex>\\frac{1}{8} = \\frac{1*10}{8*10} = \\frac{10}{80}</latex>Generelt har vi reglen<latex>\\frac{a}{b} = \\frac{a*k}{b*k}</latex>, g?ldende for et k der ikke er 0.",
-                      "level": 1
-                    }
-                  ]
-                },
-                "usingQuiz": false,
-                "usingDescription": false
-              }
-            ]
-          },
-          {
-            "name": "Forkorte brøker",
-            "description": {
-              "levels": [
-                {
-                  "description": "Hvis vi derimod ?nsker at g?re t?lleren eller n?vneren mindre, kan vi forkorte brøken. Dette g?res ved at dividere med det samme tal i b?de t?ller og n?vner. F.eks.<latex>\\frac{16}{24} = \\frac{16 : 8}{24 : 8} = \\frac{2}{3}</latex>Vi kan ogs? se p? en tegning. Hvis pizzaen er delt i 8 stykker, og du spiser 6, s? har du spist lige s? meget, som hvis den var delt i 4 stykker, og du havde spist de 3.<image>course_fraction_5.png</image>Generelt kan vi skrive reglen som<latex>\\frac{a}{b} = \\frac{a:k}{b:k}</latex>, g?ldende for et k der ikke er 0.",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          }
-        ]
-      },
-      {
-        "name": "Dividere helt tal med brøk",
-        "description": {
-          "levels": [
-            {
-              "description": "Level 1N?r man skal dividere et tal med en brøk, s? vender man brøken om og ganger tallet p? i (den nye) t?ller. F.eks. er<latex>8 : \\frac{19}{2} = 8 * \\frac{2}{19} = \\frac{8*2}{19} = \\frac{16}{19}</latex>Igen kan vi omskrive tallet til en brøk med 1 i n?vneren, og s? er ogs? denne regel den samme som division af brøk med brøk.<latex>8 : \\frac{19}{2} = \\frac{8}{1} : \\frac{19}{2} = \\frac{8}{1} * \\frac{2}{19} = \\frac{8*2}{1*19} = \\frac{16}{19}</latex>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Blandede tal",
-        "description": {
-          "levels": [
-            {
-              "description": "Det sker, at t?lleren er st?rre end n?vneren i en brøk. I s? fald kan man omskrive brøken til et blandet tal. Dvs. et tal, der b?de indeholder heltal og brøker.F.eks er<latex>\\frac{4}{3} = 1\\frac{1}{3}</latex><image>course_fraction_7.png</image>Man finder det hele tal ved at se, hvor mange gange n?vneren g?r op i t?lleren.Den rest, der er tilbage, bliver st?ende i t?lleren.Bem?rk, at der IKKE er et skjult gangetegn mellem det hele tal og brøken i et blandet tal. Der er snarere et skjult plustegn.Lad os for eksempel omskrive <latex>\\frac{13}{4}</latex> til et blandet tal.F?rst skal vi finde ud af, hvor mange gange 4 g?r op i 13. 4 g?r op i 13 3 gange (4*3=12) og der er en rest p? 1. Dermed er<latex>\\frac{13}{4} = 3\\frac{1}{4}</latex><image>course_fraction_8.png</image>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Fra blandet til til brøk",
-        "description": {
-          "levels": [
-            {
-              "description": "Hvis man vil omskrive et blandet tal til en brøk, s? kan man ?forl?nge? det hele tal med n?vneren. Dvs. man laver en ny brøk, hvor man skriver n?vneren fra den gamle brøk i n?vneren og det hele tal ganget med den gamle n?vner i t?lleren. Derefter l?gger man den nye brøk sammen med den gamle.Eksempler:<latex>7\\frac{2}{3} = \\frac{7*3}{3} + \\frac{2}{3} = \\frac{21}{3} + \\frac{2}{3} = \\frac{23}{3}</latex><latex>2\\frac{7}{8} = \\frac{2*8}{8} + \\frac{7}{8} = \\frac{16}{8} + \\frac{7}{8} = \\frac{23}{8}</latex>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false,
-        "children": [
-          {
-            "name": "Omregning: Fra brøk til procent",
-            "description": {
-              "levels": [
-                {
-                  "description": "N?r man skal omregne en brøk til en procentsats, s? skal man forl?nge eller forkorte brøken s?ledes, at der st?r 100 i n?vneren. Dette skyldes, at ?n procent netop svarer til ?n hundrededel.<latex>\\frac{1}{4} = \\frac{1*25}{4*25} = \\frac{25}{100} = 100\\%</latex>I eksemplet ovenfor har vi forl?nget brøken med 25, fordi <latex>4*25=100</latex>.Det handler alts? om at finde ud af, hvilket tal, man skal forl?nge med for at f? 100 i n?vneren.Hvis man er i tvivl om, hvad man skal forl?nge med, s? kan man finde det ved at dividere 100 med n?vneren. F.eks. er <latex>\\frac{100}6{}=16,666...</latex>Derfor er<latex>\\frac{5}{6} = \\frac{5*16.666}{6*16.666} = \\frac{83.333}{100} = 83.333\\%</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "Omregning: Fra procent til brøk",
-            "description": {
-              "levels": [
-                {
-                  "description": "Hvis man har f?et en procentsats, og man gerne vil skrive den som en brøk, s? er det vigtigt at huske, at ?procent? betyder ?hundrededele?. Man kan alts? skrive x% om til <latex>\\frac{x}{100}</latex>. Herefter g?lder det om at finde ud af, om der er nogen tal, der g?r op i b?de t?ller og n?vner. Hvis der er det, kan man forkorte brøken.<latex>38\\% = \\frac{38}{100} = \\frac{38 : 2}{100 : 2} = \\frac{19}{50}</latex>I eksemplet ovenfor har vi forkortet med 2, fordi 2 g?r op i b?de 38 og 100. Da 19 er et primtal, kan vi ikke forkorte brøken yderligere.<latex>64\\% = \\frac{64}{100} = \\frac{64 : 4}{100 : 4} = \\frac{16}{25}</latex>Hvis der er tale om, at procentsatsen er et kommatal, s? m? man rykke kommaet i b?de t?ller og n?vner, f?r man finder tal, der g?r op i begge dele.<latex>37.5\\% = \\frac{37.5}{100} = \\frac{375}{1000}</latex>Vi ser at 125 g?r op i b?de t?ller og n?vner. Dermed bliver<latex>\\frac{375}{1000} = \\frac{375 : 125}{1000 : 125} = \\frac{3}{8}</latex>37,5% svarer alts? til <latex>\\frac{3}{8}</latex>.",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false,
-            "children": [
-              {
-                "name": "Omregning: Fra brøk til decimaltal",
-                "description": {
-                  "levels": [
-                    {
-                      "description": "Hvis man har en brøk, man gerne vil omskrive til et decimaltal, s? m? man dividere brøken ud. Der findes flere metoder til at dividere. Vi gennemg?r en her ved hj?lp af et eksempel.<image>course_fraction_6.png</image>Vil man omskrive <latex>\\frac{5}{8}</latex> til et decimaltal, s? sp?rger man f?rst hvor mange gange 8 g?r op i 5. Det er 0 gange. Man skriver dette nul ude til h?jre. Under femtallet skriver man ogs? 0. Nu tr?kker man 0 fra 5. Det giver 5. Man hiver et 0 ned (det gr?nne).S? sp?rger man, hvor mange gange 8 g?r op i 50. Det er 6 gange. Man skriver 6-tallet ude til h?jre, og man skriver resultatet af 6?8 under 50. Ved at tr?kke 48 fra 50 f?r vi 2. Vi tr?kker endnu et nul ned.S? sp?rger vi, hvor mange gange 8 g?r op i 20. Det er 2 gange. Vi skriver 2-tallet ude til h?jre of resultatet af 8?2 under 20. Vi tr?kker 16 fra 20 og f?r 4. Vi tr?kker et nul ned.Til sidst sp?rger vi, hvor mange gange 8 g?r op i 40. Det er 5 gange. Vi skriver 5 ude til h?jre, og skriver 5?8 under 40. Nu st?r der 40-40, og det giver 0. N?r der st?r 0 forneden er vi f?rdige.<latex>\\frac{5}{8}</latex> svarer alts? til 0,625.",
-                      "level": 1
-                    }
-                  ]
-                },
-                "usingQuiz": false,
-                "usingDescription": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Omregning: Fra decimaltal til brøk",
-        "description": {
-          "levels": [
-            {
-              "description": "Hvis man vil omskrive et decimaltal til en brøk, s? er der to tilf?lde, man kan se p?. Det f?rste tilf?lde hvor der er endeligt mange cifre (f.eks. 0,125 eller 4,3), og det andet tilf?lde, hvor der er et tal, der g?r igen og igen uendeligt mange gange (f.eks. 0,3333333333?).I det f?rste tilf?lde omskriver man decimaltallet ved i t?lleren at skrive tallet, hvor man blot har fjernet kommaet. I n?vneren skriver man et 1-tal efterfulgt af s? mange 0?er som der er pladser efter kommaet. Herefter kan man forkorte brøken.<latex>0.125 = \\frac{125}{1000} = \\frac{125 : 125}{1000 : 125} = \\frac{1}{8}</latex>I eksemplet ovenfor skrev vi 1000 i n?vneren, fordi der er 3 cifre efter kommaet i 0,125.Hvis man er i det andet tilf?lde, hvor der er et tal, der gentages uendeligt mange gange, s? skal man forl?nge med 9, 99, 999,? alt efter hvor mange cifre, der er i det tal, der gentages i det uendelige. T?lleren bliver s? de cifre, der gentages, mens n?vneren bliver det, man har forl?nget med.Eksempelvis bliver<latex>0.444 = \\frac{0.444*9}{9} = \\frac{4}{9}</latex><latex>0.432743274327 = \\frac{0.432743274327 * 9999}{9999} = \\frac{4327}{9999}</latex>Her bruger vi, at<latex>0.333 * 9 = 3</latex><latex>0.888 * 9 = 8</latex><latex>0.171717 * 99 = 17</latex><latex>0,123123123 * 999 = 123</latex>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Omregning: Fra procent til decimaltal",
-        "description": {
-          "levels": [
-            {
-              "description": "Hvis man vil omskrive en procentsats til et decimaltal, skal man huske, at ?procent? betyder ?hundrededele?. At finde en hundrededel svarer til at dividere med 100, og det svarer igen til at rykke kommaet to pladser til venstre.<latex>98\\% = 0.98</latex><latex>120\\% = 1.20</latex><latex>34.87\\% = 0.3487</latex>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false,
-        "children": [
-          {
-            "name": "Omregning: Fra decimaltal til procent",
-            "description": {
-              "levels": [
-                {
-                  "description": "Her g?r man det omvendte af ovenfor. Man rykker kommaet to pladser til h?jre<latex>0.17 = 17\\%</latex><latex>1.456 = 145.6\\%</latex><latex>0.1112 = 11.12\\%</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          }
-        ]
-      }
-    ]
-  },
-  {
     "title": "Division",
     "description": "Course: Division",
     "category": {
@@ -996,392 +617,5 @@
       "colorClass": "blue"
     },
     "sections": []
-  },
-  {
-    "title": "brøker",
-    "description": "Course: brøker",
-    "category": {
-      "category": "math",
-      "colorClass": "blue"
-    },
-    "sections": [
-      {
-        "name": "Welcome",
-        "description": {
-          "levels": [
-            {
-              "description": "Hej <name>, nu skal vi l?re lidt om brøker. Er du klar?",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "brøkers st?rrelse",
-        "description": {
-          "levels": [
-            {
-              "description": "Jens, Ida og Pernille skal dele 5 ?bler. Hver af dem f?r 5/3 ?ble (udtales ?fem tredjedele?).  En brøk best?r af forskellige dele. I midten har vi en brøkstreg. Tallet under brøkstregen kaldes n?vneren og tallet over brøkstregen kaldes t?lleren.",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false,
-        "children": [
-          {
-            "name": "Quiz om hvad en brøk er",
-            "quiz": {
-              "levels": [
-                {
-                  "level": 1,
-                  "questions": [
-                    {
-                      "question": "Hvis en kage deles op i 5 lige store dele, og der spises 2 stykker, hvor meget er s? tilbage?",
-                      "correct": {
-                        "answer": "3/5",
-                        "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, s? er der 3 lige store dele tilbage, alts? 3/5."
-                      },
-                      "possibleAnswers": [
-                        {
-                          "answer": "2/5",
-                          "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, s? er der mere end 2/5 dele tilbage. Du mangel nemlig 1/5 s?, fordi 1/5 + 2/5 + 2/5 (dem der spises) = 5/5 = hele."
-                        },
-                        {
-                          "answer": "1 femtedel",
-                          "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, s? er der mere end 1 femtedel tilbage. Du mangel nemlig 2 femtedele s?, fordi 1 femtedel + 2 femtedele + 2 femtedele (dem der spises) = 1 hel = hele kagen"
-                        },
-                        {
-                          "answer": "3/5",
-                          "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, s? er der 3 lige store dele tilbage, alts? 3/5."
-                        },
-                        {
-                          "answer": "4 halve",
-                          "explanation": "4 halve er det samme som 2 hele. Der var kun tale om 1 hel kage, s? hvis der spises 2 stykker af kagen, kan der ikke komme yderligere stykker. "
-                        }
-                      ]
-                    },
-                    {
-                      "question": "Hvor stor en brøkdel repr?senterer \"mandag\" af alle ugens dage?",
-                      "correct": {
-                        "answer": "1/7",
-                        "explanation": "Korrekt. Fordi der er 7 dage i ugen, s? repr?senterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
-                      },
-                      "possibleAnswers": [
-                        {
-                          "answer": "1/4",
-                          "explanation": "Der er 7 dage p? ugen. Mandag repr?senterer alts? ikke 1/4. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag og torsdag, s? ville svaret v?re korrekt."
-                        },
-                        {
-                          "answer": "1/7",
-                          "explanation": "Korrekt. Fordi der er 7 dage i ugen, s? repr?senterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
-                        },
-                        {
-                          "answer": "1/2",
-                          "explanation": "Der er 7 dage p? ugen. Mandag repr?senterer alts? ikke 1/2. Hvis alle ugens dage kun bestod af mandag og tirsdag, s? ville svaret v?re korrekt."
-                        },
-                        {
-                          "answer": "1/5",
-                          "explanation": "Der er 7 dage p? ugen. Mandag repr?senterer alts? ikke 1/5. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag, torsdag og fredag, s? ville svaret v?re korrekt."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false,
-            "children": [
-              {
-                "name": "Delen af det hele",
-                "description": {
-                  "levels": [
-                    {
-                      "description": "Level 1N?r man skal finde en brøkdel af en st?rrelse, s? svarer det til at gange brøken med st?rrelsen.En opgave kunne lyde: En flagstang er 16 m h?j. Et tr? udg?r <latex>\\frac{3}{8}</latex> af flagstangens h?jde. Hvor h?jt er tr?et? Vi skal alts? finde ud af, hvor meget <latex>\\frac{3}{8}</latex> (tre ottendedele) af 16 m er.<latex>\\frac{3}{8}*16</latex> m <latex>=\\frac{3*16}{8}</latex> m <latex>=\\frac{48}{8}</latex> m <latex>=6</latex> m.En anden opgave kunne lyde: Hvor mange minutter er <latex>\\frac{5}{8}</latex> af en time?Der er som bekendt 60 minutter p? en time. Vi skal alts? finde <latex>\\frac{5}{8}</latex> af 60 minutter.<latex>\\frac{5}{8}*60</latex> min. <latex>=\\frac{5*60}{8}</latex> min. <latex>=\\frac{300}{8}</latex> min.Den sidste brøk kan vi forkorte med 4 (da 4 b?de g?r op i 300 og i 8), og s? f?r vi<latex>\\frac{5}{8}</latex> af en time svarer alts? til 37,5 minutter.",
-                      "level": 1
-                    }
-                  ]
-                },
-                "usingQuiz": false,
-                "usingDescription": false
-              },
-              {
-                "name": "Repr?sentere helt tal som en brøk",
-                "description": {
-                  "levels": [
-                    {
-                      "description": "Level 2Senere vil vi se hvorfor det er nyttigt at kunne omskrive et helt tal, f.eks. 24, 13, 99 etc. som en brøk. Hvis man har et tal f.eks. 24, og gerne vil repr?sentere det som et helt tal s? g?r man det p? f?lgende m?de:Du v?lger et tilf?ldigt tal som du ?nsker at have i n?vneren p? din brøk. Lad os kalde dette tal <latex>\\textbf{k}</latex>. I t?lleren s?tter du det tal som du ?nsker at repr?sentere, ganget med <latex>\\textbf{k}</latex>.F.eks.?nsker vi at repr?sentere tallet 24 som en brøk kan vi g?re det p? f?lgende m?de:Vi v?lger <latex>\\textbf{k}</latex> som tallet 7, og brøken ser derfor s?dan ud: <latex>\\frac{7*24}{7} = \\frac{168}{7} = 24</latex>.Vi v?lger <latex>\\textbf{k}</latex> som tallet 4, og brøken ser derfor s?dan ud: <latex>\\frac{4*24}{4} = \\frac{96}{4} = 24</latex>.Som et andet eksempel kan vi ?nske at repr?sentere tallet 5 som en brøk. Det kan g?res p? f?lgende m?de:Vi v?lger <latex>\\textbf{k}</latex> som tallet 2, og brøken ser derfor s?dan ud: <latex>\\frac{2*5}{2} = \\frac{10}{2} = 5</latex>.Vi v?lger <latex>\\textbf{k}</latex> som tallet 8, og brøken ser derfor s?dan ud: <latex>\\frac{8*5}{8} = \\frac{40}{8} = 5</latex>.Generelt kan formlen skrives som:<latex>\\frac{a*b}{b} = a</latex>",
-                      "level": 1
-                    }
-                  ]
-                },
-                "usingQuiz": false,
-                "usingDescription": false
-              }
-            ]
-          },
-          {
-            "name": "L?gge brøker sammen",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 3N?r man skal l?gge brøker sammen eller tr?kke dem fra hinanden, s? er det vigtigt, at de har den samme n?vner. Man siger, at de skal have f?llesn?vner.Det er klart, fordi ?t stykke af en kage, der er sk?ret i 10 stykker ikke repr?senterer lige s? meget kage som ?t stykke af en kage, der er sk?ret i 6 stykker. Man er n?dt til at s?rge for at stykkerne er lige store, f?r man begynder at l?gge dem sammen eller tr?kke dem fra hinanden (se evt. forrige afsnit om brøkers st?rrelse).Vi ?nsker at udregne<latex>\\frac{2}{3}+\\frac{1}{4}= ?</latex>F?rst finder en f?llesn?vner for brøken. I dette tilf?lde v?lger vi f?llesn?vneren til 12 da b?de 3 og 4 g?r op i 12. Vi forl?nger <latex>\\frac{2}{3}</latex> med 4 og <latex>\\frac{1}{4}</latex> med 3<latex>\\frac{2}{3}=\\frac{4*2}{4*3}=\\frac{8}{12}</latex><latex>\\frac{1}{4}=\\frac{3*1}{3*4}=\\frac{3}{12}</latex>Nu har brøkerne samme n?vner, og vi kan derfor l?gge dem sammen. Det g?r man ved at l?gge t?llerne (tallene over brøkstregerne) sammen.<latex>\\frac{2}{3}+\\frac{1}{4}=\\frac{8}{12}+\\frac{3}{12}=\\frac{3+8}{12}=\\frac{11}{12}</latex>Man kan illustrere udregningen med et billede.<image>course_fraction_3.png</image>Generelt kan reglen skrives op s?dan her<latex>\\frac{a}{b}+\\frac{c}{b}=\\frac{a+c}{b}</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "L?gge brøk til helt tal",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 1Hvis vi ?nsker at ligge en brøk til et helt tal, kan vi g?re det ved at omskrive det hele tal til en brøk, der har samme n?vner som brøkken vi ?nsker at l?gge til. Derefter l?gger vi de to brøker sammen. F.eks:<latex>4 + \\frac{2}{3} = \\frac{4*3}{3} + \\frac{2}{3} = \\frac{12}{3} + \\frac{2}{3} = \\frac{12+2}{3} = \\frac{14}{3}  </latex>Andet eksempel:<latex>13 + \\frac{6}{5} = \\frac{13*5}{5} + \\frac{6}{5} = \\frac{65}{5} + \\frac{6}{5} = \\frac{65+6}{5} = \\frac{71}{5}  </latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "Tr?kker brøker fra hinanden",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 1N?r man skal tr?kke en brøk fra en anden brøk, s? skal man ogs? sikre sig, at de har samme n?vner. Derefter tr?kker man den ene t?ller fra den anden. Lad os se p? et eksempel.Vi vil udregne<latex>\\frac{4}{7}-\\frac{3}{14}=?</latex>Et tal som b?de 7 og 14 g?r op i er 14. brøken <latex>\\frac{3}{14}</latex> st?r allerede i fjortendedele, s? den lader vi v?re. brøken <latex>\\frac{4}{7}</latex> skal vi forl?nge med 2 for at f? den omskrevet til fjortendedele.<latex>\\frac{4}{7}=\\frac{2*4}{2*7}=\\frac{8}{14}</latex>Nu er begge brøker i fjortendedele, og vi kan tr?kke den ene fra den anden.<latex>\\frac{4}{7}-\\frac{3}{14}=\\frac{8}{14}-\\frac{3}{14}=\\frac{8-3}{14}=\\frac{5}{14}</latex>Generelt kan reglen skrives op s?dan her<latex>\\frac{a}{b}-\\frac{c}{b}=\\frac{a-c}{b}</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          }
-        ]
-      },
-      {
-        "name": "Tr?kke brøk fra helt tal",
-        "description": {
-          "levels": [
-            {
-              "description": "Level 1Hvis vi ?nsker at tr?kke en brøk fra et helt tal, kan vi g?re det ved at omskrive det hele tal til en brøk, der har samme n?vner som brøkken vi ?nsker at tr?kke fra det hele tal. Derefter tr?kker vi de to brøker fra hinanden.F.eks:<latex>4 - \\frac{2}{3} = \\frac{4*3}{3} - \\frac{2}{3} = \\frac{12}{3} - \\frac{2}{3} = \\frac{12-2}{3} = \\frac{10}{3}  </latex>Andet eksempel:<latex>13 - \\frac{6}{5} = \\frac{13*5}{5} - \\frac{6}{5} = \\frac{65}{5} - \\frac{6}{5} = \\frac{65-6}{5} = \\frac{59}{5}  </latex>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false,
-        "children": [
-          {
-            "name": "Gange med brøker",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 1N?r man skal gange to brøker med hinanden, skal man bare gange t?ller med t?ller og n?vner med n?vner.Man beh?ver alts? ikke at finde f?llesn?vnere og al den slags, som vi gjorde da vi skulle l?gge dem sammen eller tr?kke dem fra hinanden.F.eks. er<latex>\\frac{4}{5}*\\frac{2}{7}=\\frac{4*2}{5*7}=\\frac{8}{35}</latex>Generelt kan reglen skrives op med symboler s?dan her:<latex>\\frac{a}{b}*\\frac{c}{d}=\\frac{a*c}{b*d}</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "Gange brøk med helt tal",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 1Hvis man skal gange et helt tal med en brøk, s? ganger man det p? i t?lleren.F.eks:<latex>3*\\frac{2}{7}=\\frac{3*2}{7}=\\frac{6}{7}</latex>Generelt kan reglen skrives op med symboler s?dan her:<latex>\\frac{a}{b}*c=\\frac{a*c}{b}</latex><latex>c*\\frac{a}{b}=\\frac{a*c}{b}</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "Dividere brøk med brøk",
-            "description": {
-              "levels": [
-                {
-                  "description": "Level 1N?r man skal dividere en brøk med en anden brøk, s? svarer det til at ?vende den bagerste brøk p? hovedet? og derefter gange de to brøker med hinanden. F.eks. er<latex>\\frac{1}{5} : \\frac{3}{4} = \\frac{1}{5} * \\frac{4}{3} = \\frac{4}{15}</latex>Det er vigtigt, at det er den brøk, man dividerer med, som man vender om!Generelt er reglen<latex>\\frac{a}{b} : \\frac{c}{d} = \\frac{a}{b} * \\frac{d}{c}</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false,
-            "children": [
-              {
-                "name": "Dividere brøk med helt tal",
-                "description": {
-                  "levels": [
-                    {
-                      "description": "Level 2N?r man skal dividere en brøk med et tal, s? ganger man tallet p? i n?vneren. F.eks er<latex>\\frac{5}{6} : 2 = \\frac{5}{6*2} = \\frac{5}{12}</latex>En m?de at huske denne regel p? er ved at omskrive tallet til en brøk. (Ethvert tal svarer nemlig til en brøk med 1 i n?vneren).  Nu er den hen regel egentlig bare den samme som division af brøk med brøk. Eksemplet ovenfor ville blive<latex>\\frac{5}{6} : 2 = \\frac{5}{6} : \\frac{2}{1} = \\frac{5}{6} * \\frac{1}{2} = \\frac{5*1}{6*2} = \\frac{5}{12}</latex>",
-                      "level": 1
-                    }
-                  ]
-                },
-                "usingQuiz": false,
-                "usingDescription": false
-              },
-              {
-                "name": "Forl?nge brøker",
-                "description": {
-                  "levels": [
-                    {
-                      "description": "N?r man regner med brøker, kan det ofte v?re praktisk at omforme dem.Hvis man vil have et st?rre tal i t?ller eller n?vner, kan man forl?nge brøken. Det g?r man ved at gange det samme tal p? i t?ller og n?vner.<image>course_fraction_4.png</image>brøkens v?rdi er alts? u?ndret, n?r vi forl?nger den. Et eksempel fra virkelighedens verden er, at om man er 8 mennesker om at dele 1 pizza eller 80 mennesker om at dele 10, s? f?r man lige meget pizza<latex>\\frac{1}{8} = \\frac{1*10}{8*10} = \\frac{10}{80}</latex>Generelt har vi reglen<latex>\\frac{a}{b} = \\frac{a*k}{b*k}</latex>, g?ldende for et k der ikke er 0.",
-                      "level": 1
-                    }
-                  ]
-                },
-                "usingQuiz": false,
-                "usingDescription": false
-              }
-            ]
-          },
-          {
-            "name": "Forkorte brøker",
-            "description": {
-              "levels": [
-                {
-                  "description": "Hvis vi derimod ?nsker at g?re t?lleren eller n?vneren mindre, kan vi forkorte brøken. Dette g?res ved at dividere med det samme tal i b?de t?ller og n?vner. F.eks.<latex>\\frac{16}{24} = \\frac{16 : 8}{24 : 8} = \\frac{2}{3}</latex>Vi kan ogs? se p? en tegning. Hvis pizzaen er delt i 8 stykker, og du spiser 6, s? har du spist lige s? meget, som hvis den var delt i 4 stykker, og du havde spist de 3.<image>course_fraction_5.png</image>Generelt kan vi skrive reglen som<latex>\\frac{a}{b} = \\frac{a:k}{b:k}</latex>, g?ldende for et k der ikke er 0.",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          }
-        ]
-      },
-      {
-        "name": "Dividere helt tal med brøk",
-        "description": {
-          "levels": [
-            {
-              "description": "Level 1N?r man skal dividere et tal med en brøk, s? vender man brøken om og ganger tallet p? i (den nye) t?ller. F.eks. er<latex>8 : \\frac{19}{2} = 8 * \\frac{2}{19} = \\frac{8*2}{19} = \\frac{16}{19}</latex>Igen kan vi omskrive tallet til en brøk med 1 i n?vneren, og s? er ogs? denne regel den samme som division af brøk med brøk.<latex>8 : \\frac{19}{2} = \\frac{8}{1} : \\frac{19}{2} = \\frac{8}{1} * \\frac{2}{19} = \\frac{8*2}{1*19} = \\frac{16}{19}</latex>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Blandede tal",
-        "description": {
-          "levels": [
-            {
-              "description": "Det sker, at t?lleren er st?rre end n?vneren i en brøk. I s? fald kan man omskrive brøken til et blandet tal. Dvs. et tal, der b?de indeholder heltal og brøker.F.eks er<latex>\\frac{4}{3} = 1\\frac{1}{3}</latex><image>course_fraction_7.png</image>Man finder det hele tal ved at se, hvor mange gange n?vneren g?r op i t?lleren.Den rest, der er tilbage, bliver st?ende i t?lleren.Bem?rk, at der IKKE er et skjult gangetegn mellem det hele tal og brøken i et blandet tal. Der er snarere et skjult plustegn.Lad os for eksempel omskrive <latex>\\frac{13}{4}</latex> til et blandet tal.F?rst skal vi finde ud af, hvor mange gange 4 g?r op i 13. 4 g?r op i 13 3 gange (4*3=12) og der er en rest p? 1. Dermed er<latex>\\frac{13}{4} = 3\\frac{1}{4}</latex><image>course_fraction_8.png</image>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Fra blandet til til brøk",
-        "description": {
-          "levels": [
-            {
-              "description": "Hvis man vil omskrive et blandet tal til en brøk, s? kan man ?forl?nge? det hele tal med n?vneren. Dvs. man laver en ny brøk, hvor man skriver n?vneren fra den gamle brøk i n?vneren og det hele tal ganget med den gamle n?vner i t?lleren. Derefter l?gger man den nye brøk sammen med den gamle.Eksempler:<latex>7\\frac{2}{3} = \\frac{7*3}{3} + \\frac{2}{3} = \\frac{21}{3} + \\frac{2}{3} = \\frac{23}{3}</latex><latex>2\\frac{7}{8} = \\frac{2*8}{8} + \\frac{7}{8} = \\frac{16}{8} + \\frac{7}{8} = \\frac{23}{8}</latex>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false,
-        "children": [
-          {
-            "name": "Omregning: Fra brøk til procent",
-            "description": {
-              "levels": [
-                {
-                  "description": "N?r man skal omregne en brøk til en procentsats, s? skal man forl?nge eller forkorte brøken s?ledes, at der st?r 100 i n?vneren. Dette skyldes, at ?n procent netop svarer til ?n hundrededel.<latex>\\frac{1}{4} = \\frac{1*25}{4*25} = \\frac{25}{100} = 100\\%</latex>I eksemplet ovenfor har vi forl?nget brøken med 25, fordi <latex>4*25=100</latex>.Det handler alts? om at finde ud af, hvilket tal, man skal forl?nge med for at f? 100 i n?vneren.Hvis man er i tvivl om, hvad man skal forl?nge med, s? kan man finde det ved at dividere 100 med n?vneren. F.eks. er <latex>\\frac{100}6{}=16,666...</latex>Derfor er<latex>\\frac{5}{6} = \\frac{5*16.666}{6*16.666} = \\frac{83.333}{100} = 83.333\\%</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "Omregning: Fra procent til brøk",
-            "description": {
-              "levels": [
-                {
-                  "description": "Hvis man har f?et en procentsats, og man gerne vil skrive den som en brøk, s? er det vigtigt at huske, at ?procent? betyder ?hundrededele?. Man kan alts? skrive x% om til <latex>\\frac{x}{100}</latex>. Herefter g?lder det om at finde ud af, om der er nogen tal, der g?r op i b?de t?ller og n?vner. Hvis der er det, kan man forkorte brøken.<latex>38\\% = \\frac{38}{100} = \\frac{38 : 2}{100 : 2} = \\frac{19}{50}</latex>I eksemplet ovenfor har vi forkortet med 2, fordi 2 g?r op i b?de 38 og 100. Da 19 er et primtal, kan vi ikke forkorte brøken yderligere.<latex>64\\% = \\frac{64}{100} = \\frac{64 : 4}{100 : 4} = \\frac{16}{25}</latex>Hvis der er tale om, at procentsatsen er et kommatal, s? m? man rykke kommaet i b?de t?ller og n?vner, f?r man finder tal, der g?r op i begge dele.<latex>37.5\\% = \\frac{37.5}{100} = \\frac{375}{1000}</latex>Vi ser at 125 g?r op i b?de t?ller og n?vner. Dermed bliver<latex>\\frac{375}{1000} = \\frac{375 : 125}{1000 : 125} = \\frac{3}{8}</latex>37,5% svarer alts? til <latex>\\frac{3}{8}</latex>.",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false,
-            "children": [
-              {
-                "name": "Omregning: Fra brøk til decimaltal",
-                "description": {
-                  "levels": [
-                    {
-                      "description": "Hvis man har en brøk, man gerne vil omskrive til et decimaltal, s? m? man dividere brøken ud. Der findes flere metoder til at dividere. Vi gennemg?r en her ved hj?lp af et eksempel.<image>course_fraction_6.png</image>Vil man omskrive <latex>\\frac{5}{8}</latex> til et decimaltal, s? sp?rger man f?rst hvor mange gange 8 g?r op i 5. Det er 0 gange. Man skriver dette nul ude til h?jre. Under femtallet skriver man ogs? 0. Nu tr?kker man 0 fra 5. Det giver 5. Man hiver et 0 ned (det gr?nne).S? sp?rger man, hvor mange gange 8 g?r op i 50. Det er 6 gange. Man skriver 6-tallet ude til h?jre, og man skriver resultatet af 6?8 under 50. Ved at tr?kke 48 fra 50 f?r vi 2. Vi tr?kker endnu et nul ned.S? sp?rger vi, hvor mange gange 8 g?r op i 20. Det er 2 gange. Vi skriver 2-tallet ude til h?jre of resultatet af 8?2 under 20. Vi tr?kker 16 fra 20 og f?r 4. Vi tr?kker et nul ned.Til sidst sp?rger vi, hvor mange gange 8 g?r op i 40. Det er 5 gange. Vi skriver 5 ude til h?jre, og skriver 5?8 under 40. Nu st?r der 40-40, og det giver 0. N?r der st?r 0 forneden er vi f?rdige.<latex>\\frac{5}{8}</latex> svarer alts? til 0,625.",
-                      "level": 1
-                    }
-                  ]
-                },
-                "usingQuiz": false,
-                "usingDescription": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Omregning: Fra decimaltal til brøk",
-        "description": {
-          "levels": [
-            {
-              "description": "Hvis man vil omskrive et decimaltal til en brøk, s? er der to tilf?lde, man kan se p?. Det f?rste tilf?lde hvor der er endeligt mange cifre (f.eks. 0,125 eller 4,3), og det andet tilf?lde, hvor der er et tal, der g?r igen og igen uendeligt mange gange (f.eks. 0,3333333333?).I det f?rste tilf?lde omskriver man decimaltallet ved i t?lleren at skrive tallet, hvor man blot har fjernet kommaet. I n?vneren skriver man et 1-tal efterfulgt af s? mange 0?er som der er pladser efter kommaet. Herefter kan man forkorte brøken.<latex>0.125 = \\frac{125}{1000} = \\frac{125 : 125}{1000 : 125} = \\frac{1}{8}</latex>I eksemplet ovenfor skrev vi 1000 i n?vneren, fordi der er 3 cifre efter kommaet i 0,125.Hvis man er i det andet tilf?lde, hvor der er et tal, der gentages uendeligt mange gange, s? skal man forl?nge med 9, 99, 999,? alt efter hvor mange cifre, der er i det tal, der gentages i det uendelige. T?lleren bliver s? de cifre, der gentages, mens n?vneren bliver det, man har forl?nget med.Eksempelvis bliver<latex>0.444 = \\frac{0.444*9}{9} = \\frac{4}{9}</latex><latex>0.432743274327 = \\frac{0.432743274327 * 9999}{9999} = \\frac{4327}{9999}</latex>Her bruger vi, at<latex>0.333 * 9 = 3</latex><latex>0.888 * 9 = 8</latex><latex>0.171717 * 99 = 17</latex><latex>0,123123123 * 999 = 123</latex>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false
-      },
-      {
-        "name": "Omregning: Fra procent til decimaltal",
-        "description": {
-          "levels": [
-            {
-              "description": "Hvis man vil omskrive en procentsats til et decimaltal, skal man huske, at ?procent? betyder ?hundrededele?. At finde en hundrededel svarer til at dividere med 100, og det svarer igen til at rykke kommaet to pladser til venstre.<latex>98\\% = 0.98</latex><latex>120\\% = 1.20</latex><latex>34.87\\% = 0.3487</latex>",
-              "level": 1
-            }
-          ]
-        },
-        "usingQuiz": false,
-        "usingDescription": false,
-        "children": [
-          {
-            "name": "Omregning: Fra decimaltal til procent",
-            "description": {
-              "levels": [
-                {
-                  "description": "Her g?r man det omvendte af ovenfor. Man rykker kommaet to pladser til h?jre<latex>0.17 = 17\\%</latex><latex>1.456 = 145.6\\%</latex><latex>0.1112 = 11.12\\%</latex>",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          }
-        ]
-      }
-    ]
   }
 ]

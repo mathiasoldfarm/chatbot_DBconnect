@@ -112,7 +112,7 @@ namespace DBConnect {
                 inserted = false;
                 foreach (Section section in _sections)
                 {
-                    if (parent_sorted_sections.All(s => s.id != section.id) && (section.parent == 0 || parent_sorted_sections.Any(s => s.id == section.parent)))
+                    if (parent_sorted_sections.All(s => s.id != section.id) && (section.parent == -1 || parent_sorted_sections.Any(s => s.id == section.parent)))
                     {
                         inserted = true;
                         parent_sorted_sections.Add(section);

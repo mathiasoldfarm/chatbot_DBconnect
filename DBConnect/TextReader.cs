@@ -61,7 +61,7 @@ namespace DBConnect {
                     for (int i = 6; i < content.Length; i++) {
                         string line = content[i];
                         if (line.Contains("Text: ") || line.Contains("Quiz: ")) {
-                            currentDepth = line.Where(c => c == '\t').Count() / 2;
+                            currentDepth = line.Where(c => c == '\t').Count();
                         } 
                         
                         line = line.Replace("\n", "").Replace("\t", "");

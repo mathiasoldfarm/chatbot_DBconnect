@@ -53,6 +53,7 @@ namespace DBConnect {
                     usingDescription = (bool)row[6];
                 }
                 children = new List<Section>();
+                parent = -1;
             }
             catch {
                 throw new Exception("Constructor argument DataRow was expected to have two arguments of type int string");
@@ -67,6 +68,7 @@ namespace DBConnect {
             name = _name;
             quiz = _quiz;
             description = _description;
+            parent = -1;
         }
 
         public Section(string _name, int _depth) {
@@ -104,11 +106,10 @@ namespace DBConnect {
                 query.Parameters.AddWithValue("quiz_id", DBNull.Value);
                 query.Parameters.AddWithValue("description_id", description.id);
             }
-            if ( parent == 0 )
+            if ( parent == -1 )
             {
                 query.Parameters.AddWithValue("parent_id", DBNull.Value);
-            } else
-            {
+            } else {
                 query.Parameters.AddWithValue("parent_id", parent);
             }
             queries.Add(query);

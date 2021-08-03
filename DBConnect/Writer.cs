@@ -132,8 +132,8 @@ namespace DBConnect
                 foreach (Section section in course.sections) {
                     FlattenSections(newSectionList, sectionsInWrittenOrder, section, 0);
                 }
-                course.SectionsInWrittenOrder = sectionsInWrittenOrder;
-                course.sections = newSectionList;
+                course.sections = sectionsInWrittenOrder;
+                //course.sections = newSectionList;
             }
         }
 

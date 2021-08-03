@@ -132,7 +132,9 @@ namespace DBConnect
 
             foreach (KeyValuePair<int, Section> section in sections) {
                 object parentId = temporaryParentMapper[section.Key];
-                if (parentId != DBNull.Value) {
+                if (parentId == DBNull.Value) {
+                    section.Value.AddParent(-1);
+                } else {
                     section.Value.AddParent((int)parentId);
                 }
             }
