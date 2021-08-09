@@ -48,7 +48,7 @@
         "description": {
           "levels": [
             {
-              "description": "I dette kapitel udvikles en metode til at bestemme hældningen på tangenten til enfunktion. Dette kaldes at bestemme differentialkvotienten til funktionen.",
+              "description": "I dette kapitel udvikles en metode til at bestemme hældningen på tangenten til en funktion. Dette kaldes at bestemme differentialkvotienten til funktionen.\n",
               "level": 1
             }
           ]
@@ -61,7 +61,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Differentialregning har mange anvendelsesmuligheder i økonomiske sammenhænge. Her taler vi om profilfagene på hhx, dvs. afsætning, virksomhedsøkonomi og international økonomi. I dette afsnit ser vi på nogle eksempler, der viser anvendelsen af differentialregning iøkonomiske sammenhænge, ligesom vi også ser på teorien, der er knyttet hertil.",
+                  "description": "Differentialregning har mange anvendelsesmuligheder i økonomiske sammenhænge. Her taler vi om profilfagene på hhx, dvs. afsætning, virksomhedsøkonomi og international økonomi. I dette afsnit ser vi på nogle eksempler, der viser anvendelsen af differentialregning iøkonomiske sammenhænge, ligesom vi også ser på teorien, der er knyttet hertil.\n",
                   "level": 1
                 }
               ]
@@ -74,7 +74,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Vi starter med en definition:<DEFINITION><H2>Differentialkvotient</H2>Differentialkvotienten er defineret som hældningskoefficienten for en tangent i etbestemt punkt på grafen for en funktion.Hvis funktionen hedder f(x), kalder vi differentialkvotienten f '(x), og den læses: differentialkvotienten f mærke af x, eller blot f mærke af x.</DEFINITION>",
+                  "description": "Vi starter med en definition:\n<DEFINITION><H2>Differentialkvotient</H2>Differentialkvotienten er defineret som hældningskoefficienten for en tangent i etbestemt punkt på grafen for en funktion.Hvis funktionen hedder <MATH>f(x)</MATH>, kalder vi differentialkvotienten <MATH>f'(x)</MATH>, og den læses: differentialkvotienten <MATH>f</MATH> mærke af <MATH>x</MATH>, eller blot <MATH>f</MATH> mærke af <MATH>x</MATH>.</DEFINITION>\n",
                   "level": 1
                 }
               ]
@@ -87,7 +87,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Denne definition kan lyde indviklet; men differentialregning er i høj grad det samme som at beregne en linjes hældning, som vi kender fra tidligere.",
+                  "description": "Denne definition kan lyde indviklet; men differentialregning er i høj grad det samme som at beregne en linjes hældning, som vi kender fra tidligere.\n",
                   "level": 1
                 }
               ]
@@ -100,7 +100,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Vi kan fortolke f'(x) som et udtryk for, hvor meget y-værdierne ændrer sig, når x vokser mikroskopisk lidt. Værdierne for f '(x) afhænger derfor af, hvor vi befinder os på grafen. I det følgende gives en række eksempler på, hvordan differentialregning kan anvendes.",
+                  "description": "Vi kan fortolke <MATH>f'(x)</MATH> som et udtryk for, hvor meget y-værdierne ændrer sig, når x vokser mikroskopisk lidt. Værdierne for <MATH>f'(x)</MATH> afhænger derfor af, hvor vi befinder os på grafen. I det følgende gives en række eksempler på, hvordan differentialregning kan anvendes.\n",
                   "level": 1
                 }
               ]
@@ -113,7 +113,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "<TIP>Kvotient og koefficient betyder talværdi. En koefficient er en konstant, mens kvotient er et tal, der angiver forholdet mellem to størrelser.</TIP>",
+                  "description": "<TIP>Kvotient og koefficient betyder talværdi. En koefficient er en konstant, mens kvotient er et tal, der angiver forholdet mellem to størrelser.</TIP>\n",
                   "level": 1
                 }
               ]
@@ -126,8 +126,47 @@
             "description": {
               "levels": [
                 {
-                  "description": "<TIP>Differentialregning er som nævnt langt hen ad vejen tæt knyttet til lineære funktioner – og deres hældning, idet f '(x) angiver hældningen for den linje, der er tangent i punktet (x, f(x)) på grafen for en given funktion. f '(2) vil således være den talværdi, der angiver hældningen for tangenten, der tangerer grafen for f i punktet (2, f(2)).</TIP>",
+                  "description": "<TIP>Differentialregning er som nævnt langt hen ad vejen tæt knyttet til lineære funktioner – og deres hældning, idet <MATH>f'(x)</MATH> angiver hældningen for den linje, der er tangent i punktet <MATH>(x, f(x))</MATH> på grafen for en given funktion. <MATH>f'(2)</MATH> vil således være den talværdi, der angiver hældningen for tangenten, der tangerer grafen for <MATH>f</MATH> i punktet <MATH>(2, f(2))</MATH>.</TIP>\n",
                   "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Øvelse 3.1.1.",
+            "quiz": {
+              "levels": [
+                {
+                  "level": 1,
+                  "questions": [
+                    {
+                      "question": "Nedenstående koordinatsystem indeholder grafen for en given funktion <MATH>f(x)</MATH>. På grafen er angivet tre koordinatsæt. I koordinatsystemet er samtidig indtegnet tre lineære funktioner, der IKKE er tangenter til funktionen <MATH>f</MATH>. Hvis de tre linjer parallelforskydes, vil de hver især kunne blive tangent til grafen for <MATH>f</MATH> gennem ét af de tre punkter. \nHvilke linjer skal kobles til de enkelte punktet (-1, -3)?\n\n<IMG>øvelse-3.1.1</IMG>\n",
+                      "correct": {
+                        "answer": "Den blå",
+                        "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, s? er der 3 lige store dele tilbage, alts? 3/5."
+                      },
+                      "possibleAnswers": [
+                        {
+                          "answer": "Den grønne",
+                          "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, s? er der mere end 2/5 dele tilbage. Du mangel nemlig 1/5 s?, fordi 1/5 + 2/5 + 2/5 (dem der spises) = 5/5 = hele."
+                        },
+                        {
+                          "answer": "Den gule",
+                          "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, s? er der mere end 1 femtedel tilbage. Du mangel nemlig 2 femtedele s?, fordi 1 femtedel + 2 femtedele + 2 femtedele (dem der spises) = 1 hel = hele kagen"
+                        },
+                        {
+                          "answer": "Den blå",
+                          "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, s? er der 3 lige store dele tilbage, alts? 3/5."
+                        },
+                        {
+                          "answer": "Den røde",
+                          "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, s? er der 3 lige store dele tilbage, alts? 3/5."
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -139,7 +178,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "<TIP>Kært barn har mange navne! Det betyder derfor også, at f '(x) angives på flere måder. Man kan se f ' præsenteret som: I mange IT-programmer er det ofte en helt anden notation, der anvendes, så det er vigtigt også at kende de notationer. Hvordan er notationen i det program, som du evt. anvender?</TIP>",
+                  "description": "<TIP>Kært barn har mange navne! Det betyder derfor også, at <MATH>f'(x)</MATH> angives på flere måder. Man kan se <MATH>f'</MATH> præsenteret som:\n<MATHBIG>f'(x) = y' = \\frac{dy}{dx}</MATHBIG>\nI mange IT-programmer er det ofte en helt anden notation, der anvendes, så det er vigtigt også at kende de notationer. Hvordan er notationen i det program, som du evt. anvender?</TIP>\n",
                   "level": 1
                 }
               ]
@@ -152,7 +191,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Differentialregning er relevant i forbindelse med matematisk modellering og de økonomiske fag. Nedenstående tre eksempler introducerer sammenhængen – som der vendes tilbage til. Her og nu forstår I nok ikke helt, hvad der menes; men tanken er også blot, at I allerede nu skal få en idé herom.",
+                  "description": "Differentialregning er relevant i forbindelse med matematisk modellering og de økonomiske fag. Nedenstående tre eksempler introducerer sammenhængen – som der vendes tilbage til. Her og nu forstår I nok ikke helt, hvad der menes; men tanken er også blot, at I allerede nu skal få en idé herom.\n",
                   "level": 1
                 }
               ]
@@ -165,7 +204,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "<EKSEMPEL><H2>Eksempel 3.1.1. Differentialkvotient og afsætning</h2>Følgende spørgsmål er relevant for mange virksomheder: \"Hvad sker der med afsætningen af et produkt, hvis vi ændrer prisen?\" Her kan vi se, at vi har fat i en sammenhæng mellem pris og afsætning. Vi kunne derfor formulere en matematisk funktion, der beskriver denne sammenhæng. Hvis f(x) beskriver afsætningen i stk. som funktion af prisen x i kr., vil differentialkvotienten f '(x) angive, hvor meget afsætningen ændres, hvis der ændres på prisen. For virksomheden vil svaret på spørgsmålet være vigtigt i bestemmelsen af den \"rigtige\" pris – altså fx den pris, der giver virksomheden størst overskud.</EKSEMPEL>",
+                  "description": "<EKSEMPEL><H2>Eksempel 3.1.1. Differentialkvotient og afsætning</h2>\nFølgende spørgsmål er relevant for mange virksomheder: \"Hvad sker der med afsætningen af et produkt, hvis vi ændrer prisen?\"\n\nHer kan vi se, at vi har fat i en sammenhæng mellem pris og afsætning. Vi kunne derfor formulere en matematisk funktion, der beskriver denne sammenhæng. Hvis <MATH>f(x)</MATH> beskriver afsætningen i stk. som funktion af prisen x i kr., vil differentialkvotienten <MATH>f'(x)</MATH> angive, hvor meget afsætningen ændres, hvis der ændres på prisen. For virksomheden vil svaret på spørgsmålet være vigtigt i bestemmelsen af den \"rigtige\" pris – altså fx den pris, der giver virksomheden størst overskud.</EKSEMPEL>\n",
                   "level": 1
                 }
               ]
@@ -178,7 +217,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "<EKSEMPEL><H2>Eksempel 3.1.2. Differentialkvotient, samfundsfag og international økonomi</h2>Der er sammenhæng imellem indkomstskatteniveauet og arbejdsløsheden i Danmark, hvilket skyldes, at hvis vi ændrer på indkomstskatteprocenterne, vil det få en effekt på arbejdsløsheden. Følgende spørgsmål kunne nu være relevant. \"Hvilken betydning vil det have for arbejdsløsheden i Danmark, hvis vi sætter indkomstskatten ned?\" Dette er et ofte debatteret spørgsmål og slet ikke så let at svare på. Men hvis vi kan få beskrevet sammenhængen mellem skat og arbejdsløshed grundigt, fx ved at beskrive sammenhængen med matematiske funktioner, vil differentialregningen til dels kunne give et svar på spørgsmålet.</EKSEMPEL>",
+                  "description": "<EKSEMPEL><H2>Eksempel 3.1.2. Differentialkvotient, samfundsfag og international økonomi</h2>\nDer er sammenhæng imellem indkomstskatteniveauet og arbejdsløsheden i Danmark, hvilket skyldes, at hvis vi ændrer på indkomstskatteprocenterne, vil det få en effekt på arbejdsløsheden. Følgende spørgsmål kunne nu være relevant. \"Hvilken betydning vil det have for arbejdsløsheden i Danmark, hvis vi sætter indkomstskatten ned?\"\n\nDette er et ofte debatteret spørgsmål og slet ikke så let at svare på. Men hvis vi kan få beskrevet sammenhængen mellem skat og arbejdsløshed grundigt, fx ved at beskrive sammenhængen med matematiske funktioner, vil differentialregningen til dels kunne give et svar på spørgsmålet.</EKSEMPEL>\n",
                   "level": 1
                 }
               ]
@@ -191,7 +230,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "<EKSEMPEL><H2>Eksempel 3.1.3. Differentialkvotient og virksomhedsøkonomi</h2>For en produktionsvirksomhed vil der være en sammenhæng mellem produktionens størrelse og omkostningsniveauet i virksomheden, for jo flere stk., der produceres, jo større bliver de samlede omkostninger. Sammenhængen mellem produktionen i stk. og de samlede omkostninger i kr. kan beskrives ved hjælp af en matematisk funktion. I dette tilfælde vil differentialregning give os svar på spørgsmålet: \"Hvad sker der præcist med de samlede omkostninger, hvis vi øger produktionen med 1 stk.?\" Svaret på dette spørgsmål kan virksomheden bruge til at vurdere, om produktionen skal øges. Hvis fx den salgspris, virksomheden kan få for sit produkt, er større end omkostningsstigningen ved at øge produktionen, så skal virksomheden øge produktionen</EKSEMPEL>",
+                  "description": "<EKSEMPEL><H2>Eksempel 3.1.3. Differentialkvotient og virksomhedsøkonomi</h2>\nFor en produktionsvirksomhed vil der være en sammenhæng mellem produktionens størrelse og omkostningsniveauet i virksomheden, for jo flere stk., der produceres, jo større bliver de samlede omkostninger.\n\nSammenhængen mellem produktionen i stk. og de samlede omkostninger i kr. kan beskrives ved hjælp af en matematisk funktion. I dette tilfælde vil differentialregning give os svar på spørgsmålet:\n\n\"Hvad sker der præcist med de samlede omkostninger, hvis vi øger produktionen med 1 stk.?\"\n\nSvaret på dette spørgsmål kan virksomheden bruge til at vurdere, om produktionen skal øges. Hvis fx den salgspris, virksomheden kan få for sit produkt, er større end omkostningsstigningen ved at øge produktionen, så skal virksomheden øge produktionen</EKSEMPEL>\n",
                   "level": 1
                 }
               ]
@@ -204,7 +243,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "I alle tre eksempler vil svaret på det stillede spørgsmål være et tal. I eksempel 3.1.1 er svaret, hvor meget salget ændres, hvis prisen ændres. I eksempel 3.1.2 angiver vort svar, hvor meget arbejdsløsheden ændres, hvis skatteprocenten ændres. I eksempel 3.1.3 er svaret, hvor meget omkostningerne stiger, hvis produktionen øges. Vi kalder dette tal differentialkvotienten. Vi vil i det følgende afsnit se på, hvad dette tal – differentialkvotienten – betyder matematisk.",
+                  "description": "I alle tre eksempler vil svaret på det stillede spørgsmål være et tal. I eksempel 3.1.1 er svaret, hvor meget salget ændres, hvis prisen ændres. I eksempel 3.1.2 angiver vort svar, hvor meget arbejdsløsheden ændres, hvis skatteprocenten ændres. I eksempel 3.1.3 er svaret, hvor meget omkostningerne stiger, hvis produktionen øges. Vi kalder dette tal differentialkvotienten. Vi vil i det følgende afsnit se på, hvad dette tal – differentialkvotienten – betyder matematisk.\n",
                   "level": 1
                 }
               ]
@@ -219,7 +258,7 @@
         "description": {
           "levels": [
             {
-              "description": "Vi har tidligere arbejdet med lineære funktioner (førstegradsfunktioner). Grafen for enlineær funktion er en ret linje. Vi husker også, at regneforskriften for enhver lineær funktionkan skrives på formen y = f(x) = ax + b. Tallene a og b (førstegradsfunktionens koefficienter) har som bekendt nogle simple grafiske fortolkninger.",
+              "description": "Vi har tidligere arbejdet med lineære funktioner (førstegradsfunktioner). Grafen for en\nlineær funktion er en ret linje. Vi husker også, at regneforskriften for enhver lineær funktion\nkan skrives på formen <MATH>y = f(x) = ax + b</MATH>. Tallene a og b (førstegradsfunktionens koefficienter) har som bekendt nogle simple grafiske fortolkninger.\n",
               "level": 1
             }
           ]
@@ -232,7 +271,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "a-værdien viser grafens hældning svarende til funktionens hældningskoefficient, mens b-værdien angiver, hvor den rette linje skærer y-aksen. Dette illustreres i grafen til herunder.<IMG>step15</IMG>",
+                  "description": "a-værdien viser grafens hældning svarende til funktionens hældningskoefficient, mens b-værdien angiver, hvor den rette linje skærer y-aksen. Dette illustreres i grafen til herunder.\n<IMG>step15</IMG>\n",
                   "level": 1
                 }
               ]
@@ -245,7 +284,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Tangenten er en ret linje, der lige netop rører (tangerer) grafen for en funktion i ét og kun ét bestemt punkt, som kaldes røringspunktet. Den nederste graf viser en parabel, hvor der er angivet to linjer. Linjen l1 skærer grafen i to punkter, og denne form for linje kaldes en sekant. Linjen l2 rører grafen i et enkelt punkt (x0, f(x0)), og denne linje er en tangent. Tangenten er interessant, da den kan fortælle noget om den funktion, den er tangent til.<IMG>step16</IMG>",
+                  "description": "Tangenten er en ret linje, der lige netop rører (tangerer) grafen for en funktion i ét og kun ét bestemt punkt, som kaldes røringspunktet. Den nederste graf viser en parabel, hvor der er angivet to linjer. Linjen <MATH>l_1</MATH> skærer grafen i to punkter, og denne form for linje kaldes en sekant. Linjen <MATH>l_2</MATH> rører grafen i et enkelt punkt <MATH>(x_0, f(x_0))</MATH>, og denne linje er en tangent. Tangenten er interessant, da den kan fortælle noget om den funktion, den er tangent til.\n<IMG>step16</IMG>\n",
                   "level": 1
                 }
               ]
@@ -258,7 +297,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "<DEFINITION><H2>Tangent</H2>Tangenten er en ret linje, der netop tangerer grafen for en funktion f(x) i ét punkt, kaldet røringspunktet (x, f(x)).</DEFINITION><IMG>step17</IMG>",
+                  "description": "<DEFINITION><H2>Tangent</H2>\nTangenten er en ret linje, der netop tangerer grafen for en funktion <MATH>f(x)</MATH> i ét punkt, kaldet røringspunktet <MATH>(x, f(x))</MATH>.</DEFINITION>\n<IMG>step17</IMG>\n",
                   "level": 1
                 }
               ]
@@ -271,7 +310,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Tangentens hældning kan opfattes som hældningen i et punkt på en kurve. Normalt taler vi kun om hældningen på rette linjer, men når vi ser på en kurve, har vi umiddelbart en idé om, hvordan kurven ændrer sigi forskellige områder af grafen, hvilket fremgår af grafen ovenfor.",
+                  "description": "Tangentens hældning kan opfattes som hældningen i et punkt på en kurve. Normalt taler vi kun om hældningen på rette linjer, men når vi ser på en kurve, har vi umiddelbart en idé om, hvordan kurven ændrer sig i forskellige områder af grafen, hvilket fremgår af grafen ovenfor.\n",
                   "level": 1
                 }
               ]
@@ -284,7 +323,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Det er tydeligt, at den mørkerøde kurve vokser og aftager til højre. Samtidig bemærker vi, at hældningen på kurven ikke er konstant, som den er ved rette linjer. Hældningen forandrer sig, når vi bevæger os rundt på kurven. Vi ser, at til venstre for ekstremaet vil alle tangenter på parablen have en positiv hældning, og til højre for ekstremaet vil alle tangenter på parablen have en negativ hældning. Endelig bemærkes, at i grafens toppunkt (ekstremaet), er tangenten vandret, dvs. tangenten i toppunktet har en hældningskoefficient på 0. Tilsyneladende kan tangenternes fortegn fortælle os noget om funktionens monotoniforhold og eventuelle ekstrema.",
+                  "description": "Det er tydeligt, at den mørkerøde kurve vokser og aftager til højre. Samtidig bemærker vi, at hældningen på kurven ikke er konstant, som den er ved rette linjer. Hældningen forandrer sig, når vi bevæger os rundt på kurven.\n\nVi ser, at til venstre for ekstremaet vil alle tangenter på parablen have en positiv hældning, og til højre for ekstremaet vil alle tangenter på parablen have en negativ hældning. Endelig bemærkes, at i grafens toppunkt (ekstremaet), er tangenten vandret, dvs. tangenten i toppunktet har en hældningskoefficient på 0.\n\nTilsyneladende kan tangenternes fortegn fortælle os noget om funktionens monotoniforhold og eventuelle ekstrema.\n",
                   "level": 1
                 }
               ]
@@ -297,7 +336,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "<TIP>Husk, at en funktions monotoniforhold fortæller, hvor funktionen er voksende, og hvor den er aftagende målt i forhold til x-aksen. Det er vigtigt at anvende de korrekte betegnelser (vokse og aftage), når der redegøres for monotoniforhold. </TIP>",
+                  "description": "<TIP>Husk, at en funktions monotoniforhold fortæller, hvor funktionen er voksende, og hvor den er aftagende målt i forhold til x-aksen. Det er vigtigt at anvende de korrekte betegnelser (vokse og aftage), når der redegøres for monotoniforhold. </TIP>\n",
                   "level": 1
                 }
               ]
@@ -312,7 +351,7 @@
         "description": {
           "levels": [
             {
-              "description": "Vi definerede i sidste afsnit tangenten i et punkt på en kurve som en ret linje, der tangererkurven i punktet.<IMG>step21</IMG>",
+              "description": "Vi definerede i sidste afsnit tangenten i et punkt på en kurve som en ret linje, der tangerer\nkurven i punktet.\n<IMG>step21</IMG>\n",
               "level": 1
             }
           ]
@@ -325,7 +364,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Med udgangspunkt i denne 'grafiske' definition af en tangent, kan vi definere den såkaldte afledte funktion.<DEFINITION><H2>Afledt funktion</H2>For en funktion f definerer vi en afledt funktion f ' (læses: f mærke ) således: f '(x) = hældningskoefficienten for tangenten i røringspunktet (x, f(x)). Funktionsværdien f '(x) for denne afledte funktion læses: differentialkvotienten f mærke af x, eller blot: f mærke af x.</DEFINITION>",
+                  "description": "Med udgangspunkt i denne 'grafiske' definition af en tangent, kan vi definere den såkaldte afledte funktion.\n<DEFINITION><H2>Afledt funktion</H2>\nFor en funktion f definerer vi en afledt funktion <MATH>f'</MATH> (læses: f mærke ) således: <MATH>f'(x)</MATH> = hældningskoefficienten for tangenten i røringspunktet <MATH>(x, f(x))</MATH>. Funktionsværdien <MATH>f'(x)</MATH> for denne afledte funktion læses: differentialkvotienten f mærke af x, eller blot: f mærke af x.</DEFINITION>\n",
                   "level": 1
                 }
               ]
@@ -338,7 +377,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Differentialkvotienten kan tolkes som kurvehældningen i et givet punkt, mens den afledte funktion angiver kurvehældninger som funktion af x. Definitionen af f' giver os mulighed for at bestemme differentialkvotienterne tilnærmelsesvist ved grafisk aflæsning. Vi skal blot tegne tangenter i røringspunkter på grafen og derefter aflæse tangenternes hældninger",
+                  "description": "Differentialkvotienten kan tolkes som kurvehældningen i et givet punkt, mens den afledte funktion angiver kurvehældninger som funktion af x. Definitionen af<MATH>f'</MATH> giver os mulighed for at bestemme differentialkvotienterne tilnærmelsesvist ved grafisk aflæsning. Vi skal blot tegne tangenter i røringspunkter på grafen og derefter aflæse tangenternes hældninger\n",
                   "level": 1
                 }
               ]
@@ -351,7 +390,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "<EKSEMPEL><H2>Eksempel 3.3.1. Grafisk aflæsning af differentialkvotienten</H2>Her er tegnet grafen for funktionen Samtidig er der indtegnet tre tangenter. En der rører grafen i (1, –5), en der rører i (2, –6) og endelig en der rører i (3, –5). Vi kan aflæse de tre tangenters hældninger og derved finde f ' i de pågældende punkter. Den blå tangents hældning kan aflæses til –2, dvs., f '(1) = –2. Den grønne tangents hældning kan aflæses til 0, dvs. f '(2) = 0. Endelig kan den gule tangents hældning aflæses til 2, hvilket betyder at f '(3) = 2.<IMG>step24</IMG></EKSEMPEL>",
+                  "description": "<EKSEMPEL><H2>Eksempel 3.3.1. Grafisk aflæsning af differentialkvotienten</H2>\nHer er tegnet grafen for funktionen\n<MATHBIG>f(x) = x^2 - 4x - 2</MATHBIG>\nSamtidig er der indtegnet tre tangenter. En der rører grafen i <MATH>(1, –5)</MATH>, en der rører i <MATH>(2, –6)</MATH> og endelig en der rører i <MATH>(3, –5)</MATH>. Vi kan aflæse de tre tangenters hældninger og derved finde <MATH>f'</MATH> i de pågældende punkter. Den blå tangents hældning kan aflæses til <MATH>–2</MATH>, dvs., <MATH>f'(1) = –2</MATH>. Den grønne tangents hældning kan aflæses til <MATH>0</MATH>, dvs. <MATH>f'(2) = 0</MATH>. Endelig kan den gule tangents hældning aflæses til <MATH>2</MATH>, hvilket betyder at <MATH>f'(3) = 2</MATH>.\n<IMG>step24</IMG></EKSEMPEL>\n",
                   "level": 1
                 }
               ]
@@ -364,20 +403,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Metoden er ikke nøjagtig, men giver dog et fingerpeg om værdien af f '(x). Vi husker også, at aflæsninger i matematik ikke er helt så stærkt et argument som beregninger. Vi udviklerderfor i det følgende en metode til at beregne f '. Først tager vi et par øvelser, hvor der aflæses.",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "Step26",
-            "description": {
-              "levels": [
-                {
-                  "description": "For ikke at skulle tegne selve grafen for en funktion samt dens tangent når vi vil fastlægge differentialkvotienten, vil vi nu finde en metode til at bestemme forskriften for den afledte funktion.",
+                  "description": "Metoden er ikke nøjagtig, men giver dog et fingerpeg om værdien af <MATH>f'(x)</MATH>. Vi husker også, at aflæsninger i matematik ikke er helt så stærkt et argument som beregninger. Vi udviklerderfor i det følgende en metode til at beregne <MATH>f'</MATH>. Først tager vi et par øvelser, hvor der aflæses.\n",
                   "level": 1
                 }
               ]
@@ -388,11 +414,11 @@
         ]
       },
       {
-        "name": "Step27",
+        "name": "Step26",
         "description": {
           "levels": [
             {
-              "description": "Inden den generelle metode introduceres, vises et eksempel, som illustrerer fremgangsmåden.<EKSEMPEL>Lad f (x ) = −0,5x 2 + 2x + 4.<IMG>step27</IMG>Vi ønsker at finde differentialkvotienten i punktet (0, 4) på grafen for f. Differentialkvotienten i et punkt er det samme som hældningen på tangenten i det samme punkt. Vi kender formlen til at bestemme hældningen for en ret linje: hvor (x1, y1) og (x2, y2) er punkter på linjen. </EKSEMPEL>",
+              "description": "For ikke at skulle tegne selve grafen for en funktion samt dens tangent når vi vil fastlægge differentialkvotienten, vil vi nu finde en metode til at bestemme forskriften for den afledte funktion.\n",
               "level": 1
             }
           ]
@@ -401,11 +427,24 @@
         "usingDescription": false,
         "children": [
           {
+            "name": "Step27",
+            "description": {
+              "levels": [
+                {
+                  "description": "Inden den generelle metode introduceres, vises et eksempel, som illustrerer fremgangsmåden.\n<EKSEMPEL>Lad <MATH>f(x) = −0.5x 2 + 2x + 4<MATH>.\n<IMG>step27</IMG>\nVi ønsker at finde differentialkvotienten i punktet <MATH>(0, 4)</MATH> på grafen for <MATH>f</MATH>. Differentialkvotienten i et punkt er det samme som hældningen på tangenten i det samme punkt. Vi kender formlen til at bestemme hældningen for en ret linje: hvor <MATH>(x1, y1)</MATH> og <MATH>(x2, y2)</MATH> er punkter på linjen. </EKSEMPEL>\n",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
             "name": "Step28",
             "description": {
               "levels": [
                 {
-                  "description": "<TIP>En sekant er en linje, der skærer en kurve i to punkter<IMG>step28</IMG></TIP>",
+                  "description": "<TIP>En sekant er en linje, der skærer en kurve i to punkter\n<IMG>step28</IMG></TIP>\n",
                   "level": 1
                 }
               ]
@@ -418,7 +457,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Problemet med tangenten her er, at vi kun kender ét punkt på tangenten, nemlig (0, 4). Vi tegner en sekant gennem punktet (0, 4) i stedet for. En sekant er som nævnt karakteriseret ved, at den går igennem to punkter på grafen.",
+                  "description": "Problemet med tangenten her er, at vi kun kender ét punkt på tangenten, nemlig <MATH>(0, 4)</MATH>. Vi tegner en sekant gennem punktet <MATH>(0, 4)</MATH> i stedet for. En sekant er som nævnt karakteriseret ved, at den går igennem to punkter på grafen.\n",
                   "level": 1
                 }
               ]
@@ -431,20 +470,7 @@
             "description": {
               "levels": [
                 {
-                  "description": "Lad os antage, at det andet punkt på denne sekant er (2, 6). Dette resulterer i, at vi kan tegne en grøn linje, der også er en sekant. Hældningen for sekanten kan let udregnes via formlen for bestemmelse af a, hvor",
-                  "level": 1
-                }
-              ]
-            },
-            "usingQuiz": false,
-            "usingDescription": false
-          },
-          {
-            "name": "Step31",
-            "description": {
-              "levels": [
-                {
-                  "description": "Det fremgår af illustrationen, at sekantens hældning tydeligvis ikke er lig med tangentens hældning. Hvad sker der, hvis vi nu tegner en ny sekant, hvor det valgte nye punkt ligger tættere på (0, 4)? Vi kunne jo for eksempel halvere forskellen mellem de to x-værdier. Det betyder, at det andet punkt i stedet for (2, 6) bliver Den nye hældning bliver:",
+                  "description": "Lad os antage, at det andet punkt på denne sekant er <MATH>(2, 6)</MATH>. Dette resulterer i, at vi kan tegne en grøn linje, der også er en sekant.\n\nHældningen for sekanten kan let udregnes via formlen for bestemmelse af a, hvor <MATH>(x_1, y_1) = (0, 4)</MATH> og <MATH>(x_2, y_2) = (2, 6)</MATH>.\n\n<MATHBIG>a = \\frac{y_2 - y_1}{x_2 - x_1}</MATHBIG>\n<MATHBIG>a = \\frac{6 - 4}{2 - 0} = \\frac{2}{2} = 1</MATHBIG>\n",
                   "level": 1
                 }
               ]
@@ -487,7 +513,7 @@
         "description": {
           "levels": [
             {
-              "description": "Hi <name>, today I will teach you about powers!",
+              "description": "Hi <name>, today I will teach you about powers!\n",
               "level": 1
             }
           ]
@@ -500,7 +526,7 @@
         "description": {
           "levels": [
             {
-              "description": "Beskrivelse af potensregning level 1",
+              "description": "Beskrivelse af potensregning level 1\n",
               "level": 1
             }
           ]

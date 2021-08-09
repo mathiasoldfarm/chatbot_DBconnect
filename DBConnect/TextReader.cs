@@ -101,10 +101,17 @@ namespace DBConnect {
                             currentDepth = 0;
                         } else if (quizTitle != "") {
                             string questionLine = line;
-                            string possibleAnswer1 = content[i + 1].Replace("\n", "").Replace("\t", "");
-                            string possibleAnswer2 = content[i + 2].Replace("\n", "").Replace("\t", "");
-                            string possibleAnswer3 = content[i + 3].Replace("\n", "").Replace("\t", "");
-                            string possibleAnswer4 = content[i + 4].Replace("\n", "").Replace("\t", "");
+
+                            while(!content[i+1].Contains("Answer: ")) {
+                                i += 1;
+                                line = content[i].Replace("\n", "").Replace("\t", "");
+                                questionLine += line + "\n";
+                            }
+
+                            string possibleAnswer1 = content[i + 1].Replace("Answer: ", "").Replace("\n", "").Replace("\t", "");
+                            string possibleAnswer2 = content[i + 2].Replace("Answer: ", "").Replace("\n", "").Replace("\t", "");
+                            string possibleAnswer3 = content[i + 3].Replace("Answer: ", "").Replace("\n", "").Replace("\t", "");
+                            string possibleAnswer4 = content[i + 4].Replace("Answer: ", "").Replace("\n", "").Replace("\t", "");
 
                             string correct = "";
                             if (possibleAnswer1.Contains(" <- Correct")) {
@@ -145,7 +152,7 @@ namespace DBConnect {
                             i += 5;
                         } else {
                             if (descriptionTitle != "" && quizTitle == "") {
-                                descriptionDescription += line;
+                                descriptionDescription += line + "\n";
                             } else {
                                 if ( !content[i-1].Contains("__________________________") ) {
                                     throw new Exception($"Invalid line: {line}");
