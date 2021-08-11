@@ -600,6 +600,362 @@
     "sections": []
   },
   {
+    "title": "brøker",
+    "description": "Course: brøker",
+    "category": {
+      "category": "math",
+      "colorClass": "blue"
+    },
+    "sections": [
+      {
+        "name": "Welcome",
+        "description": {
+          "levels": [
+            {
+              "description": "Hej <name>, nu skal vi lære lidt om brøker. Er du klar?\n",
+              "level": 1
+            }
+          ]
+        },
+        "usingQuiz": false,
+        "usingDescription": false
+      },
+      {
+        "name": "Hvordan ser en brøk ud?",
+        "description": {
+          "levels": [
+            {
+              "description": "<h2>Hvordan ser en brøk ud?</h2>\nJens, Ida og Pernille skal dele 5 æbler. Hver af dem får <MATH>\\frac{5}{3}</MATH> æble (udtales ”fem tredjedele”).\n\nEn brøk består af forskellige dele. I midten har vi en brøkstreg. Tallet under brøkstregen kaldes nævneren og tallet over brøkstregen kaldes tælleren.\n<IMG>hvordan-ser-en-brøk-ud</IMG>\n",
+              "level": 1
+            }
+          ]
+        },
+        "usingQuiz": false,
+        "usingDescription": false,
+        "children": [
+          {
+            "name": "Hvor er tælleren?",
+            "quiz": {
+              "levels": [
+                {
+                  "level": 1,
+                  "questions": [
+                    {
+                      "question": "I følgende brøk <MATH>\\frac{17}{4}</MATH>, hvilken værdi har tælleren?",
+                      "correct": {
+                        "answer": "17",
+                        "explanation": "Det er rigtigt. Tælleren er nemlig det øverste tal i brøken."
+                      },
+                      "possibleAnswers": [
+                        {
+                          "answer": "0",
+                          "explanation": "Det er desværre forkert. Tælleren er det øverste tal i brøken som på billedet oven for."
+                        },
+                        {
+                          "answer": "17",
+                          "explanation": "Det er rigtigt. Tælleren er nemlig det øverste tal i brøken."
+                        },
+                        {
+                          "answer": "21",
+                          "explanation": "Det er desværre forkert. Tælleren er det øverste tal i brøken som på billedet oven for."
+                        },
+                        {
+                          "answer": "4",
+                          "explanation": "Det er desværre forkert. Tælleren er det øverste tal i brøken som på billedet oven for."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Brøkken som en pizza",
+            "description": {
+              "levels": [
+                {
+                  "description": "Hvis vi forestiller os, at nogle af os skal dele en pizza, så svarer nævneren til, hvor mange stykker pizzaen er skåret ud i, mens tælleren svarer til, hvor mange stykker hver får.\n\nI tegningen nedenunder, kan man se, at pizzaen er skåret ud i 8 stykker. Pia spiser 2 af stykkerne. Hun har altså spist <MATH>\\frac{2}{8}</MATH> af pizzaen.\n<IMG>brøkken-som-en-pizza</IMG>\n",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Hvor stor en del spiser Pia?",
+            "quiz": {
+              "levels": [
+                {
+                  "level": 1,
+                  "questions": [
+                    {
+                      "question": "Hvis du ser på billedet oven for, og forestiller dig at hun skærer hver bid over i to, så er der dobbelt så mange stykker pizza som du kan se på billedet. Hvis Pia stadig spiser 2 stykker, hvor stor en del af denne pizza har hun så spist?",
+                      "correct": {
+                        "answer": "<MATH>\\frac{2}{16}</MATH>",
+                        "explanation": "Det er rigtigt. Der ender nemlig med at være dobbelt så mange stykker pizza, men Pia spiser stadig kun 2 stykker."
+                      },
+                      "possibleAnswers": [
+                        {
+                          "answer": "<MATH>\\frac{2}{8}</MATH>",
+                          "explanation": "Det er desværre forkert. Husk at der ender med at være dobbelt så mange stykker pizza."
+                        },
+                        {
+                          "answer": "<MATH>\\frac{4}{12}</MATH>",
+                          "explanation": "Det er desværre forkert. Husk at der ender med at være dobbelt så mange stykker pizza, og hun kun spiser 2 stykker."
+                        },
+                        {
+                          "answer": "<MATH>\\frac{4}{16}</MATH>",
+                          "explanation": "Det er desværre forkert. Husk at at Pia stadig kun spiser 2 stykker."
+                        },
+                        {
+                          "answer": "<MATH>\\frac{2}{16}</MATH>",
+                          "explanation": "Det er rigtigt. Der ender nemlig med at være dobbelt så mange stykker pizza, men Pia spiser stadig kun 2 stykker."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          }
+        ]
+      },
+      {
+        "name": "Hvordan man sammenligner brøker",
+        "description": {
+          "levels": [
+            {
+              "description": "<h2>Hvordan man sammenligner brøker</h2>\nNogle gange kan det være svært at sammenligne brøkers størrelse. Er <MATH>\\frac{3}{10}</MATH> f.eks. større end eller mindre end <MATH>\\frac{2}{7}</MATH>?\n\nGenerelt kan man sige, at jo større nævneren (tallet under brøkstregen) bliver, des mindre bliver brøken. F.eks. er <MATH>\\frac{1}{100}</MATH> (en hundrededel) mindre end <MATH>\\frac{1}{10}</MATH> (en tiendedel).\n",
+              "level": 1
+            }
+          ]
+        },
+        "usingQuiz": false,
+        "usingDescription": false,
+        "children": [
+          {
+            "name": "Hvilken brøk er størst?",
+            "quiz": {
+              "levels": [
+                {
+                  "level": 1,
+                  "questions": [
+                    {
+                      "question": "Hvilken af nedenstående brøker er størst?",
+                      "correct": {
+                        "answer": "<MATH>\\frac{3}{2}</MATH>",
+                        "explanation": "Det er rigtigt, ingen af de andre brøker har en mindre tæller."
+                      },
+                      "possibleAnswers": [
+                        {
+                          "answer": "<MATH>\\frac{3}{2}</MATH>",
+                          "explanation": "Det er rigtigt, ingen af de andre brøker har en mindre tæller."
+                        },
+                        {
+                          "answer": "<MATH>\\frac{3}{8}</MATH>",
+                          "explanation": "Det er desværre forkert. Husk at større nævner giver mindre brøk."
+                        },
+                        {
+                          "answer": "<MATH>\\frac{3}{90}</MATH>",
+                          "explanation": "Det er desværre forkert. Husk at større nævner giver mindre brøk."
+                        },
+                        {
+                          "answer": "<MATH>\\frac{3}{99}</MATH>",
+                          "explanation": "Det er desværre forkert. Husk at større nævner giver mindre brøk."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Flere stykker, mindre bider",
+            "description": {
+              "levels": [
+                {
+                  "description": "Det kan virke mærkeligt, da 100 jo er større end 10. Man kan tænke på det som en stor bradepandekage. Hvis der er 100, der gerne vil smage kagen, så bliver stykkerne meget små (hver af dem bliver <MATH>\\frac{1}{100}</MATH> af kagen), mens hvis der kun er 10, der vil have kage, så bliver hvert stykke større (hvert stykke bliver <MATH>\\frac{1}{10}</MATH> af kagen).\n<IMG>flere-stykker-mindre-bider</IMG>\n",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Fællesnævner, forlænge og forkorte brøker",
+            "description": {
+              "levels": [
+                {
+                  "description": "<h2>Fællesnævner, forlænge og forkorte brøker</h2>\nHvis man vil sammenligne to brøker, er det lettest, hvis de har den samme nævner.\n\nDet svarer nemlig til, at man har skåret kagerne ud i lige store stykker, og så sammenligner, hvor mange stykker hver har fået.\n",
+                  "level": 1
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false
+          },
+          {
+            "name": "Hvilke er fællesnævnere?",
+            "quiz": {
+              "levels": [
+                {
+                  "level": 1,
+                  "questions": [
+                    {
+                      "question": "Hvilken af nedenstående par af brøker har fællesnævner?",
+                      "correct": {
+                        "answer": "<MATH>\\frac{7}{9} \\frac{8}{9}</MATH>",
+                        "explanation": "Det er rigtigt, nævnerne er ens."
+                      },
+                      "possibleAnswers": [
+                        {
+                          "answer": "<MATH>\\frac{1}{2} \\frac{1}{3}</MATH>",
+                          "explanation": "Det er desværre forkert. Nævneren er ikke ens."
+                        },
+                        {
+                          "answer": "<MATH>\\frac{5}{5} \\frac{2}{2}</MATH>",
+                          "explanation": "Det er desværre forkert. Nævneren er ikke ens."
+                        },
+                        {
+                          "answer": "<MATH>\\frac{3}{3} \\frac{3}{2}</MATH>",
+                          "explanation": "Det er desværre forkert. Nævneren er ikke ens."
+                        },
+                        {
+                          "answer": "<MATH>\\frac{7}{9} \\frac{8}{9}</MATH>",
+                          "explanation": "Det er rigtigt, nævnerne er ens."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false,
+            "children": [
+              {
+                "name": "Hvordan man finder fællesnævner",
+                "description": {
+                  "levels": [
+                    {
+                      "description": "For at nå frem til en fællesnævner skal man huske på, at man må gange med det samme tal i både tæller og nævner af en brøk, uden at den ændrer værdi. Det kaldes at forlænge brøken. F.eks. er\n<MATHBIG>\\frac{3}{4} = \\frac{5 * 3}{5 * 4} = \\frac{15}{20}</MATHBIG>\nHer har vi forlænget brøken <MATH>\\frac{3}{4}</MATH> med 5.\n",
+                      "level": 1
+                    }
+                  ]
+                },
+                "usingQuiz": false,
+                "usingDescription": false
+              },
+              {
+                "name": "Eksempel på at finde fællesnævner",
+                "description": {
+                  "levels": [
+                    {
+                      "description": "Man kan f.eks. ønske at finde ud af, hvad der er størst af 56 og 34. Vi skal først forlænge brøkerne, så vi får den samme nævner. Vi skal altså finde et tal, som begge nævnere (6 og 4) går op i.\n",
+                      "level": 1
+                    }
+                  ]
+                },
+                "usingQuiz": false,
+                "usingDescription": false
+              },
+              {
+                "name": "Eksempel på at finde fællesnævner",
+                "description": {
+                  "levels": [
+                    {
+                      "description": "F.eks. kunne vi vælge 12 som fællesnævner. Så skal vi forlænge den første brøk med 2 for at få den omskrevet til tolvtedele, mens vi skal forlænge den anden brøk med 3 for at få den omskrevet til tolvtedele\n<MATHBIG>\\frac{5}{6} = \\frac{2*5}{2*6} = \\frac{10}{12}</MATHBIG>\n<MATHBIG>\\frac{3}{4} = \\frac{3*3}{3*4} = \\frac{9}{12}</MATHBIG>\n",
+                      "level": 1
+                    }
+                  ]
+                },
+                "usingQuiz": false,
+                "usingDescription": false
+              },
+              {
+                "name": "Eksempel på at finde fællesnævner",
+                "description": {
+                  "levels": [
+                    {
+                      "description": "Da <MATH>\\frac{10}{12}</MATH> er større end <MATH>\\frac{9}{12}</MATH> er <MATH>\\frac{5}{6}</MATH> større end <MATH>\\frac{3}{4}</MATH>.\n<IMG>eksempel-på-at-finde-fællesnævner</IMG>\n",
+                      "level": 1
+                    }
+                  ]
+                },
+                "usingQuiz": false,
+                "usingDescription": false
+              }
+            ]
+          },
+          {
+            "name": "Hvilke kan gøres til fællesnævnere?",
+            "quiz": {
+              "levels": [
+                {
+                  "level": 1,
+                  "questions": [
+                    {
+                      "question": "Hvilken af nedenstående tal kan blive fællesnævner for brøkerne <MATH>\\frac{1}{4}</MATH> og <MATH>\\frac{2}{8}</MATH>, ved at gange begge med et helt tal?",
+                      "correct": {
+                        "answer": "16",
+                        "explanation": "Det er rigtigt. Du kan forlænge den første brøk med 4 for at få nævneren 16 og forlænge den anden brøk med 2 for at få nævneren 16."
+                      },
+                      "possibleAnswers": [
+                        {
+                          "answer": "3",
+                          "explanation": "Det er desværre forkert. Du kan ikke forlænge begge brøkerne med et helt tal, således de begge ender med nævneren 3."
+                        },
+                        {
+                          "answer": "16",
+                          "explanation": "Det er rigtigt. Du kan forlænge den første brøk med 4 for at få nævneren 16 og forlænge den anden brøk med 2 for at få nævneren 16."
+                        },
+                        {
+                          "answer": "12",
+                          "explanation": "Det er desværre forkert. Du kan ikke forlænge begge brøkerne med et helt tal, således de begge ender med nævneren 6."
+                        },
+                        {
+                          "answer": "6",
+                          "explanation": "Det er desværre forkert. Du kan ikke forlænge begge brøkerne med et helt tal, således de begge ender med nævneren 10."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "usingQuiz": false,
+            "usingDescription": false,
+            "children": [
+              {
+                "name": "Den sikre vej til en fællesnævner",
+                "description": {
+                  "levels": [
+                    {
+                      "description": "Hvis man af den ene eller anden grund ikke kan finde et tal som begge nævnere går op i, så kan man altid tage den sikre udvej, og forlænge med nævneren fra den ene brøk i den anden brøk, og omvendt. Hvis vi tager udgangspunkt i brøkerne ovenfor ønsker vi først at forlænge <MATH>\\frac{3}{4}</MATH> med 6 (nævneren fra den anden brøk)\n<MATHBIG>\\frac{3}{4} = \\frac{3 * 6}{4 * 6} = \\frac{18}{24}</MATHBIG>\nsamt at forlænge <MATH>\\frac{5}{6}</MATH> med 4\n<MATHBIG>\\frac{5}{6} = \\frac{5 * 4}{6 * 4} = \\frac{20}{24}</MATHBIG>\nIgen når vi frem til at <MATH>\\frac{5}{6}</MATH> er større end <MATH>\\frac{3}{4}</MATH>.\n",
+                      "level": 1
+                    }
+                  ]
+                },
+                "usingQuiz": false,
+                "usingDescription": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Division",
     "description": "Course: Division",
     "category": {
